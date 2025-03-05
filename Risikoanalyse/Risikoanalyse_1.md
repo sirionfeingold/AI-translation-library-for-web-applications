@@ -1,4 +1,4 @@
-# Entwurf Risikoanalyse 1
+#  Risikoanalyse 1
 ## Wissenslücken in Bezug auf die verwendeten Technologien
 Da die Technologien Ruby und RubyOnRails, sowie die ChatGPT-API für das Team neue Technologien darstellen, besteht die Gefahr das Wissenslücken den Projektvortschritt verlangsamen.
 * Eintrittswarscheinlichkeit: gross
