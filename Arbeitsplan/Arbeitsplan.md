@@ -1,5 +1,6 @@
 # Arbeitsplan
 *Erledigte Aufgaben können mit [X] markiert werden.*
+
 ## Einarbeiten und erlernen der neuen Technologien
 ### Allgemeine Grundlagen Ruby [ ] 
 ### *Bis 12.03*
@@ -39,14 +40,18 @@
 * Ilyas [ ]
 * *Geschätzter Zeitaufwand je Person: 1h* 
 
+## Organisation
 ### Termin Planning Game 2 [ ]
 *Auch in Bezug auf Preisgestaltung*
 ### *Bis 12.03*
 * Bennjamin [ ]
 * *Geschätzter Zeitaufwand je Person: 1h* 
 
+
+## Experiment
 ### Beispielimplementierung ChatGPTAPI mit Ruby [ ]
 *Funktion für Übersetzung einzelnder Begriffe; evt. Implementierung als Rake-Task*
 ### *Bis 12.03*
 * Andri [ ]
+* evt. weitere (:
 * *Geschätzter Zeitaufwand je Person: 3h* 
