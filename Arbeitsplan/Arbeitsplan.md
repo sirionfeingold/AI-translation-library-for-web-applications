@@ -42,7 +42,6 @@
 ---
 ## Organisation
 ### Termin Planning Game 2 [ ]
-*Auch in Bezug auf Preisgestaltung*
 ### *Bis 12.03*
 * Bennjamin [ ]
 * *Geschätzter Zeitaufwand je Person: 1h*
