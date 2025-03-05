@@ -5,7 +5,7 @@ require 'dotenv/load'
 
 ## loads .env file --> your .env file should only contain one line
 # formatted like this : API_KEY='YOUR KEY'
-Dotenv.load(File.expand_path('../../.env', __FILE__))
+Dotenv.load(File.expand_path('../../../../.env', __FILE__))
 
 ## Assigns API_KEY; alternatively you could directly assign the key as a string.
 # In that case, you need to make sure not to upload it to GitHub though...
