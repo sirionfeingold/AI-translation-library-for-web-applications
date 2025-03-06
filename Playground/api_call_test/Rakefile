@@ -1,0 +1,6 @@
+require_relative 'api_call_test'
+
+desc "Runs example translation"
+task :translate do
+  ApiCallTest.chatgpt_request('Innenbandriss')
+end
