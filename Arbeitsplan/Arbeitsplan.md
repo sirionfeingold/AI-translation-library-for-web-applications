@@ -44,7 +44,7 @@
 ### Termin Planning Game 2 [x]
 ### *Bis 12.03*
 * Benjamin [x]   Termin am 13.03.25 um 14h45
-* *Geschätzter Zeitaufwand je Person: 30 min*
+* *Geschätzter Zeitaufwand: 30 min*
 ---
 ## Experiment
 ### Beispielimplementierung ChatGPTAPI mit Ruby [ ]
@@ -53,7 +53,7 @@
 * Andri [ ]
 * evt. weitere (:
 * *Geschätzter Zeitaufwand je Person: 3h* 
---
-### Presentation Vorbereitung []
+---
+## Presentation Vorbereitung []
 *Benjamin []
 *Geschätzte Zeitaufwand: 4h*
