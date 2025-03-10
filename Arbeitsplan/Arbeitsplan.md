@@ -13,8 +13,8 @@
 ---
 ### IDE Einrichten (RubyMine / VSCode) [ ]
 ### *Bis 08.03*
-* Sirion [ ]
-* Benjamin [ ]
+* Sirion [x]
+* Benjamin [x]
 * Arnaud [ ]
 * Andri [X]
 * Ilyas [ ]
@@ -41,10 +41,10 @@
 * *Geschätzter Zeitaufwand je Person: 1h* 
 ---
 ## Organisation
-### Termin Planning Game 2 [ ]
+### Termin Planning Game 2 [x]
 ### *Bis 12.03*
-* Bennjamin [ ]
-* *Geschätzter Zeitaufwand je Person: 1h*
+* Benjamin [x]   Termin am 13.03.25 um 14h45
+* *Geschätzter Zeitaufwand je Person: 30 min*
 ---
 ## Experiment
 ### Beispielimplementierung ChatGPTAPI mit Ruby [ ]
@@ -53,3 +53,7 @@
 * Andri [ ]
 * evt. weitere (:
 * *Geschätzter Zeitaufwand je Person: 3h* 
+--
+### Presentation Vorbereitung []
+*Benjamin []
+*Geschätzte Zeitaufwand: 4h*
