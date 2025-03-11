@@ -85,7 +85,7 @@
 * *Geschätzte Zeitaufwand:*
 
 ---
-## Deliverables [ ]
+## Deliverables 
 ### Analyse der ersten Iteration [ ]
 ### Bis am 12.03.25
 * Alle 
