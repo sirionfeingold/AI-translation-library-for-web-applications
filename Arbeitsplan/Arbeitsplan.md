@@ -86,11 +86,11 @@
 
 ---
 ## Deliverables 
-### Analyse der ersten Iteration [ ]
+### Analyse der ersten Iteration [x]
 ### Bis am 12.03.25
 * Alle 
 * Geschätzte Zeitaufwand: 1h
-### Testkonzept V1 [ ]
+### Testkonzept V1 [x]
 ### Bis am 12.03.25
 * Alle
 ### Testkonzept V2 [ ]
