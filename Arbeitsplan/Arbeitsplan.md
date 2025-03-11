@@ -7,7 +7,7 @@
 * Sirion [ ]
 * Benjamin [x]
 * Arnaud [ ]
-* Andri [ ]
+* Andri [X]
 * Ilyas [ ]
 * *Geschätzter Zeitaufwand je Person: 4h* 
 ---
@@ -55,7 +55,7 @@
 ### Beispielimplementierung ChatGPTAPI mit Ruby [ ]
 *Funktion für Übersetzung einzelnder Begriffe; evt. Implementierung als Rake-Task*
 ### *Bis 12.03*
-* Andri [ ]
+* Andri [x]
 * evt. weitere (:
 * *Geschätzter Zeitaufwand je Person: 3h* 
 ---
