@@ -5,7 +5,8 @@
 - **Key Account Manager**: Benjamin Gaillard  
 - **Chief Deliverable Officer**: Sirion Feingold  
 - **Quality Evangelist**: Arnaud Gaillard  
-- **Master Tracker**: Andri Paulin  
+- **Master Tracker**: Andri Paulin
+- **Team Member**: Ilyas Woo
 
 ## Description
 
