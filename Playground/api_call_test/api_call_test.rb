@@ -63,4 +63,4 @@ module ApiCallTest # Unsure if 'module' is used in the right way/place
 end
 
 # Example usage:
-ApiCallTest.chatgpt_request('Innenbandriss')
+# ApiCallTest.chatgpt_request('Innenbandriss')
