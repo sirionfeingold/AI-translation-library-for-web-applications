@@ -4,7 +4,7 @@
 ## Einarbeiten und erlernen der neuen Technologien
 ### Allgemeine Grundlagen Ruby [ ] 
 ### *Bis 12.03*
-* Sirion [ ]
+* Sirion [X]
 * Benjamin [x]
 * Arnaud [ ]
 * Andri [X]
@@ -23,7 +23,7 @@
 ### Instruktionsvideo Building Systems with the ChatGPT API [ ]
 *https://learn.deeplearning.ai/courses/chatgpt-building-system*
 ### *Bis 12.03*
-* Sirion [ ]
+* Sirion [X]
 * Benjamin [X]
 * Arnaud [ ]
 * Andri [X]
@@ -33,7 +33,7 @@
 ### Verschiedene LLMs vergleichen [ ]
 *Auch in Bezug auf Preisgestaltung*
 ### *Bis 12.03*
-* Sirion [ ]
+* Sirion [X]
 * Benjamin [X]
 * Arnaud [X]
 * Andri [ ]
@@ -52,11 +52,11 @@
 * *Geschätzter Zeitaufwand: 20 min*
 ---
 ## Experiment
-### Beispielimplementierung ChatGPTAPI mit Ruby [ ]
+### Beispielimplementierung ChatGPTAPI mit Ruby und Ruby on Rails [ ]
 *Funktion für Übersetzung einzelnder Begriffe; evt. Implementierung als Rake-Task*
 ### *Bis 12.03*
 * Andri [x]
-* evt. weitere (:
+* Sirion [x]
 * *Geschätzter Zeitaufwand je Person: 3h* 
 ---
 ## Presentation Vorbereitung 

@@ -1,4 +1,4 @@
-# Sitzungsprotokoll – 27.02.2024
+# Sitzungsprotokoll – 27.02.2025
 
 ## Ziele für die erste Iteration
 
