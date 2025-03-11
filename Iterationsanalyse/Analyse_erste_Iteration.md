@@ -13,7 +13,8 @@ Ja.
 • Wurde der Aufwand, sich in neue Programmiersprachen/Technologien
 einzuarbeiten, realistisch eingeschätzt?
 In eine neue Programmiersprache könnte man sich endlos weiter vertiefen, daher ist es schwierig 
-einzuschötzen ob das Ziel sich einzuarbeiten erreicht ist.
+einzuschötzen ob das Ziel sich einzuarbeiten erreicht ist. Ein Video war auch al einarbeitung geplant, 
+Dafür ist der Zeitaufwand sehr gut eingeschätzt worden. 
 
 • Wurde das Entwicklungstempo realistisch eingeschätzt? Gab es Engpässe?
 Ruby on Rails download hatte länger gedauert als erwartet. sonst war der Arbeitsaufwand 
@@ -31,13 +32,14 @@ erstellt und auch ein erster API call versucht zu programmieren. Auch da ist meh
 
 • Gab es ”Leerläufe“ oder Wartezeiten aufgrund der Abhängigkeiten zwischen
 den Tasks?
-Nein, in dieser Iteration noch nicht.
+Nein, in dieser Iteration noch nicht.Github Projekt wurde sehr früh erstellt und für Einarbeitung 
+sind alle Gruppenmitglieder unabhängig. 
 
 • Wieviel Zeit hat jedes Teammitglied investiert für
-– Implementation von Stories,
+– Implementation von Stories, 
 – Implementation von Testfällen,
 – Testen,
-– Einarbeiten in neue Technologien,
+– Einarbeiten in neue Technologien? Alle ungefähr 2-3 Stunden (ohne Video)
 – Systemadministration?
 Wo ist für die nächste Iteration diesbezüglich der grösste Aufwand zu
 erwarten?
