@@ -6,9 +6,9 @@
 ### *Bis 12.03*
 * Sirion [X]
 * Benjamin [x]
-* Arnaud [ ]
+* Arnaud [X]
 * Andri [X]
-* Ilyas [ ]
+* Ilyas [X]
 * *Geschätzter Zeitaufwand je Person: 4h* 
 ---
 ### IDE Einrichten (RubyMine / VSCode) [ ]
