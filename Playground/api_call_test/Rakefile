@@ -1,6 +1,14 @@
-require_relative 'api_call_test'
+# frozen_string_literal: true
 
-desc "Runs example translation"
+require_relative 'api_call_test'
+require_relative 'read_locales'
+
+desc 'Runs example translation'
 task :translate do
   ApiCallTest.chatgpt_request('Innenbandriss')
+end
+
+desc 'Demos loading of locales for testing'
+task :read do
+  ReadLocales.read_locale('locales/it.yml')
 end

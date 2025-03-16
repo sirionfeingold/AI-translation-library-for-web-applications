@@ -19,7 +19,7 @@ if API_KEY.nil? || API_KEY.empty?
   abort('Error: Missing API_KEY in .env file')
 end
 
-module ApiCallTest # Unsure if 'module' is used in the right way/place
+module ApiCallTest # Unsure if 'module' is used in the right way/place --> I guess it is
   def self.chatgpt_request(prompt)
     # 'self' means that chatgpt_request is a 'class method' instead of an 'instance method'.
     # Unsure what this means exactly...
@@ -53,12 +53,12 @@ module ApiCallTest # Unsure if 'module' is used in the right way/place
     response = http.request(request)
     translation = JSON.parse(response.body)
 
-    puts translation
+    ## puts translation
 
     content = JSON.parse(translation.dig('choices', 0, 'message', 'content'))
 
-    puts(prompt)
-    puts content.dig('translation')
+    puts("Prompt: #{prompt}")
+    puts("Translation: #{content.dig('translation')}")
   end
 end
 

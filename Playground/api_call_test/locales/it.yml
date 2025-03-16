@@ -1,0 +1,16 @@
+---
+it:
+  permission_different_domain: "User doesn't belong to your domain." # FIXME
+  user_sessions:
+    new:
+      usersession:
+        login: "Benutzername" # FIXME
+        password: "Passwort" # FIXME
+  sign_in: "Anmelden" # FIXME
+  remember_me: "Angemeldet bleiben"
+  email:
+    email_1: "dfsdfa" # FIXME
+    email_2:
+      2a: "test" # FIXME
+      2b: "testb" # FIXME
+  new_password: "Neues Passwort"
