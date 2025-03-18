@@ -44,10 +44,6 @@
 * Benjamin [x]     
 * *Termin am 13.03.25 um 14h45*
 * *Geschätzter Zeitaufwand: 30 min*
-### Termin Planning Game 3 []
-### Bis am 28.03.25 
-* Benjamin []
-* *Geschätzter Zeitaufwand: 20 min*
 ---
 ### Beispielimplementierung ChatGPTAPI mit Ruby und Ruby on Rails [ ]
 *Funktion für Übersetzung einzelnder Begriffe; evt. Implementierung als Rake-Task*
