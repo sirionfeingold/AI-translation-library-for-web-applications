@@ -2,26 +2,25 @@
 
 require 'yaml'
 
-# Reads locales from a yaml file and returns them as a yaml file that can be accessed
+# Reads locales from a YAML file and creates an Array containing paths to all keys that are marked with '# FIXME'.
+# Requires the file to be loaded twice, once as YAML to access the keys and once as text to access the fixme-comments.
 module ReadLocales
   def self.read_locale(path)
 
-    locale = YAML.load_file(path)
-    file = File.readlines(path)
+    locale = YAML.load_file(path) # initialize YAML file.
+    file = File.readlines(path) # initialize text file.
     all_fixme_paths = []
     get_fixme_keys(locale, file, all_fixme_paths) # Ruby can directly access all_fixme_paths; no return value needed
-    puts all_fixme_paths
+    all_fixme_paths # Array to be returned
   end
 
 
-  # Iterates through each line of a file while simultaneously reading the corresponding yaml-keys.
-  # Returns line_index
+  # Recursively adds path to all 'fixme'-keys to an Array.
   def self.get_fixme_keys(locale, file, all_paths, key_index = 0, line_index = 1, path = [])
 
     keys = locale.keys
 
     if true_if_fixme(file, line_index)
-      # puts keys[key_index]
       all_paths << get_fixme_yaml_path(keys[key_index], path) # This directly manipulates the array, not just the instance variable
     end
 
@@ -29,7 +28,6 @@ module ReadLocales
       line_index = get_fixme_keys(locale[keys[key_index]], file, all_paths, 0, line_index + 1, get_fixme_yaml_path(keys[key_index], path))
     end
 
-    # return line_index if key_index + 1 > keys.length - 1 # Why this? Why key_index + 1?
 
     if key_index < keys.length - 1 # if level contains at least one more key
       return get_fixme_keys(locale, file, all_paths, key_index + 1, line_index + 1, path)
@@ -45,6 +43,8 @@ module ReadLocales
     false
   end
 
+  # Returns an array containing the path to a YAML-key.
+  # Adds key to the path without changing the path provided as an argument.
   def self.get_fixme_yaml_path(key, path = [])
     temp_path = path.clone
     temp_path << key
