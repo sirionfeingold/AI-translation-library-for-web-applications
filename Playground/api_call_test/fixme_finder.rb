@@ -2,9 +2,9 @@
 
 require 'yaml'
 
-# Reads locales from a YAML file and creates an Array containing paths to all keys that are marked with '# FIXME'.
-# Requires the file to be loaded twice, once as YAML to access the keys and once as text to access the fixme-comments.
-module ReadLocales
+# Reads locales from a YAML file and creates an Array containing tuples of paths and keys that are marked with '# FIXME'
+# Requires the file to be loaded twice, once as YAML to access the keys and once as text to access the fixme-comments
+module FixmeFinder
   def self.read_locale(path)
 
     locale = YAML.load_file(path) # initialize YAML file.
@@ -21,7 +21,9 @@ module ReadLocales
     keys = locale.keys
 
     if true_if_fixme(file, line_index)
-      all_paths << get_fixme_yaml_path(keys[key_index], path) # This directly manipulates the array, not just the instance variable
+      path = get_fixme_yaml_path(keys[key_index], path)
+      translation_task = [path, locale[keys[key_index]]] # translation tasks are tuples of a path and a value
+      all_paths << translation_task
     end
 
     if locale[keys[key_index]].is_a?(Hash)

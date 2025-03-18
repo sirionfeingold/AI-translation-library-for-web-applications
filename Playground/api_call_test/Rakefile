@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'api_call_test'
-require_relative 'read_locales'
+require_relative 'fixme_finder'
 
 desc 'Runs example translation'
 task :translate do
@@ -10,5 +10,5 @@ end
 
 desc 'Demos loading of locales for testing'
 task :read do
-  ReadLocales.read_locale('locales/it.yml')
+  FixmeFinder.read_locale('locales/it.yml')
 end
