@@ -39,15 +39,15 @@ module ApiCallTest # Unsure if 'module' is used in the right way/place --> I gue
         {
           role: 'system',
           content: 'You are a translator. You always answer in JSON with <translation> as the only
-                    category. You will receive input text in German and output an English translation.
-                    Please use specialized medical terms.',
+                    category. You will receive input text and output an Italian translation.
+                    Please use professional medical terms used by doctors.'
         },
         {
           role: 'user',
-          content: prompt,
+          content: prompt
         }
       ],
-      temperature: 0.1, ## Should temperature be '0'? Or is '0' some special value?
+      temperature: 0.1 ## Should temperature be '0'? Or is '0' some special value?
     }.to_json
 
     response = http.request(request)
@@ -57,8 +57,10 @@ module ApiCallTest # Unsure if 'module' is used in the right way/place --> I gue
 
     content = JSON.parse(translation.dig('choices', 0, 'message', 'content'))
 
-    puts("Prompt: #{prompt}")
-    puts("Translation: #{content.dig('translation')}")
+    # puts("Prompt: #{prompt}")
+    # puts("Translation: #{content.dig('translation')}")
+    
+    content.dig('translation') #return value
   end
 end
 

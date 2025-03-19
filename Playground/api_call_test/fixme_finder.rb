@@ -9,9 +9,9 @@ module FixmeFinder
 
     locale = YAML.load_file(path) # initialize YAML file.
     file = File.readlines(path) # initialize text file.
-    all_fixme_paths = []
-    get_fixme_keys(locale, file, all_fixme_paths) # Ruby can directly access all_fixme_paths; no return value needed
-    all_fixme_paths # Array to be returned
+    translation_tasks = []
+    get_fixme_keys(locale, file, translation_tasks) # Ruby can directly access all_fixme_paths; no return value needed
+    translation_tasks # Array to be returned
   end
 
 

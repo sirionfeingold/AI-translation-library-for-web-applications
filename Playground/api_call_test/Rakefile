@@ -2,13 +2,20 @@
 
 require_relative 'api_call_test'
 require_relative 'fixme_finder'
+require_relative 'translate_locales'
 
 desc 'Runs example translation'
-task :translate do
+task :test_translate do
   ApiCallTest.chatgpt_request('Innenbandriss')
 end
 
 desc 'Demos loading of locales for testing'
 task :read do
   FixmeFinder.read_locale('locales/it.yml')
+end
+
+desc 'Translates all values marked with fixme in a given locale'
+task :translate, [:path] do |t, args|
+  translation_tasks = FixmeFinder.read_locale(args[:path])
+  TranslateLocales.translate_locales(translation_tasks)
 end
