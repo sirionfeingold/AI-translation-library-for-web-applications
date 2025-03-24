@@ -72,20 +72,6 @@
 * Sirion [ ]
 * *Geschätzter Zeitaufwand: 2h*
 --- 
-### Verbessern der Implementierung des Prototyps [ ]
-Aufgaben:
-* Sicherstellen, dass der Code bei allen Teammitgliedern funktioniert
-* Rekursiv definierte Methode effizienter implementieren (evlt. mit while-schleife)
-* Code klarer strukturieren (evtl. variablen umbenennen)
-* (Optional) Speicherung der Übersetztenausgabe im .yml file
-### *Bis 24.03.25*
-* Benjamin [ ]
-* Sirion [ ]
-* Andri [ ]
-* Ilyas [ ]
-* Arnaud [ ]
-* *Geschätzter Zeitaufwand: 4h*
---- 
 ### Beispielapplikation von Eonum aufsetzen/analysieren [ ]
 ### *Bis 26.03.25*
 * Benjamin [ ]
@@ -94,12 +80,7 @@ Aufgaben:
 * Ilyas [ ]
 * Arnaud [ ]
 * *Geschätzter Zeitaufwand: 3h*
----
-### Installation Beispielapplikation Eonum [ ]
-### *Bis 26.03.25*
-* Alle [ ]
-* *Geschätzte Zeitaufwand pro Person: 3h30* 
----
+  --- 
 ### Einarbeiten in Code von Andri [ ]
 ### *Bis 26.03.25*
 * Arnaud [ ]
@@ -108,11 +89,24 @@ Aufgaben:
 * Sirion [ ]
 * *Geschätzte Zeitaufwand pro Person: 4h*
 ---
-###
 ### Termin Planning Game 3 [ ]
 ### *Bis am 28.03.25*
 * Benjamin []
 * *Geschätzter Zeitaufwand: 30 min*
+---
+### Verbessern der Implementierung des Prototyps [ ]
+Aufgaben:
+* Sicherstellen, dass der Code bei allen Teammitgliedern funktioniert
+* Rekursiv definierte Methode effizienter implementieren (evlt. mit while-schleife)
+* Code klarer strukturieren (evtl. variablen umbenennen)
+* (Optional) Speicherung der Übersetztenausgabe im .yml file
+### *Bis 30.03.25*
+* Benjamin [ ]
+* Sirion [ ]
+* Andri [ ]
+* Ilyas [ ]
+* Arnaud [ ]
+* *Geschätzter Zeitaufwand: 4h*
 ---
 ### Demo 1 [ ]
 ### *Bis am 02.04.25*
