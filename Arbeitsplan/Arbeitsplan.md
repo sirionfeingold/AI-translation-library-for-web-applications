@@ -67,21 +67,36 @@
 * Benjamin [X]
 * *Geschätzte Zeitaufwand: 6h*
 ---
+### Installation Beispielapplikation Eonum [ ]
+### *Bis 26.03.25*
+* Alle [ ]
+* *Geschätzte Zeitaufwand pro Person: 3h30* 
+---
+### Einarbeiten in Code von Andri [ ]
+### *Bis 26.03.25*
+* Arnaud [ ]
+* Benjamin [ ]
+* Ilyas [ ]
+* Sirion [ ]
+* *Geschätzte Zeitaufwand pro Person: 4h*
+---
+###
 ### Termin Planning Game 3 [ ]
 ### *Bis am 28.03.25*
 * Benjamin []
-* *Geschätzter Zeitaufwand: 20 min*
+* *Geschätzter Zeitaufwand: 30 min*
 ---
 ### Demo 1 [ ]
 ### *Bis am 02.04.25*
 * Andri [ ]
 * Ilyas [ ]
-* *Geschätzte Zeitaufwand:*
+* *Geschätzte Zeitaufwand: 12h*
 ---
 ### Testkonzept V2 [ ]
 ### *Bis am 02.04.25*
-* Alle
-* *Zeitaufwand:*
+* Arnaud [ ]
+* Benjamin [ ]
+* *Zeitaufwand: 1h30*
 ---
 ### Technologie und Architektur [ ]
 ### *Bis am 30.04.25*
