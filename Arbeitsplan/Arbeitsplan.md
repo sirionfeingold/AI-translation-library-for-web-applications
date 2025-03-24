@@ -10,7 +10,7 @@
 * Ilyas [ ]
 * *Geschätzter Zeitaufwand je Person: 30min* 
 ---
-### Allgemeine Grundlagen Ruby [ ] 
+### Allgemeine Grundlagen Ruby [X] 
 ### *Bis 12.03*
 * Sirion [X]
 * Benjamin [x]
@@ -45,7 +45,7 @@
 * *Termin am 13.03.25 um 14h45*
 * *Geschätzter Zeitaufwand: 30 min*
 ---
-### Beispielimplementierung ChatGPTAPI mit Ruby und Ruby on Rails [ ]
+### Beispielimplementierung ChatGPTAPI mit Ruby und Ruby on Rails [X]
 *Funktion für Übersetzung einzelnder Begriffe; evt. Implementierung als Rake-Task*
 ### *Bis 12.03*
 * Andri [x]
@@ -55,17 +55,45 @@
 ### Analyse der ersten Iteration [x]
 ### *Bis am 12.03.25*
 * Alle 
-* *Geschätzte Zeitaufwand: 1h*
+* *Geschätzter Zeitaufwand: 1h*
 ---
 ### Testkonzept V1 [x]
 ### *Bis am 12.03.25*
 * Alle
-* *Geschätzte Zeitaufwand: 1h* 
+* *Geschätzter Zeitaufwand: 1h* 
 --- 
 ### Iteration 1 Analyse Präsentation [X]
 ### *Bis 12.03.25*
 * Benjamin [X]
-* *Geschätzte Zeitaufwand: 6h*
+* *Geschätzter Zeitaufwand: 6h*
+--- 
+### Azure API (ChatGPT 4o) in Prototyp integrieren [ ]
+### *Bis 24.03.25*
+* Sirion [ ]
+* *Geschätzter Zeitaufwand: 2h*
+--- 
+### Verbessern der Implementierung des Prototyps [ ]
+Aufgaben:
+* Sicherstellen, dass der Code bei allen Teammitgliedern funktioniert
+* Rekursiv definierte Methode effizienter implementieren (evlt. mit while-schleife)
+* Code klarer strukturieren (evtl. variablen umbenennen)
+* (Optional) Speicherung der Übersetztenausgabe im .yml file
+### *Bis 24.03.25*
+* Benjamin [ ]
+* Sirion [ ]
+* Andri [ ]
+* Ilyas [ ]
+* Arnaud [ ]
+* *Geschätzter Zeitaufwand: 4h*
+--- 
+### Beispielapplikation von Eonum aufsetzen/analysieren [ ]
+### *Bis 26.03.25*
+* Benjamin [ ]
+* Sirion [ ]
+* Andri [ ]
+* Ilyas [ ]
+* Arnaud [ ]
+* *Geschätzter Zeitaufwand: 3h*
 ---
 ### Installation Beispielapplikation Eonum [ ]
 ### *Bis 26.03.25*

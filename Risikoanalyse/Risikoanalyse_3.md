@@ -10,7 +10,11 @@ nicht nachvollzogen werden kann. Dabei können schwer nachvollziehbare und nicht
 
 ## Code-Basis ##
 Es wurden zwei Prototypen entwickelt, die Anfragen an ChatGPT senden können. 
-Beide sind funktional (jedoch noch nicht ausgereift) und der Code sollte optimiert werden. 
+Beide sind funktional (jedoch noch nicht ausgereift) und der Code sollte in folgenden Aspekten optimiert werden:
+* Klarere Funktionsnamen bzw. Variablennamen
+* If-Bedingungen kompakter gestalten
+* Fehlerhandling für ungültige Eingaben
+
 Ein Risiko besteht darin, dass die Codebasis schwer verständlich bleibt und zukünftige Anpassungen erschwert.
 Zusätzlich verfolgen die beiden Prototypen teils unterschiedliche Ansätze, was zu missverständnissen führen kann.
 
