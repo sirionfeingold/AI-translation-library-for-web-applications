@@ -39,9 +39,11 @@ module ApiCallTest # Unsure if 'module' is used in the right way/place --> I gue
       messages: [
         {
           role: 'system',
-          content: 'You are a translator. You always answer in JSON with <translation> as the only
-                    category. You will receive input text and output an italian translation.
-                    Please use professional medical terms used by doctors.'
+          content: "You are a translator. Your task is to provide translations in Italian. Your response must always
+                    be in JSON format with only one key: 'translation'. The value of 'translation' should be the Italian
+                    translation of the provided text. Please don't change the newline characters. Please use professional medical terminology as used by doctors.
+                    Ensure the translation is clear, accurate, and formal. Do not include any other text outside of the
+                    JSON structure. Do NOT mark the response as JSON by using '''JSON."
         },
         {
           role: 'user',
@@ -60,7 +62,7 @@ module ApiCallTest # Unsure if 'module' is used in the right way/place --> I gue
 
     # puts("Prompt: #{prompt}")
     # puts("Translation: #{content.dig('translation')}")
-    
+
     content.dig('translation') #return value
   end
 end
