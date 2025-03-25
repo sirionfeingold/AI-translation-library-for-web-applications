@@ -219,6 +219,14 @@
     <td>?</td>
   </tr>
 
+<td><b>Refactor </b> <br>Arbeitsplan <br>
+    </td>
+    <td>Andri</td>
+    <td>1:00 h</td>
+    <td>Couldn't get Colors to work on GitHub</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Andri</td>
