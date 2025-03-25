@@ -170,6 +170,14 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
+<td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
+    </td>
+    <td>?</td>
+    <td></td>
+    <td></td>
+    <td>29.03.25</td>
+  </tr>
+
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Arnoud</td>
