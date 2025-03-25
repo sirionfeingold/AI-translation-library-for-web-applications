@@ -1,6 +1,12 @@
 # Arbeitsplan
 *Erledigte Aufgaben können mit [X] markiert werden.*
 
+| Header 1           | Header 2        | Header 3           |
+|--------------------|-----------------|--------------------|
+| <span style="color: red;">Red Cell</span> | Cell 2       | <span style="color: blue;">Blue Cell</span> |
+| Cell 4             | <span style="color: green;">Green Cell</span>  | Cell 6 |
+
+
 ### IDE Einrichten (RubyMine / VSCode) [ ]
 ### *Bis 08.03*
 * Sirion [x]
