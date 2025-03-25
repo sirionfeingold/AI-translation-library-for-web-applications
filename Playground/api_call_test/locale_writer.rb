@@ -11,7 +11,7 @@ module LocaleWriter
     translation_tasks.each do |task|
       line_index = 0
       task[0].each do |key|
-        until file[line_index].include?(key) # include might be flawed --> we need to somehow get only the key with string manipulation
+        until file[line_index].split(':')[0].strip == (key)
           line_index += 1
         end
       end
