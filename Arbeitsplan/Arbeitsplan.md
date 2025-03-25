@@ -1,10 +1,20 @@
 # Arbeitsplan
 *Erledigte Aufgaben können mit [X] markiert werden.*
 
-| Header 1           | Header 2        | Header 3           |
-|--------------------|-----------------|--------------------|
-| <span style="color: red;">Red Cell</span> | Cell 2       | <span style="color: blue;">Blue Cell</span> |
-| Cell 4             | <span style="color: green;">Green Cell</span>  | Cell 6 |
+<table style="background-color: #92d69b;">
+  <tr style="background-color: #f4f2f2;">
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Row 1, Column 1</td>
+    <td>Row 1, Column 2</td>
+  </tr>
+  <tr>
+    <td>Row 2, Column 1</td>
+    <td>Row 2, Column 2</td>
+  </tr>
+</table>
 
 
 ### IDE Einrichten (RubyMine / VSCode) [ ]
