@@ -1,16 +1,877 @@
 ---
 it:
-  permission_different_domain: "User doesn't belong to your domain." # FIXME
+  locale_name: "Italiano"
+  name: "Nome"
+  description: "Descrizione"
+  back: "Indietro"
+  edit: "Modifica"
+  user_overview: "Visione d'insieme utente"
+  search_for_code: "Ricerca per codice:"
+  search_for_text: "Ricerca per testo:"
+  search: "Cerca"
+  search_in_all_rules: "Cerca"
+  empty_faq: "La ricerca non ha dato risultati!"
+  fulltext_search: "Ricerca completa"
+  address: "Indirizzo"
+  remarks: "Osservazioni"
+  password: "Password"
+  password_confirmation: "Confermare la password"
+  drgs: "DRG"
+  text: "Testo descrittivo"
+  backward: "Indietro"
+  forward: "Avanti"
+  page_gap: "..."
+  catalogue: "Catalogo"
+  system: "Versione SwissDRG"
+  back_to_chop: "Indietro alla visione d'insieme CHOP"
+  back_to_drg: "Indietro alla visione d'insieme DRG"
+  back_to_icd: "Indietro alla visione d'insieme ICD"
+  back_to_mdc: "Indietro alla visione d'insieme MDC"
+  partition: "Partizione"
+  all: "Tutti"
+  none_female: "Nessuna"
+  none_male: "Nessuno"
+  nocostweight: "Importo forfettario per caso non valutato"
+  avg_duration: "Durata media di degenza"
+  drg_catalogue: "Record del catalogo dei forfait per caso"
+  cost_weight: "Peso dei costi"
+  first_day_discount: "Primo giorno con riduzione"
+  discount_per_day: "Tasso di riduzione giornaliero"
+  first_day_surcharge: "Primo giorno con supplemento"
+  high_trim_point: "Limite superiore della durata di degenza"
+  low_trim_point: "Limite inferiore della durata di degenza"
+  surcharge_per_day: "Supplemento giornaliero"
+  transfer_flatrate: "Forfait per caso di trasferimento"
+  ecw: "Cost-weight effettivo"
+  adm01: "normale"
+  adm11: "trasferto (Soggiorno più lungo che 24 ore nell'ospedale trasferente.)"
+  adm06: "trasferto (Soggiorno più corte che 24 ore nell'ospedale trasferente.)"
+  adm99: "incognito"
+  sep00: "normale"
+  sep06: "trasferto (in un altro ospedale)"
+  sep07: "deceduto"
+  sep04: "concluso contro il consiglio medico"
+  sep99: "incognito"
+  true: "Si"
+  false: "No"
+  applications_et: "endotrachéobronchique (ET)"
+  applications_il: "intraläsional (IL)"
+  applications_im: "intramusculaire (IM)"
+  applications_impl: "implants osseux (IMPL)"
+  applications_inhal: "inhalation (INHAL)"
+  applications_it: "intrathécal (IT)"
+  applications_iv: "intraveineux (IV)"
+  applications_ivitr: "intravitreux (IVITR)"
+  applications_n: "nasal (N)"
+  applications_o: "oral (O)"
+  applications_r: "rectal (R)"
+  applications_sl: "sublingual/buccal (SL)"
+  applications_sc: "sous-coutané (SC)"
+  applications_t: "topique (T)"
+  applications_td: "transdermique (TD)"
+  applications_vag: "vaginal (VAG)"
+  applications_u: "urétral (U)"
+  annexes_cai: "Alprolix/Idelvion (CAI)"
+  annexes_cbb: "Benefix, Berinin P, Immunine STIM Plus, Rixubis (CBB)"
+  annexes_chv: "Harvoni, (90mg Sofosbuvir/400mg Ledispavir) (CHV)"
+  annexes_cvk: "Viekirax (12.5mg Ombitasvir/75mg Paritaprevir/50mg Ritonavir) (CVK)"
+  annexes_czr: "Zepatier (50mg Elbasvir/100mg Grazoprevir) (CZR)"
+  annexes_cep: "Epclusa (400mg Sofosbuvir/100mg Velpatavir) (CEP)"
+  annexes_cvo: "Vosevi (400mg Sofosbuvir/100mg Velpatasvir /100mg Voxilaprevir) (CVO)"
+  annexes_cma: "Maviret (100mg Glecaprevir/40mg Pibrentasvir) (CMA)"
+  annexes_ctg: "Thymoglobuline (CTG)"
+  annexes_cfr: "ATG-Fresenius/Grafalon (CFR)"
+  annexes_czy: "Zypadhera (CZY)"
+  annexes_crc: "Risperdal Consta (CRC)"
+  annexes_cam: "Abilify Maintena (CAM)"
+  annexes_cxe: "Xeplion/Trevicta (CXE)"
+  annexes_cok: "Orkambi (200mg Lumacaftor/125mg Ivacaftor) (COK)"
+  annexes_rec: "Rekombinant (REC)"
+  annexes_plas: "Plasmatisch (PLAS)"
+  annexes_susp: "Suspension (SUSP)"
+  annexes_tab: "Tablette/Kapsel (TAB)"
+  units_mcg: "microgramme (MCG)"
+  units_mg: "millligramme (MG)"
+  units_g: "gramme (G)"
+  units_u: "Unit (U)"
+  units_ud: "Unit Dose (UD)"
+  select_user: "Select user..."
+  permission_different_domain: "User doesn't belong to your domain."
   user_sessions:
     new:
       usersession:
         login: "Benutzername" # FIXME
         password: "Passwort" # FIXME
   sign_in: "Anmelden" # FIXME
-  remember_me: "Angemeldet bleiben"
-  email:
-    email_1: "dfsdfa" # FIXME
-    email_2:
-      2a: "test" # FIXME
-      2b: "testb" # FIXME
-  new_password: "Neues Passwort"
+  remember_me: "Angemeldet bleiben" # FIXME
+  email: "E-Mail" # FIXME
+  new_password: "Neues Passwort" # FIXME
+  current_password: "Altes Passwort" # FIXME
+  leave_blank_if_no_change: "(Lassen Sie das Feld leer, wenn Sie das Passwort nicht ändern möchten.)" # FIXME
+  mode: "Benutzermodus" # FIXME
+  expert_mode: "Experte" # FIXME
+  novice_mode: "Standard" # FIXME
+  password_required: "(Passwort ist zum Speichern erforderlich)" # FIXME
+  login: "Login" # FIXME
+  logout: "Logout" # FIXME
+  login_successful: "Sie haben sich erfolreich eingeloggt!" # FIXME
+  logout_successful: "Sie haben sich erfolgreich ausgeloggt!" # FIXME
+  login_requisited: "Sie müssen eingeloggt sein, um diese Seite zu sehen." # FIXME
+  user_created: "Benutzer erfolgreich erstellt." # FIXME
+  user_updated: "Benutzerdaten wurden geändert." # FIXME
+  personal_category: "Eigene Prüfregeln" # FIXME
+  edit_userdata: "Daten bearbeiten" # FIXME
+  remove_user: "Benutzer löschen" # FIXME
+  new_user: "Neuen Benutzer erstellen" # FIXME
+  user_deleted: " wurde gelöscht" # FIXME
+  users: "Benutzer" # FIXME
+  username: "Benutzername" # FIXME
+  admin: "Administrator" # FIXME
+  overview: "Übersicht" # FIXME
+  user_settings: "Benutzereinstellungen" # FIXME
+  user_settings_explanation: "Benutzereinstellungen werden global für alle Versionen von Casematch geändert. Wenn Sie Casematch im ID DIACOS verwenden, beachten Sie bitte, dass bei Änderung von Benutzername oder Passwort, dieses auch in der ID DIACOS-Konfiguration angepasst werden muss." # FIXME
+  pool_statistics: "Statistik" # FIXME
+  pool_statistics_description: "Datenspiegel des Casematch Datenpool: DRG, ICD, CHOP" # FIXME
+  drg_trends: "DRG Kostengewichte - Trends" # FIXME
+  difference: "Unterschied Logik" # FIXME
+  price_instability: "Preisvolatilität" # FIXME
+  price_trend: "Preistrend" # FIXME
+  case_analysis: "Fallanalyse" # FIXME
+  sort_by_id: "Sortieren nach ID" # FIXME
+  outlier_cases: "Sortieren nach Auffälligkeit" # FIXME
+  optimizable_cases: "Sortieren nach Fällen mit ähnlichen höher bewerteten DRGs" # FIXME
+  edit_in_webgrouper: "Gruppieren mit dem SwissDRG-Webgrouper" # FIXME
+  edit_in_reha_webgrouper: "Gruppieren mit dem ST Reha Webgrouper" # FIXME
+  grouper: "Gruppierung" # FIXME
+  case: "Fall" # FIXME
+  cases: "Fälle" # FIXME
+  rank: "Ähnlichkeitsindex" # FIXME
+  stat_drg: "Statistische DRG" # FIXME
+  adm_vars: "Demographische Variablen" # FIXME
+  age_years: "Alter in Jahren" # FIXME
+  age_days: "Alter in Tagen" # FIXME
+  los: "Verweildauer" # FIXME
+  hmv: "Beatmungszeit" # FIXME
+  sex: "Geschlecht" # FIXME
+  male: "männlich" # FIXME
+  female: "weiblich" # FIXME
+  pdx: "Hauptdiagnose" # FIXME
+  pdxs: "Hauptdiagnosen" # FIXME
+  pdxs_short: "HD" # FIXME
+  sdxs_short: "ND" # FIXME
+  caseflag_INLIER: "Normallieger" # FIXME
+  caseflag_UPPER_OUTLIER: "Langlieger" # FIXME
+  caseflag_LOWER_OUTLIER: "Kurzlieger" # FIXME
+  caseflag_TRANSFERRED: "Verlegungsabschlagspflichtig" # FIXME
+  caseflag_UNWEIGHTED: "Unbewertete DRG" # FIXME
+  percentage_of_all: "Anteil an Gesamtdaten" # FIXME
+  rec_rate: "Kodierhomogenität" # FIXME
+  drg_stats: "Statistik DRG-Modell" # FIXME
+  misclassifications: "Fehlklassifikationen in dieser DRG" # FIXME
+  num: "Anzahl" # FIXME
+  drg_ranking: "Ähnliche DRGs" # FIXME
+  cost_tab: "Erlössituation" # FIXME
+  cost: "Gesamtkosten" # FIXME
+  returns: "Erlös" # FIXME
+  gains: "Gewinn" # FIXME
+  similarity: "Ähnlichkeit" # FIXME
+  all_cases: "Alle Fälle" # FIXME
+  delta_ecw: "Delta ECW" # FIXME
+  adm_weight: "Aufnahmegewicht" # FIXME
+  num_training: "Fallzahl für DRG-Modell" # FIXME
+  common_pdxs: "Häufige Hauptdiagnosen" # FIXME
+  common_sdxs: "Häufige Nebendiagnosen" # FIXME
+  common_srgs: "Häufige Prozeduren" # FIXME
+  common_drgs: "Häufige DRGs" # FIXME
+  stat_reduced: " (ohne letzte Stelle)" # FIXME
+  coding: "Kodierung" # FIXME
+  no_drg_model: "Keine oder zu wenig (<10) Trainingsdaten vorhanden: Es wurde kein Modell für diese DRG berechnet." # FIXME
+  not_enough_data: "Für diese Code-Ebene ist keine Statistik vorhanden oder es wurde keine Statistik berechnet, da nicht genügend Daten vorhanden sind, um die Anonymisierung zu gewährleisten (<20)." # FIXME
+  no_data: "Keine Trainingsdaten" # FIXME
+  no_rank: "Rang kann nicht berechnet werden." # FIXME
+  delta_ecw_explanation: "Gewichtetes Mittel der Differenzen der effektiven Kostengewichte der ähnlichsten 5 DRGs zum aktuellen effektiven Kostengewicht" # FIXME
+  rank_explanation: "Ähnlichkeitsindex: Rang der gruppierten DRG im berechneten Modell. Ein Rang von 1 bedeutet, dass die gruppierte DRG auch die ähnlichste DRG ist. In diesem Fall stimmen das statistische Modell und die DRG-Gruppierung überein." # FIXME
+  similarity_explanation: "Ähnlichkeit dieses Falles zur DRG. Berechnet als Zuweisungswahrscheinlichkeit im statistischen Modell. Rot=MDC stimmt nicht überein, Orange=Basis-DRG stimmt nicht überein. Grün=Unauffällig" # FIXME
+  drg_explanation: "Gruppierte DRG" # FIXME
+  num_training_explanation: "Anzahl der Fälle mit dieser DRG in der Trainingsmenge für den statistischen DRG-Klassifikator. DRGs mit tiefer Fallzahl (unter 30) sind aufgrund fehlender statistischer Stabilität mit Vorsicht zu betrachten." # FIXME
+  gain_explanation: "Differenz zwischen Erlös und Gesamtkosten" # FIXME
+  drg_ratio_explanation: "Anteil der Fälle dieser DRG an den Gesamtdaten." # FIXME
+  rec_rate_explanation: "Anteil der Fälle in dieser DRG, welche vom statistischen Klassifikator korrekt gruppiert wurden." # FIXME
+  code_likelihood_explanation: "Ähnlichkeit dieses Codes zur gruppierten DRG. Je grüner, desto typischer ist dieser Code." # FIXME
+  statistical_drg_explanation: "Wahrscheinlichste DRG gemäss dem statistischen Modell / Klassifikator." # FIXME
+  drg_ranking_explanation: "Liste der 5 ähnlichsten DRGs gemäss dem statistischen Modell / Klassifikator." # FIXME
+  coding_proposals_explanation: "Diagnosen und Prozeduren in dieser DRG, welche im Verhältnis zur gruppierten DRG häufig codiert sind und nicht bereits in diesem Fall codiert wurden." # FIXME
+  similarity_ranking_explanation: "Ähnlichkeit dieses Falles zur DRG. Berechnet als Zuweisungswahrscheinlichkeit im statistischen Modell. Der Wert liegt zwischen 0 und 1. Die Ähnlichkeitswerte aller DRGs für einen Fall summieren sich auf 1." # FIXME
+  code_proposal: "Kodiervorschläge" # FIXME
+  coded_often_together: "Wird oft zusammen kodiert" # FIXME
+  single_case_analysis: "Einzelfallanalyse" # FIXME
+  code_proposal_description: "Diagnosen und Prozeduren, welche oft zusammen kodiert wurden, werden vorgeschlagen." # FIXME
+  code_proposals_for_case: "Kodiervorschläge für diesen Fall" # FIXME
+  relevance: "Relevanz" # FIXME
+  adm_variables: "Administrative Daten" # FIXME
+  adm_date: "Aufnahmedatum" # FIXME
+  exit_date: "Entlassdatum" # FIXME
+  prediction_date: "Datum der Prognose" # FIXME
+  leave_days: "Urlaubstage" # FIXME
+  adm_mode: "Aufnahmeart" # FIXME
+  sep_mode: "Entlassart" # FIXME
+  additional_diagnoses: "Nebendiagnosen" # FIXME
+  procedures: "Prozeduren" # FIXME
+  group: "Raggruppare"
+  unknown: "unbekannt" # FIXME
+  normal: "normal" # FIXME
+  empty_form: "Maske leeren" # FIXME
+  validate_and_propose: "Validieren und Vorschläge generieren" # FIXME
+  takeover_code: "Code übernehmen" # FIXME
+  remove_code: "Code löschen" # FIXME
+  specificity: "Spezifität" # FIXME
+  invalid_diag: "Ungültige Diagnose" # FIXME
+  valid_diag: "Gültige Diagnose" # FIXME
+  import: "Datenimport" # FIXME
+  import_not_possible: "Datenimport ist nicht vollständig." # FIXME
+  import_description: "Laden Sie hier DRG-Fälle zur Analyse hoch. Die Fälle müssen im <a href='https://grouper.swissdrg.org/grouper-doku-de.pdf' target='swissdrg-grouper'>SwissDRG Batchgrouper Format </a>, oder im Format der Medizinischen Statistik des BFS vorliegen. Das Format wird automatisch erkannt. In diesem <a href='https://eonum.ch/de/tutorial-login-und-import/' target='eonum-website'>Videotutorial</a> ist der Importprozess im Detail beschrieben." # FIXME
+  dynamic_import_format: "Casematch-Format" # FIXME
+  file_upload_input: "Wählen Sie die Datei für den Upload aus." # FIXME
+  upload: "Importieren" # FIXME
+  overview_imports: "Übersicht importierte Dateien" # FIXME
+  num_cases: "Anzahl Fälle" # FIXME
+  delete_import: "Diesen Import löschen. Alle damit verknüpften Fälle werden auch gelöscht." # FIXME
+  are_you_sure: "Sind Sie sicher?" # FIXME
+  upload_file: "Hochgeladene Datei" # FIXME
+  drg_file: "Batchgrouperausgabedatei" # FIXME
+  import_progressing: "Daten werden importiert .." # FIXME
+  delete_successful: "Löschen erfolgreich" # FIXME
+  no_access: "Sie haben keine Berechtigung für diese Seite." # FIXME
+  import_date: "Importdatum" # FIXME
+  select_import: "Analysedatensatz auswählen" # FIXME
+  similar_constellations: "Ähnliche Fallkonstellationen: " # FIXME
+  link_to_swissdrg_manual: "SwissDRG Online Definitionshandbuch zu diesem Eintrag" # FIXME
+  import_errors: "Fehlermeldungen" # FIXME
+  import_log: "Importbericht" # FIXME
+  upload_thanks: "Wir wurden über Ihren Upload benachrichtigt und kümmern uns sobald wie möglich darum. Danke." # FIXME
+  update_analysis: "Analyse aktualisieren" # FIXME
+  force_simulate_grouping: "Simulation der statistischen Analyse mit einer anderen gruppierten DRG" # FIXME
+  live_analysis: "Live Analyse" # FIXME
+  reset_case: "Änderungen rückgängig" # FIXME
+  swap_sdx: "Austauschen dieser Diagnose mit der Hauptdiagnose" # FIXME
+  comment: "Kommentar" # FIXME
+  add_comment: "Kommentar hinzufügen" # FIXME
+  confirm_delete_rule: "Sind Sie sicher, dass Sie diese Prüfregel löschen möchten?" # FIXME
+  rules_overview: "Prüfregeln" # FIXME
+  new_rule: "Neue Prüfregel erstellen" # FIXME
+  new_rule_header: "Kopfdaten" # FIXME
+  new_rule_editor: "Regeleditor" # FIXME
+  new_rule_explanation: "Die Prüflogik besteht aus beliebig vielen Bedingungen, welche alle konjunktiv (und) miteinander verknüpft werden. Eine Oder-Verknüfung (Disjunktion) kann mit einer weiteren Regel realisiert werden." # FIXME
+  rule_description: "Prüflogik" # FIXME
+  rule_description_details: "Prüflogik (Details)" # FIXME
+  rule_level: "Prüflevel" # FIXME
+  show_rule: "Zeige alle Fälle, welche diese Prüfregel erfüllen" # FIXME
+  show_rules_from_search_selection: "Zeige alle Fälle, die mindestens eine Regel aus den Suchresultaten erfüllen." # FIXME
+  edit_rule: "Prüfregel bearbeiten" # FIXME
+  hint: "Hinweis" # FIXME
+  info_singleview_only: "Information - Anzeige nur in Einzelfallansicht" # FIXME
+  selection: "Auswahl" # FIXME
+  save: "Speichern" # FIXME
+  rule_updated: "Regel wurde erfolgreich gespeichert" # FIXME
+  delete_rule: "Prüfregel löschen" # FIXME
+  delete_condition: "Bedingung entfernen" # FIXME
+  new_rule_based_on: "Erstelle eine neue Regel basierend auf dieser Prüfregel." # FIXME
+  cancel: "Abbrechen" # FIXME
+  add_condition: "Bedingung hinzufügen" # FIXME
+  add_entry: "Eintrag hinzufügen" # FIXME
+  pccl: "PCCL" # FIXME
+  diagnoses_length: "Anzahl Nebendiagnosen" # FIXME
+  procedures_length: "Anzahl Prozeduren" # FIXME
+  rule_created: "Prüfregel wurde erstellt" # FIXME
+  creation_date: "Erstelldatum" # FIXME
+  drg: "DRG" # FIXME
+  is_not_in: "ist nicht in" # FIXME
+  is_in: "ist in" # FIXME
+  is_not_in_table: "ist nicht in Tabelle" # FIXME
+  is_in_table: "ist in Tabelle" # FIXME
+  tags: "Tags" # FIXME
+  synonyms: "Synonyme" # FIXME
+  category_created: "Kategorie wurde erfolgreich erstellt." # FIXME
+  category_updated: "Kategorie wurde gespeichert." # FIXME
+  no_category: "Keine Kategorie" # FIXME
+  category: "Prüfregelkategorie" # FIXME
+  my_categories: "Eigene Prüfregelkategorien" # FIXME
+  system_categories: "Systemweite Prüfregelkategorien. (Nicht änderbar. Aktivieren/Deaktivieren für die Einzelfallansicht ist möglich)" # FIXME
+  delete_category: "Kategorie mit allen Prüfregeln löschen" # FIXME
+  category_disabled: "Kategorie deaktivieren (Regeln werden in der Einzelfallansicht nicht mehr angezeigt)." # FIXME
+  category_system: "Kategorie systemweit bei allen Nutzern anzeigen." # FIXME
+  categories_overview: "Übersicht Prüfregelkategorien" # FIXME
+  categories: "Prüfregelkategorien" # FIXME
+  show_category: "Zeige alle Fälle, welche mindestens eine Prüfregel dieser Kategorie erfüllen" # FIXME
+  new_category: "Neue Kategorie erstellen" # FIXME
+  new: "Neu" # FIXME
+  edit_category: "Kategorie bearbeiten" # FIXME
+  show_rules_of_category: "Zeige alle Prüfregeln dieser Kategorie." # FIXME
+  confirm_delete_category: "Sind Sie sicher, dass Sie diese Kategorie mit allen Prüfregeln löschen möchten?" # FIXME
+  color: "Farbe" # FIXME
+  active: "Aktiviert" # FIXME
+  disabled: "Deaktiviert" # FIXME
+  description_activate_disable_category: "Aktiviere oder deaktiviere diese Prüfregelkategorie für die Einzelfallansicht." # FIXME
+  number_of_rules: "Anzahl Prüfregeln" # FIXME
+  category_public: "Kategorie veröffentlichen" # FIXME
+  public_categories: "Veröffentlichte Regeln und Kategorien" # FIXME
+  add_public_category: "Hinzufügen dieser Regelkatorie zu eigenen Regeln." # FIXME
+  add_from_public_successful: "Hinzufügen der Regelkategorie zu eigenen Regeln erfolgreich." # FIXME
+  public_categories_description: "Hier finden Sie veröffentlichte Prüfregelkategorien aller Nutzer von Casematch. Veröffentlichte Kategorien kann jeder Benutzer übernehmen. Es wird eine eigene Kopie erstellt, welche weiter bearbeitet werden kann. Sie können selber Kategorien veröffentlichen und so Anderen zugänglich machen, wenn Sie die entsprechende Option in der Prüfregelkategorie auswählen." # FIXME
+  case_flag: "Abrechnungsstatus" # FIXME
+  export_as_excel: "Exportieren als Excel-Tabelle (CSV)" # FIXME
+  num_cases_for_export: "Anzahl Fälle für Export:" # FIXME
+  helpsupport: "Hilfe" # FIXME
+  support_services: "Bezogene Supportstunden" # FIXME
+  service_date: "Datum" # FIXME
+  hours: "Anzahl Stunden" # FIXME
+  inclusions: "Inklusiva" # FIXME
+  exclusions: "Exklusiva" # FIXME
+  descriptions: "Alternative Beschreibungen" # FIXME
+  supplement_codes: "Kodiere ebenso" # FIXME
+  notes: "Kodierhinweise" # FIXME
+  children: "Untergeordnete Codes" # FIXME
+  nnbez: "nicht näher bezeichnet" # FIXME
+  sonstige: "Sonstige" # FIXME
+  symptom: "Symptom" # FIXME
+  lab: "Laborbefund" # FIXME
+  ank: "anderenorts nicht klassifiziert" # FIXME
+  illegal_pdx: "nicht zulässig als Hauptdiagnose" # FIXME
+  search_explanation: "Suche nach ICD-, CHOP- oder DRG-Codes. Die tolerante Suche berücksichtigt Synonyme und Inklusiva und ist fehlertolerant. Die fehlertolerante Suche gibt die relevantesten 10 Codes an." # FIXME
+  tolerant_search: "Tolerante Suche" # FIXME
+  table_created: "Tabelle wurde erstellt." # FIXME
+  new_table: "Neue Tabelle erstellen" # FIXME
+  tables_overview: "Übersicht Tabellen" # FIXME
+  edit_table: "Tabelle bearbeiten" # FIXME
+  show_table: "Tabelle anzeigen" # FIXME
+  delete_table: "Tabelle löschen" # FIXME
+  confirm_delete_table: "Sind Sie sicher, dass Sie diese Tabelle löschen möchten?" # FIXME
+  num_codes: "Anzahl Codes" # FIXME
+  table_type: "Tabellentyp" # FIXME
+  tables: "Tabellen" # FIXME
+  table_updated: "Tabelle wurde gespeichert." # FIXME
+  delete_table_entries: "Ausgewählte Codes aus der Tabelle entfernen." # FIXME
+  add_table_entries: "Ausgewählte Codes in die Tabelle einfügen." # FIXME
+  detail_view: "Detailansicht" # FIXME
+  variable: "Variable" # FIXME
+  variables: "Variablen" # FIXME
+  function: "Funktion" # FIXME
+  functions: "Funktionen" # FIXME
+  new_function: "Neue Funktion erstellen" # FIXME
+  edit_function: "Funktion bearbeiten" # FIXME
+  delete_function: "Funktion löschen" # FIXME
+  code_editor: "Medcodelogic editor" # FIXME
+  mcl_helpers: "Codesnipplets" # FIXME
+  insert_at_cursor: "Logikelement an Cursorposition einfügen" # FIXME
+  value: "Wert" # FIXME
+  validation: "Validierung" # FIXME
+  swissdrg_file: "Leistungsdaten" # FIXME
+  warn_level: "Warnlevel" # FIXME
+  warning: "Warnung" # FIXME
+  info: "Information" # FIXME
+  error: "Fehler" # FIXME
+  throwaway_created: "Throwaway wurde erstellt." # FIXME
+  relevant_codes: "Gruppierungsrelevante Codes" # FIXME
+  grouper_input_variables_label: "Groupereingabevariablen" # FIXME
+  grouper_output_variables_label: "Grouperausgabevariablen" # FIXME
+  analysis_variables_label: "Statistische Analyse" # FIXME
+  bfs_variables_label: "BfS Variablen der medizinischen Statistik" # FIXME
+  cost_variables_label: "Kosten gemäss SwissDRG Datenerhebung bis 2017" # FIXME
+  cost20_variables_label: "Kosten gemäss SwissDRG Datenerhebung ab 2017" # FIXME
+  rest_variables_label: "Weitere Variablen" # FIXME
+  valid_code: "Gültige Prüflogik" # FIXME
+  and: "und" # FIXME
+  or: "oder" # FIXME
+  not: "nicht" # FIXME
+  in_list: "in Liste" # FIXME
+  in_table: "in Tabelle" # FIXME
+  not_in_list: "nicht in Liste" # FIXME
+  not_in_table: "nicht in Tabelle" # FIXME
+  date: "Datum" # FIXME
+  dates: "Daten" # FIXME
+  new_mcl_rule: "Neue MCL-Prüfregel erstellen" # FIXME
+  no_public_entries: "Derzeit sind keine Prüfregeln veröffentlicht" # FIXME
+  no_entries: "Keine Einträge" # FIXME
+  table_wrong_year: "Diese Tabelle kann in dieser Casematchversion nicht bearbeitet oder angezeigt werden. Bitte wählen Sie die entsprechende Casematchversion." # FIXME
+  application_year: "Anwendungsjahr" # FIXME
+  table: "Tabelle" # FIXME
+  summarize: "Statistikansicht" # FIXME
+  avg_ecw: "Case Mix Index" # FIXME
+  number_of_cases_by_rule_category: "Anzahl Fälle nach Kategorie" # FIXME
+  num_days: "Anzahl Tage" # FIXME
+  age: "Alter" # FIXME
+  distinct: "Unterschiedliche" # FIXME
+  avg_number: "Durchschnittliche Anzahl" # FIXME
+  days: "Tage" # FIXME
+  delete_analysis: "Auswertung löschen" # FIXME
+  edit_analysis: "Auswertung bearbeiten" # FIXME
+  show_analysis: "Zeige Auswertung" # FIXME
+  no_results: "Es liegt keine Auswertung vor!" # FIXME
+  confirm_delete_analysis: "Wollen Sie diese Auswertung wirklich löschen?" # FIXME
+  overview_analyses: "Auswertungen / Kennzahlen Übersicht" # FIXME
+  js_filter: "JavaScript Filter" # FIXME
+  json_filter: "MongoDB JSON Filter" # FIXME
+  group_by: "Group by Variable" # FIXME
+  order_by: "Order by Variable" # FIXME
+  analysis_level: "Auswertungslevel" # FIXME
+  new_analysis: "Neue Auswertung erstellen" # FIXME
+  new_pipeline_analysis: "Neue Auswertung erstellen" # FIXME
+  benchmark: "Vergleichsgruppe" # FIXME
+  num_equal: "Anzahl gleich" # FIXME
+  num_greater: "Anzahl grösser als" # FIXME
+  num_less: "Anzahl weniger als" # FIXME
+  show_selected_sets: "Zeige nur selektierte Variablensets" # FIXME
+  import_cost_data: "Kostendaten importieren" # FIXME
+  import_cost_data_explanation: "Kostendaten im Format der SwissDRG-Datenlieferungen für die entsprechenden bereits importierten Fälle können hochgeladen werden. Es sind somit weitergehende Validierungen auf Kostendaten möglich." # FIXME
+  cost_file: "Kostendaten (SwissDRG CC Format)" # FIXME
+  add_cost_file: "Kostendatensatz hinzufügen" # FIXME
+  data_type: "Datentyp" # FIXME
+  slow_validation_rule: "Achtung: Langsame Prüfregellogik" # FIXME
+  mdc_rule_explanation: "Die MDC der gruppierten DRG stimmt nicht überein mit der MDC der statistischen DRG oder Fehler DRG. Die Hauptdiagnose sollte überprüft werden." # FIXME
+  mdc_rule_name: "Hauptdiagnose überprüfen! Diese passt nicht gut zum Rest des Falles." # FIXME
+  error_rule_name: "Fehler in den adminstrativen Variablen, Fehler DRGs, Verletzung von Kodierregeln, Altersvalidierungen" # FIXME
+  cat_grouper_logic: "Hinweise zur Gruppierungslogik. Differenzierungen in andere Fallpauschalen werden angezeigt und mit der entsprechenden Logik im Definitionshandbuch verknüpft." # FIXME
+  rule_generation1: "Differenzierung mit PCCL" # FIXME
+  rule_generation2: "Differenzierung durch Diagnosen möglich" # FIXME
+  rule_generation3: "Differenzierung durch Prozeduren möglich" # FIXME
+  rule_generation4: "Differenzierung durch andere Hauptdiagnose möglich" # FIXME
+  rule_generation5: "Tabellen und Logik im Definitionshandbuch" # FIXME
+  rule_generation6: "Durch die zusätzliche Bedingung '#{hint}' wird die DRG #{new_drg} erreicht." # FIXME
+  rule_generation7: "Mit einer Hauptdiagnose aus der Gruppe '#{hint}' wird die DRG #{new_drg} erreicht." # FIXME
+  help1: "Eine kurze Anleitung und Beschrieb zu Casematch finden Sie hier:" # FIXME
+  help2: "Eine englischsprachige Dokumentation der Casematch Programmierschnittstelle finden Sie hier: " # FIXME
+  help3: "Benötigen Sie Hilfe bei der Integration ihrer Anwendungen, wenden Sie sich an: " # FIXME
+  help4: "Bitte richten Sie alle Anfragen an   <%= mail_to 'casematch@eonum.ch' %> Als Benutzer von Casematch können Sie jährlich Support im Umfang von einem Arbeitstag kostenlos beziehen. Jede weitere Supportstunde ist kostenpflichtig. Eine Übersicht der bereits geleisteten Supportstunden finden Sie unter:" # FIXME
+  casematch_title: "Casematch - Statistische Kodieranalyse und DRG-Prüfung" # FIXME
+  test_account: "Testzugang anfordern" # FIXME
+  casematch_link: "https://eonum.ch/de/angebot/casematch/" # FIXME
+  export_rules: "Prüfregeln exportieren" # FIXME
+  import_rules: "Prüfregeln importieren" # FIXME
+  import_successful: "Prüfregeln erfolgreich importiert!" # FIXME
+  import_error: "Während dem Importieren ist ein Fehler aufgetreten." # FIXME
+  rules_could_not_be_imported: "Prüfregel(n) konnten nicht importiert werden." # FIXME
+  only_csv: "Es können nur CSV-Dateien importiert werden." # FIXME
+  category_name_already_in_use: "Es existiert bereits eine Kategorie mit diesem Namen." # FIXME
+  no_patient_cases: "Keine Fälle entsprechen den Kriterien." # FIXME
+  share: "Anteil" # FIXME
+  los_prediction: "Verweildauerprognose" # FIXME
+  provisional_drg: "Provisorische DRG" # FIXME
+  back_to_homepage: "Torna alla pagina iniziale"
+  link_to_drgdynamics: "Umbauten dieser DRG in Vor- und Nachversionen" # FIXME
+  analogous_code_text: "Analogiekodierung (Quelle: www.swissdrg.org)" # FIXME
+  switzerland: "Ganze Schweiz" # FIXME
+  hospital: "Spital" # FIXME
+  num_cases_estimated: "Fallzahlen geschätzt" # FIXME
+  zusatzentgelte: "Zusatzentgelte" # FIXME
+  swissdrg_webgrouper_simulation: "Simulation mit alten und zukünftigen SwissDRG-Systemen" # FIXME
+  total: "Total" # FIXME
+  caused_code: "CHOP / ATC" # FIXME
+  amount: "Betrag" # FIXME
+  forms: "Formulare" # FIXME
+  form: "Formular" # FIXME
+  create_form: "Formular erstellen" # FIXME
+  form_rank: "Rang" # FIXME
+  edit_form: "Bearbeite Formular" # FIXME
+  num_entries: "Anzahl Einträge" # FIXME
+  editable: "Editierbar" # FIXME
+  delete_entry: "Eintrag löschen" # FIXME
+  case_management_overview: "Case Management - Übersicht" # FIXME
+  status: "Status" # FIXME
+  drugs: "Medikamente" # FIXME
+  atc_code: "ATC code" # FIXME
+  atc_annex: "Zusatzangabe" # FIXME
+  atc_application: "Verabreichungsart" # FIXME
+  dose: "Dosis" # FIXME
+  unit: "Einheit" # FIXME
+  gest_age: "Gestationsalter" # FIXME
+  SIDE_L: "Linksseitigk." # FIXME
+  SIDE_R: "Rechtsseitigk." # FIXME
+  SIDE_B: "Beidsseitigk." # FIXME
+  shap_explanation: "Einflussfaktoren auf Prognose" # FIXME
+  scenario_probability: "Wahrscheinlichkeit des Szenarios" # FIXME
+  more_probable: "wahrscheinlicher" # FIXME
+  less_probable: "weniger wahrscheinlich" # FIXME
+  planned_procedure: "früher Eingriff" # FIXME
+  unplanned_procedure: "später Eingriff" # FIXME
+  longer: "länger" # FIXME
+  shorter: "kürzer" # FIXME
+  few_codes: "wenig Codes" # FIXME
+  adm: "Aufnahmeart" # FIXME
+  convert_rule: "Prüfregel bearbeiten im MCL Logikeditor" # FIXME
+  convert_rule_explanation: "Mit der MCL-Prüflogiksprache sind komplexere Prüflogiken möglich. Eine Konvertierung kann nicht rückgängig gemacht werden." # FIXME
+  comparisons: "Vergleiche" # FIXME
+  comparison: "Vergleich" # FIXME
+  created_comparison: "Vergleich wurde erstellt." # FIXME
+  deleted_comparison: "Vergleich wurde gelöscht." # FIXME
+  saved_comparison: "Vergleich wurde gespeichert." # FIXME
+  comparison_view: "Vergleichsansicht" # FIXME
+  delete: "Löschen" # FIXME
+  new_comparison: "Neuen Vergleich erstellen" # FIXME
+  edit_comparison: "Vergleich bearbeiten" # FIXME
+  base_condition: "Basislogik" # FIXME
+  split_condition: "Splitlogik" # FIXME
+  confirm_delete: "Möchten Sie das Element wirklich löschen?" # FIXME
+  download_as_excel: "Excel-Download der Statistik" # FIXME
+  key_figures: "Kennzahlen" # FIXME
+  hospitals: "Spitäler" # FIXME
+  diff: "Differenz" # FIXME
+  with: "mit" # FIXME
+  without: "ohne" # FIXME
+  total_benchmark: "Casematch Gesamtbenchmark" # FIXME
+  compare_with: "Vergleichen mit: " # FIXME
+  imports_groupname: "Datensätze" # FIXME
+  import_file: "Datensatz" # FIXME
+  search_comparison_objects: "Suche nach Benchmarks (ICD, CHOP, DRG), Prüfregeln oder Datensätzen" # FIXME
+  rule: "Prüfregel" # FIXME
+  predecessors: "Vorgängercodes in Vorversion" # FIXME
+  successors: "Nachfolgercodes in Nachversion" # FIXME
+  new_code: "Dies ist ein Neukode." # FIXME
+  add_code: "Code hinzufügen" # FIXME
+  add_main_diagnosis: "Hauptdiagnose" # FIXME
+  add_secondary_diagnosis: "Nebendiagnose" # FIXME
+  icd_code: "Diagnose" # FIXME
+  chop_code: "Prozedur" # FIXME
+  interpretation: "Interpretation" # FIXME
+  interpretation_not_available: "Interpretation ist nicht verfügbar" # FIXME
+  code_added: "Code wurde hinzugefügt." # FIXME
+  scroll_to_code: "Gehe zu Code" # FIXME
+  new_drg: "Neue DRG" # FIXME
+  simulations: "Szenarien" # FIXME
+  simulations_empty: "Es gibt keine wahrscheinlichen Szenarien für diesen Fall." # FIXME
+  hap_scenario: "im Krankenhaus erworbene Pneumonie" # FIXME
+  aki_scenario: "Akute Niereninsuffizienz" # FIXME
+  uti_scenario: "Harnwegsinfekt" # FIXME
+  fall_scenario: "Sturz" # FIXME
+  end_scenario: "Mortalitätsrisiko" # FIXME
+  reop_scenario: "Reoperation" # FIXME
+  pthorax_scenario: "Pneumothorax" # FIXME
+  emb_scenario: "Embolie und Thrombose" # FIXME
+  sepsirs_scenario: "Sepsis" # FIXME
+  delir_scenario: "Delirium" # FIXME
+  dec_scenario: "Dekubitus" # FIXME
+  scenarios: "Szenarien" # FIXME
+  update: "Aktualisieren" # FIXME
+  prognosis: "Prognose" # FIXME
+  pcs_created: "Ein neues Patientenklassifikationssystem wurde erstellt." # FIXME
+  pcs_imported: "Das Patientenklassifikationssystem wurde erfolgreich importiert." # FIXME
+  import_pcs: "Klassifikationssystem importieren" # FIXME
+  successfull_save: "Erfolgreich gespeichert!" # FIXME
+  new_classification_system: "Neues Patientenklassifikationssystem erstellen" # FIXME
+  edit_classification_system: "Patientenklassifikationssystem bearbeiten" # FIXME
+  version: "Version" # FIXME
+  class_variable_name: "Name der Variable für die Gruppenzuordnung" # FIXME
+  base_data: "Basisdaten" # FIXME
+  logic: "Logik" # FIXME
+  validation_download: "Validierung und Downloads" # FIXME
+  valid_pcs: "Das Klassifikationssystem hat keine Validierungsfehler." # FIXME
+  invalid_pcs: "Das Klassifikationssystem hat folgende formale Fehler:" # FIXME
+  compatible_with_swissdrg: "Das Klassifikationssystem ist kompatibel mit dem SwissDRG Grouper." # FIXME
+  incompatible_with_swissdrg: "Das Klassifikationssystem ist nicht kompatibel mit dem SwissDRG Grouper." # FIXME
+  download_pcs_as_json: "Download Spezifikationen im Casematchformat" # FIXME
+  download_pcs_as_swissdrg: "Download Spezifikationen im SwissDRG Grouperformat" # FIXME
+  confirm_delete_node: "Sind Sie sicher? Dies löscht diesen Knoten und alle untergeordeneten Knoten." # FIXME
+  add_node: "Kind-Knoten hinzufügen" # FIXME
+  classname: "Gruppenname" # FIXME
+  pcs_rank: "Rang" # FIXME
+  classes_view: "Gruppen" # FIXME
+  data_view: "Gruppierung" # FIXME
+  copy: "Kopieren" # FIXME
+  pcs_copied: "Patientenklassifikationssystem wurde erfolgreich kopiert." # FIXME
+  patient_classification_systems: "Patientenklassifikationssysteme" # FIXME
+  patient_classification_system: "Patientenklassifikationssystem" # FIXME
+  compare_dec_node: "Vergleiche die Daten auf dieser Bedingung" # FIXME
+  errors_in_pcs: "Es gibt noch Fehler in diesem Patientenklassifikationssystem" # FIXME
+  chapter_entry: "Neues Kapitel" # FIXME
+  goto_chapter: "Gehe zu diesem Kapitel" # FIXME
+  chapter: "Kapitel" # FIXME
+  pcs_overview: "Zur Übersicht Patientenklassifikationssysteme" # FIXME
+  number_of_classes: "Anzahl Gruppen" # FIXME
+  appeareance_in_more_than_one_chapter: "Diese Gruppe ist an mehrereren Orten definiert: " # FIXME
+  coding_state: "Kodierstatus" # FIXME
+  coding_state_options:
+    pre: "Vorkodierung" # FIXME
+    active: "fallbegleitend" # FIXME
+    post: "abgeschlossen" # FIXME
+  coding_state_post: "abgeschlossene Kodierung" # FIXME
+  coding_state_pre: "Vorkodierung" # FIXME
+  coding_state_active: "fallbegleitende Kodierung" # FIXME
+  info_link:
+    los_prediction: "https://eonum.ch/de/allgemein/besseres-case-management-dank-verweildauerprognose/" # FIXME
+    interpretation: "https://eonum.ch/de/allgemein/medizinischer-einflussfaktoren-auf-die-verweildauerprognose/" # FIXME
+  decision: "Entscheidungsknoten" # FIXME
+  classification: "Gruppierungsknoten" # FIXME
+  api_entries: "API Einträge" # FIXME
+  ana_queries: "Analyses Abfragen" # FIXME
+  rule_queries: "Rules Abfragen" # FIXME
+  prop_queries: "Proposals Abfragen" # FIXME
+  pred_queries: "Predictions Abfragen" # FIXME
+  avg_ana_queries: "Durchschnittliche Analyses Abfragen pro Fall" # FIXME
+  avg_rule_queries: "Durchschnittliche Rules Abfragen pro Fall" # FIXME
+  avg_prop_queries: "Durchschnittliche Proposals Abfragen pro Fall" # FIXME
+  avg_pred_queries: "Durchschnittliche Predictions Abfragen pro Fall" # FIXME
+  adjusted_cases: "Fälle mit Codeänderungen aufgrund Casematch" # FIXME
+  adjusted_pdx: "Angepasste Hauptdiagnosen" # FIXME
+  adjusted_sdx: "Angepasste Nebendiagnosen" # FIXME
+  adjusted_srg: "Angepasste Prozeduren" # FIXME
+  drg_change_cases: "Fälle mit DRG Wechsel aufgrund Casematch" # FIXME
+  pos_ecw: "Delta ECW positiv" # FIXME
+  neg_ecw: "Delta ECW negativ" # FIXME
+  revenue: "Erlösoptimierung" # FIXME
+  uniquely_idetified: "Eindeutig identifizierte Fälle" # FIXME
+  multiple_identified: "Mehrfach identifizierte Fälle" # FIXME
+  unidentified: "Unidentifizierte Fälle" # FIXME
+  services_file: "Leistungsdaten (BFS- oder SwissDRG)" # FIXME
+  intervention: "Eingriff" # FIXME
+  casemix_index: "Case Mix Index" # FIXME
+  casemix: "Case Mix" # FIXME
+  sales: "Umsatz" # FIXME
+  key_figures_financial: "Finanzkennzahlen" # FIXME
+  no_datenspiegel_entry: "Keine Einträge im SwissDRG-Datenspiegel gefunden." # FIXME
+  swissdrg_datenspiegel: "Fallzahlen und Statistik aus dem Datenspiegel" # FIXME
+  numcases_estimated_based_on_datenspiegel: "Fallzahlen national, geschätzt mit SwissDRG Datenspiegel" # FIXME
+  sd_costs: "Standardabweichung Kosten" # FIXME
+  hom_costs: "R2 SwissDRG" # FIXME
+  med_costs: "Median Kosten" # FIXME
+  mean_costs: "Durchschnittskosten" # FIXME
+  costs: "Kosten" # FIXME
+  costs_statistics: "Kostenstatistik" # FIXME
+  coverage_ratio: "Deckungsgrad" # FIXME
+  daily_costs: "Tageskosten" # FIXME
+  plant_usage_costs: "Anlagenutzungskosten" # FIXME
+  main_service_costs: "Hauptleistungskosten" # FIXME
+  material_costs: "Materialkosten" # FIXME
+  profit: "Gewinn" # FIXME
+  insurance_class: "Liegeklasse" # FIXME
+  baserate: "Basisfallpreis" # FIXME
+  robotics: "Robotik" # FIXME
+  before: "vor" # FIXME
+  after: "nach" # FIXME
+  compare_based_on_date: "Vergleiche vor/nach diesem Datum" # FIXME
+  compare_import: "Vergleiche mit anderem Datensatz" # FIXME
+  compare_robotics: "Vergleiche mit/ohne Robotik" # FIXME
+  compare_benchmark: "Vergleiche mit Casematch Benchmark" # FIXME
+  compare_datenspiegel: "Vergleiche mit SwissDRG Datenspiegel" # FIXME
+  data_year: "Datenjahr" # FIXME
+  limit: "Maximal Anzahl Fälle (<0 = Alle Einträge)" # FIXME
+  data_set: "Datenset" # FIXME
+  data_sets: "Datensets" # FIXME
+  create_data_set: "Neues Datenset erstellen" # FIXME
+  edit_data_set: "Bearbeite Datenset" # FIXME
+  order_by_variable: "Sortieren nach" # FIXME
+  sort_order: "Sortierreihenfolge" # FIXME
+  ascending: "aufsteigend" # FIXME
+  descending: "absteigend" # FIXME
+  number: "Anzahl" # FIXME
+  regroup: "Neu gruppieren" # FIXME
+  other_nodes_from_same_class: "Es gibt noch weitere Gruppierungsknoten derselben Gruppe." # FIXME
+  nodes_from_this_class: "Gruppierungsknoten dieser Gruppe" # FIXME
+  entire_class: "Ganze Gruppe" # FIXME
+  outdated_need_regroup: "Das Klassifikationssystem wurde seit dem letzten Gruppiervorgang geändert und muss neu gruppiert werden." # FIXME
+  no_group_result_yet: "Für das Klassifikationssystem %{pcs_name} besteht noch kein Gruppierungsresultat für den ausgewählten Datensaz (%{import_name})" # FIXME
+  start_group: "Gruppierungsvorgang starten" # FIXME
+  no_import_selected: "Es ist kein Datensatz ausgewählt. Bitte Datensatz auswählen." # FIXME
+  group_time: "Gruppierungsdauer" # FIXME
+  summarize_time: "Dauer für die Erstellung der Statistik" # FIXME
+  download_results: "Download der Gruppierungsresultate pro Fall (CSV)" # FIXME
+  download_results_by_group: "Download der Gruppierungsresultate pro Gruppe (CSV)" # FIXME
+  group_results: "Gruppierungsresultate" # FIXME
+  import_table: "Tabelle importieren (CSV)" # FIXME
+  export_table: "Tabelle exportieren (CSV)" # FIXME
+  import_copy_name: "Name des neuen Imports" # FIXME
+  import_copy_filter: "Fälle filtern mit Medcodelogic (optional)" # FIXME
+  import_table_description: "Die CSV-Datei kann beliebig viele Spalten haben. In der ersten Zeile sind die Spaltenbzeichnungen. Die Spalte mit der Bezeichnung 'code' ist die einzige, die eingelesen wird. Das verwendete Trennzeichen muss ein Semikolon ';' sein. Codes, die im ausgewählten Katalog nicht existieren, werden beim Import ignoriert." # FIXME
+  invalid_codes_in_table_import: "Folgende Codes sind ungültig im jeweiligen Katalog, wurden aber dennoch importiert." # FIXME
+  group_failed: "Der Gruppiervorgang war fehlerhaft. Bitte versuchen Sie es später noch einmal." # FIXME
+  costs_hist: "Kostenhistogramm CHF" # FIXME
+  global_roles: "Benutzerrollen" # FIXME
+  roles: "Rollen" # FIXME
+  owner: "Eigentümer" # FIXME
+  domain: "Domäne" # FIXME
+  user_management: "Benutzerverwaltung" # FIXME
+  users_of_domain: "Sie sehen alle Benutzer der Domäne %{domain}" # FIXME
+  share_permit: "Freigeben" # FIXME
+  successfully_saved_permissions: "Freigabeeinstellungen erfolgreich angepasst." # FIXME
+  share_show: "Betrachten" # FIXME
+  share_edit: "Bearbeiten" # FIXME
+  add_permission: "Neue Berechtigung" # FIXME
+  succussfully_created_pcs_from_node: "Klassifikationssystem wurde erfolgreich extrahiert." # FIXME
+  extract_pcs: "Klassifikationssystem extrahieren" # FIXME
+  extract_pcs_description: "Erstelle ein neues Klassifikationssystem aus diesem Kapitel (Kopie)." # FIXME
+  add_pcs: "Klassifikationssystem andocken" # FIXME
+  add_pcs_description: "Bestehendes Klassifikationssystem an diesem Knoten einfügen (Kopie). Bestehende Kind-Knoten werden gelöscht." # FIXME
+  succussfully_added_pcs_to_node: "Klassifikationssystem wurde erfolgreich angedockt." # FIXME
+  edit_filters: "Filter bearbeiten" # FIXME
+  filter_cases: "Filter anwenden" # FIXME
+  reset_filter: "Filter zurücksetzen" # FIXME
+  save_filter: "Filter speichern" # FIXME
+  active_filter: "Aktiver Filter" # FIXME
+  define_filter: "Filter festlegen" # FIXME
+  filter_verb: "Filtern" # FIXME
+  cases_view: "Fallansicht" # FIXME
+  pcs_wrong_year: "Dieses Klassifikationssystem wurde nicht für das gleiche Anwendungsjahr erstellt wie diese Casematch-Version. Bei unterschiedlichen Katalogen kann dies zu Problemen führen. Das System muss migriert werden." # FIXME
+  standard: "Standard-Tabellenkontext" # FIXME
+  table_scope: "Tabellenkontext" # FIXME
+  used: "Verwendet" # FIXME
+  table_in_use: "Diese Tabelle wird an folgenden Stellen verwendet:" # FIXME
+  dynamic_format_documentation: "Eine Dokumentation zum dynamischen Casematch-Inputformat finden sie <a target='_blank' href='/Dokumentation_Casematch_Format_dynamisch.pdf'>hier</a>. Eine Beispieldatei finden Sie <a target='_blank' href='/sample_dataset_casematch_dynamic_format_inpatient.csv'>hier</a>" # FIXME
+  force_delete: "Löschen erzwingen" # FIXME
+  table_still_used_in: "Die Tabelle kann nicht gelöscht werden, da diese noch an folgenden Stellen verwendet wird:" # FIXME
+  directory_upload_input: "Wählen Sie ein Verzeichnis für den Upload aus." # FIXME
+  drg_benchmark: "Auffälligste DRGs verglichen mit dem Casematch Gesamtbenchmark" # FIXME
+  drg_analysis: "DRG Analyse" # FIXME
+  main_diag_check: "Hauptdiagnosenüberprüfung" # FIXME
+  main_diag_check_desc: "Nebendiagnosen, welche als Hauptdiagnose statistisch wahrscheinlicher sind als die kodierte Hauptdiagnose" # FIXME
+  affected_diags: "Betroffene Diagnosen" # FIXME
+  main_proc_relevance: "DRG Wechsel führt zu Gruppierungsrelevanz der Hauptprozedur" # FIXME
+  no_import_error: "Bitte wählen Sie einen Import aus." # FIXME
+  error_drgs: "Fälle mit Fehler-DRG (nicht berücksichtigt in der Auswertung)" # FIXME
+  rel_cost_by_day: "Relatives Kostengewicht pro Tag" # FIXME
+  AB_split: "A / B Split" # FIXME
+  no_search_results: "Keine Resultate für diesen Suchbegriff"
+  group_result_status:
+    grouping: "Gruppierung läuft.." # FIXME
+    created: "Gruppierung gestartet." # FIXME
+    init-assign-group-result: "Zuweisung der Gruppierungsresultate zum Datensatz gestartet." # FIXME
+    assign-group-result: "Zuweisung der Gruppierungsresultate zum Datensatz läuft.." # FIXME
+    failed: "Gruppierungs ist fehlerhaft." # FIXME
+    finished: "Gruppierung abgeschlossen." # FIXME
+    finished-grouping: "Gruppierung abgeschlossen. Erstellen der Statistiken läuft." # FIXME
+    outdated: "Gruppierung abgeschlossen aber veraltet." # FIXME
+  import_tables: "Mehrere Tabellen importieren (Verzeichnis mit CSV-Dateien)" # FIXME
+  assign_group_variable: "Gruppierung zuweisen" # FIXME
+  assign_group_description: "Permanente Zuweisung der gruppierten Variable in diesem Datensatz." # FIXME
+  deactivate_code: "Code deaktivieren" # FIXME
+  activate_code: "Code aktivieren" # FIXME
+  chapter_code: "Kapitel-Code" # FIXME
+  percentage: "prozentualer Anteil" # FIXME
+  wald_confidence: "95% Wald Konfidenzintervall. Standardabweichung" # FIXME
+  std_error_diff: "Standardfehler der Differenz" # FIXME
+  non_significant: "nicht signifikant" # FIXME
+  significant: "signifikant" # FIXME
+  very_significant: "sehr signifikant" # FIXME
+  highly_significant: "hoch signifikant" # FIXME
+  today: "Heute" # FIXME
+  record_not_found: "Der Datensatz wurde nicht gefunden! Evtl. wurde dieser bereits gelöscht oder Ihnen fehlt die Berechtigung." # FIXME
+  next: "Weiter" # FIXME
+  statistics_documentation: "Dokumentation der statistischen Auswertungen (Konfidenzintervalle, Signifikanz der Unterschiede)" # FIXME
+  exception_from_reuptake: "Ausnahme von Wiederaufnahme" # FIXME
+  map_pcs: "Mapping" # FIXME
+  check_mapping: "Überprüfen" # FIXME
+  select_mapping: "Mappingtabellen auswählen" # FIXME
+  select_mapping_description: "Mappingtabellen im Format CSV. Jede Zeile enthält: 'NEUCODE;ALTCODE'. Wird für einen Katalog kein Mapping ausgewählt, wird ein 1-zu-1 Identitätsmapping erstellt." # FIXME
+  check_mapping_description: "Überprüfen des Klassifikationssystem mit den bereitgestellten Mappingtabellen. Warnungen werden angezeigt." # FIXME
+  icd_mapping_table: "ICD Mappingtabelle" # FIXME
+  chop_mapping_table: "CHOP Mappingtabelle" # FIXME
+  message: "Nachricht" # FIXME
+  def_mapping: "Definitiv mappen" # FIXME
+  def_mapping_desc: "Mappt das System mit den bereitgestellten Mappingtabellen definitv und speichert die Änderungen. Diese Operation ist nicht rückgängig. Es wird empfohlen vorher eine Sicherheitskopie zu erstellen." # FIXME
+  all_catalogs: "Alle Kataloge" # FIXME
+  full_table: "Vollständige Tabelle" # FIXME
+  paginated_table: "Reduzierte Tabelle" # FIXME
+  relevant_code: "CHOP/ATC-Code"
+  excluded_drgs: "Elenco dei DRG (di base) che escludono il conteggio della remunerazione supplementare"
+  age_higher_than: "L'età del soggetto trattato deve essere superiore al valore indicato, in anni"
+  age_lower_than: "L'età del soggetto trattato deve essere inferiore al valore indicato, in anni"
+  constraint_icds: "Elenco dei codici ICD presupposti (affinché la remunerazione supplementare possa essere conteggiata, il caso deve contenere almeno una diagnosi dellʼelenco)"
+  constraint_chops: "Elenco dei codici CHOP presupposti (affinché la remunerazione supplementare possa essere conteggiata, il caso deve contenere almeno una procedura dellʼelenco)"
+  dose_min: "Limite inferiore dellʼintervallo tra le dosi (incluso)"
+  dose_max: "Limite superiore dellʼintervallo tra le dosi (escluso)"
+  dose_unit: "Unità"
+  amount_chf: "Importo in CHF"
+  show_data_set: "Fälle anzeigen zu diesem Datenset" # FIXME
+  user_roles_description: "<ul><li>api: public API / ID Diacos API</li><li>casematch: Kodierprüfung, Kodiervorschläge</li><li>ccc: CCC API Access</li><li>dynamic_import: Dynamic Import Format aktiviert</li><li>mcl: Medcodelogic aktiviert</li><li>pcs: Patientenklassifikationssystem-Modul aktiviert</li><li>prediction: Prediction-Modul aktiviert</li><li>reporting: Reporting-Tool aktiviert</li><li>multiple-hospitals: Benutzer hat Daten von mehreren Leistungserbringern</li><li>import: Benutzer darf Daten importieren (nur nötig wenn keine Rolle casematch)</li></ul>" # FIXME
+  grouper_hash: "Logik-Hash" # FIXME
+  grouper_hash_description: "Aus allen gruppierungsrelevanten Daten (Logik, Tabellen) wird ein eindeutiger Wert berechnet. Systeme mit gleichem Logik-Hash sind betreffend der Gruppierung identisch." # FIXME
+  num_columns: "Anzahl Spalten" # FIXME
+  gst_NORMAL_GROUP: "Gruppierungsprozess normal abgeschlossen" # FIXME
+  gst_INVALID_OR_EMPTY_PDX: "Ungültige oder leere Hauptdiagnose" # FIXME
+  gst_ICD_NOT_VALID_PDX: "ICD Code nicht zulässig als Hauptdiagnose" # FIXME
+  gst_NO_DRG: "Der Fall entspricht keinem Kriterium für die Zuordnung einer DRG" # FIXME
+  gst_INVALID_AGE: "Ungültiges Alter" # FIXME
+  gst_INVALID_SEX: "Ungültiges Geschlecht" # FIXME
+  gst_INVALID_SEP_OR_ADM: "Ungültiger Aufnahme- oder Entlassmodus" # FIXME
+  gst_INVALID_ADM_WEIGHT: "Ungültiges Aufnahmegewicht" # FIXME
+  gst_INVALID_LOS: "Ungültige Verweildauer" # FIXME
+  phase: "Phase" # FIXME
+  phases: "Phasen" # FIXME
+  tariff: "Tarif" # FIXME
+  extract_dataset_from_node_description: "Erstellen eines neuen Datensets mit allen Fällen des ausgewählten Datensets in diesem Knoten." # FIXME
+  enable_st_reha: "ST Reha Gruppierung" # FIXME
+  enable_st_reha_description: "Fälle mit <span style='text-decoration: underline' title='93.19, 93.36.00, 93.89.09, 93.9A.00, BA.1, BA.2, BA.3, BA.4, BA.5, BA.6, BA.7, BA.8, BA.9'>CHOP-Codes</span> für die Rehabilitation werden mit ST Reha anstatt mit SwissDRG gruppiert." # FIXME
+  DMI: "Day Mix Index" # FIXME
+  duration_stay: "Aufenthaltsdauer in Tagen" # FIXME
+  common_codes: "Häufig verwendete Codes" # FIXME
+  average: "Durchschnitt" # FIXME
+  histogram: "Histogram" # FIXME
+  interactive_chart: "Dynamische Auswertungen" # FIXME
+  bin_size: "Klassengrösse" # FIXME
+  x_axis: "X-Achse" # FIXME
+  y_axis: "Y-Achse" # FIXME
+  aggregator: "Aggregator" # FIXME
+  max: "Max" # FIXME
+  download_csv: "Download als CSV" # FIXME
+  mcl_variable: "Dynamisch per MedcodeLogic" # FIXME
+  scatter_plot: "Scatterplot" # FIXME
+  confirm_delete_unused_tables: "Sollen wirklich alle nicht verwendeten Tabellen gelöscht werden?" # FIXME
+  delete_unused_tables: "Nicht verwendete Tabellen löschen" # FIXME
+  translations_downloads_description: "Download aller Dokumente zur Übersetzung" # FIXME
+  translations_downloads: "Download Dokumente" # FIXME
+  expand_scatterplot: "Scatterplot erstellen" # FIXME
+  minimize: "Box schliessen" # FIXME
+  logic_search: "Logiksuche" # FIXME
+  logic_search_explanation: "Inklusive Suche nach Übereinstimmungen des Suchbegriffs mit Codes in verwendeten Tabellen." # FIXME
+  system_selection: "Systemauswahl" # FIXME
+  single_case_pcs_group: "Einzelfallgruppierung" # FIXME
+  decision_path: "Entscheidungspfad" # FIXME
+  new_patient_case: "Neuer Patientenfall" # FIXME
+  created_patient_case: "Neuer Patientenfall wurde erstellt" # FIXME
+  password_requirements: "muss mindestens einen Kleinbuchstaben, einen Grossbuchstaben und eine Ziffer enthalten" # FIXME
+  data_protection_agree: "Ich habe die Datenschutzvereinbarung gelesen und stimme dieser zu." # FIXME
+  data_protection_contract_description: "Unter folgenden Link finden Sie die Datenschutzvereinbarung, welche für den Upload aller Datensätze Gültigkeit hat:" # FIXME
+  data_protection_contract: "Datenschutzvereinbarung Casematch" # FIXME
+  data_protection_contract_on_import_description: "Die Annahme der Vereinbarung gilt für diese sowie folgende Datenimporte." # FIXME
+  data_protection_contract_on_user_description: "Die Annahme der Vereinbarung kann auch später gemacht werden. Spätestens aber beim Importieren von Daten." # FIXME
+  accept_contract_needed: "Sie müssen die Datenschutzerklärung annehmen, um Daten hochladen zu können." # FIXME
+  warning_password_change_on_api_user: "Dieser Benutzer ist als API-Benutzer für andere Applikationen konfiguriert (ID CCC, ID Diacos, ..). Wenn das Passwort geändert wird, muss dieses anschliessend auch in der jeweiligen Applikation angepasst werden." # FIXME
+  group_result_comparisons: "Gruppierungsresultatsvergleiche" # FIXME
+  group_result_comparison: "Gruppierungsresultatsvergleich" # FIXME
+  new_group_result_comparison: "Neuen Gruppierungsresultatsvergleich erstellen" # FIXME
+  group_result: "Gruppierungsresultat" # FIXME
+  comparison_data: "Vergleichsdaten" # FIXME
+  mean_costs_per_day: "Durchschnittskosten pro Tag" # FIXME
+  sd_mean_costs_per_day: "Standardabweichung Durchschnittskosten pro Tag" # FIXME
+  group_result_comparison_created: "Gruppierungsresultatsvergleich erstellt" # FIXME
+  show_comparison: "Vergleich anzeigen" # FIXME
+  sd_los: "Standardabweichung Verweildauer" # FIXME
+  set_both_group_results: "Für einen Vergleich müssen zwei Gruppierungsresultate gewählt werden." # FIXME
+  same_group_results_error: "Für einen Vergleich müssen unterschiedliche Gruppierungsresultate gewählt werden." # FIXME
+  delete_comparisons_warning: "Alle zugehörigen Vergleiche werden ebenfalls gelöscht." # FIXME
+  pcs_changed: "Das Klassifikationssystem %{pcs_name} wurde seit dem letzten Gruppiervorgang geändert." # FIXME
+  group_result_comparison_status:
+    created: "Vergleich gestartet." # FIXME
+    calculating: "Vergleich wird berechnet..." # FIXME
+    failed: "Vergleich ist fehlerhaft." # FIXME
+    finished: "Vergleich abgeschlossen." # FIXME
+  no_group_result_comparisons: "Keine Gruppierungsresultatsvergleiche vorhanden." # FIXME
+  create_group_results_before_comparison: "Keine Gruppierungsresultate vorhanden, um einen Vergleich zu erstellen." # FIXME
+  no_pcs_available: "Kein Patientenklassifikationssystem vorhanden." # FIXME
+  2fa: "Zwei-Faktor-Authentifizierung" # FIXME
+  2fa_invalid_code: "Ungültiger 2FA Code. Bitte versuchen Sie es erneut." # FIXME
+  2fa_enable: "Zwei-Faktor-Authentifizierung aktivieren" # FIXME
+  2fa_enabled: "Zwei-Faktor-Authentifizierung ist aktiviert." # FIXME
+  2fa_not_enabled: "Zwei-Faktor-Authentifizierung ist nicht aktiviert." # FIXME
+  2fa_already_enabled: "2FA ist bereits aktiviert." # FIXME
+  2fa_successfully_enabled: "Zwei-Faktor-Authentifizierung wurde erfolgreich aktiviert." # FIXME
+  2fa_disable: "Zwei-Faktor-Authentifizierung deaktivieren" # FIXME
+  2fa_disable_error: "Zwei-Faktor-Authentifizierung konnte nicht deaktiviert werden." # FIXME
+  2fa_successfully_disabled: "Zwei-Faktor-Authentifizierung wurde erfolgreich deaktiviert." # FIXME
+  2fa_disable_confirmation: "Möchten Sie die Zwei-Faktor-Authentifizierung wirklich deaktivieren?" # FIXME
+  2fa_code: "2FA Code" # FIXME
+  2fa_scan_qr_code: "QR-Code scannen" # FIXME
+  2fa_scan_qr_code_desc: "Bitte scannen Sie den untenstehenden QR-Code mit einer OTP-kompatiblen App (wie Google Authenticator oder Authy)." # FIXME
+  2fa_scan_qr_code_alternative: "Falls Sie nicht scannen können, geben Sie folgenden Code bitte manuell ein:" # FIXME
+  2fa_confirm_code: "Code bestätigen" # FIXME
+  2fa_confirm_code_desc: "Bitte bestätigen Sie, dass Ihre Authentifizierungs-App funktioniert, indem Sie den generierten Code unten eingeben." # FIXME
+  2fa_submit: "Bestätigen und 2FA aktivieren" # FIXME
+  incorrect_code: "Falscher Code" # FIXME
+  incorrect_password: "Falsches Passwort" # FIXME

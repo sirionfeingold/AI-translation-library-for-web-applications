@@ -1,0 +1,16 @@
+---
+it:
+  permission_different_domain: "Fraktur im rechten grossen Zeh" # FIXME
+  user_sessions:
+    new:
+      usersession:
+        login: "Benutzername" # FIXME
+        password: "Password" #AI-Translation
+  sign_in: "Accedi" #AI-Translation
+  remember_me: "Lungenenzündung" # FIXME
+  email:
+    email_1: "dfsdfa" #AI-Translation
+    email_2:
+      2a: "Kreuzbandriss" # FIXME
+      2b: "testb" #AI-Translation
+  new_password: "Neues Passwort"

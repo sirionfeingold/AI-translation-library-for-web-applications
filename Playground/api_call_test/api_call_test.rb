@@ -26,6 +26,7 @@ module ApiCallTest # Unsure if 'module' is used in the right way/place --> I gue
 
     uri = URI('https://api.openai.com/v1/chat/completions')
     http = Net::HTTP.new(uri.host, uri.port)
+    http.read_timeout = 300 # set timeout at five minutes
     http.use_ssl = true
 
     request = Net::HTTP::Post.new(uri)
@@ -39,7 +40,7 @@ module ApiCallTest # Unsure if 'module' is used in the right way/place --> I gue
         {
           role: 'system',
           content: 'You are a translator. You always answer in JSON with <translation> as the only
-                    category. You will receive input text and output an Italian translation.
+                    category. You will receive input text and output an italian translation.
                     Please use professional medical terms used by doctors.'
         },
         {

@@ -11,7 +11,7 @@ module FixmeFinder
     file = File.readlines(path) # initialize text file.
     translation_tasks = []
     get_fixme_keys(locale, file, translation_tasks) # Ruby can directly access all_fixme_paths; no return value needed
-    translation_tasks # Array to be returned
+    translation_tasks # Array to be returned --> this might need to be a proper object/class
   end
 
 

@@ -3,6 +3,7 @@
 require_relative 'api_call_test'
 require_relative 'fixme_finder'
 require_relative 'translate_locales'
+require_relative 'locale_writer'
 
 desc 'Runs example translation'
 task :test_translate do
@@ -17,5 +18,12 @@ end
 desc 'Translates all values marked with fixme in a given locale'
 task :translate, [:path] do |t, args|
   translation_tasks = FixmeFinder.read_locale(args[:path])
-  TranslateLocales.translate_locales(translation_tasks)
+  translation_tasks = TranslateLocales.translate_locales(translation_tasks)
+  LocaleWriter.write_locales(translation_tasks, args[:path])
+end
+
+desc 'tests writing to yaml'
+task :write do
+  translation_tasks = FixmeFinder.read_locale('locales/it.yml')
+  LocaleWriter.write_locales(translation_tasks, 'locales/it.yml')
 end
