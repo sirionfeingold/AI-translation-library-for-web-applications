@@ -239,7 +239,7 @@
     </td>
     <td>Andri</td>
     <td>1:30 h</td>
-    <td></td>
+    <td>Installation Ruby V3.2.2 fehlgeschlagen <br> stattdessen V3.4.2 installiert</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
