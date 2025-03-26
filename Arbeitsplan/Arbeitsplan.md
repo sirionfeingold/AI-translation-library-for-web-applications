@@ -180,7 +180,7 @@
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
-    <td>Arnoud</td>
+    <td>Arnaud</td>
     <td>3 h</td>
     <td></td>
     <td>26.03.25</td>
