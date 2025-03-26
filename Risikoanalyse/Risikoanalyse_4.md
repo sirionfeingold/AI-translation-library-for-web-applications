@@ -30,13 +30,15 @@ Besonders problematisch ist, dass es kaum möglich ist, die Übersetzungen in de
 ## Code-Basis ##
 
 Ein Risiko besteht zusätzlich darin, dass die Codebasis schwer verständlich bleibt und zukünftige Anpassungen erschwert.
+Die folgenden Aspekte sollen verbessert werden:
+* Klarere Funktionsnamen bzw. Variablennamen
+* If-Bedingungen kompakter gestalten
+* Fehlerhandling für ungültige Eingaben
+* Dokumentation
+
 Da wir bereits mit dem coden angefangen haben bevor wir die Beispielsapplikation von Eonum erhalten haben könnte es sein,
 dass die Migration des Codes von unserem Repository auf das Eonum Repository einige Komplikationen mit sich bringen könnte.
 Einige Anpassungen sind sicher nötig, es wäre aber möglich, dass dies viel Arbeit beanspruchen wird.
 * Eintrittswahrscheinlichkeit: gering
 * Gewichtung: mittel
-* Gegenmassnahmen: Mit der Migration des Codes sollte in den nächsten Tagen (allerspätestens Samstag 29.03.) begonnen werden, sodass bei Problemen ein Zeitpuffer vor dem Ende der zweiten Iteration vorhanden ist. Detaillierte Dokumentation der bisherigen Implementierungen sowie gezielte
-  Code-Verbesserungen zur Erhöhung der Lesbarkeit und Wartbarkeit  
-
-
-
+* Gegenmassnahmen: Mit der Migration des Codes sollte in den nächsten Tagen (allerspätestens Samstag 29.03.) begonnen werden, sodass bei Problemen ein Zeitpuffer vor dem Ende der zweiten Iteration vorhanden ist.
