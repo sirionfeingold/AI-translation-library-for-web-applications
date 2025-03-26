@@ -189,14 +189,6 @@
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
-    <td>Benjamin</td>
-    <td>3 h</td>
-    <td></td>
-    <td>26.03.25 done</td>
-  </tr>
-
-<td><b>Setup </b> <br>Beispielapplikation Eonum <br>
-    </td>
     <td>Sirion</td>
     <td>3 h</td>
     <td></td>
@@ -251,9 +243,16 @@
     <td>Installation Ruby V3.2.2 fehlgeschlagen <br> stattdessen V3.4.2 installiert</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
+  
+<td><b>Setup </b> <br>Beispielapplikation Eonum <br>
+    </td>
+    <td>Benjamin</td>
+    <td>4,5 h</td>
+    <td>Rails muss via WSL installiert werden, hat sehr viel Zeit gebraucht</td>
+    <td>done</td>
+  </tr>
 
-<tr>
-    <td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
+<tr><td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
     </td>
     <td>Sirion</td>
     <td>0:30 h</td>
