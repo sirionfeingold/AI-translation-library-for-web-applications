@@ -12,6 +12,9 @@ Noch nicht begonnen wurde mit dem Erstellen des Ruby-Gems.
 
 Noch nicht begonnen wurde mit den optionalen Zielen für die zweite Iteration.
 
+Die Datei api_call_test.rb wurde so angepasst, dass sie nun mithilfe der ruby-openai-Bibliothek Anfragen 
+an Azure OpenAI sendet, anstatt direkte HTTP-Requests zu verwenden. 
+
 In Bezug auf die fristgerechte Implementierung der Stories der zweiten Iteration ist die Situation noch nicht kritisch,  
 eine Steigerung des Entwicklungstempos ist jedoch notwendig.
 
