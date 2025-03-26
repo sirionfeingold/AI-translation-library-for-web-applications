@@ -191,7 +191,7 @@
     <td>Benjamin</td>
     <td>3 h</td>
     <td></td>
-    <td>26.03.25</td>
+    <td>26.03.25 done</td>
   </tr>
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
