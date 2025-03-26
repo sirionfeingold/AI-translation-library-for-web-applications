@@ -170,13 +170,14 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
-<td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
+<td><b>Migrate </b> <br>Clean up the PSE_AI-translation repo <br> Remove old bits of Sirions prototype and store them somewhere else (some of it might get used later on)
     </td>
     <td>?</td>
     <td></td>
     <td></td>
-    <td>29.03.25</td>
+    <td>30.03.25</td>
   </tr>
+
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
@@ -225,6 +226,14 @@
     <td>0:30 h</td>
     <td></td>
     <td>?</td>
+  </tr>
+
+<td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
+    </td>
+    <td>Andri</td>
+    <td>0:40 h</td>
+    <td>Created new task to clean up the folder; there is still some prototyping stuff in there</td>
+    <td style="background-color: #b9f2ae; color: black">Done<br>29.03.25</td>
   </tr>
 
 <td><b>Refactor </b> <br>Arbeitsplan <br>
