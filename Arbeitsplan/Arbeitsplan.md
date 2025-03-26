@@ -53,7 +53,7 @@
     </td>
     <td>Sirion</td>
     <td></td>
-    <td>Longer Prompts seem to be more problematic. Additional changes to the prompt might be necessary later.</td>
+    <td></td>
     <td>28.03.25 (?)</td>
   </tr>
 
@@ -63,7 +63,7 @@
     </td>
     <td>Andri</td>
     <td>0:30 h</td>
-    <td></td>
+    <td>Longer Prompts seem to be more problematic. Additional changes to the prompt might be necessary later.</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
