@@ -37,7 +37,6 @@
     -As the default yaml parser in ruby can not read or write comments, it can not be used to create the output locale files.
     The default yaml parser is currently used in fixme_finder.rb to identify yaml keys. <br>
     --> It might be easier to not use the keys at all and identify the values by their line index <br>
-    --> pls comment whether you decided to refactor or not
     </td>
     <td>Ilyas</td>
     <td></td>
@@ -209,7 +208,7 @@
     <td>Ilyas</td>
     <td>1:30 h</td>
     <td></td>
-    <td>?</td>
+    <td>Done</td>
   </tr>
 
   <td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
@@ -217,7 +216,7 @@
     <td>Ilyas</td>
     <td>0:30 h</td>
     <td></td>
-    <td>?</td>
+    <td>Done</td>
   </tr>
 
 <td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
