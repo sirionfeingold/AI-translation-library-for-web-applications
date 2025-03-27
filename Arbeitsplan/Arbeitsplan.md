@@ -12,15 +12,7 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
-<tr>
-    <td><b>Gem </b><br>
-    Create a ruby gem capturing the current state of the project that can be tested on the example-application
-    </td>
-    <td>Andri, ?</td>
-    <td></td>
-    <td></td>
-    <td>28.03.25 (?)</td>
-  </tr>
+
 
 <tr>
     <td><b>Test </b> <br> <i>locale_writer.rb</i><br>
@@ -54,6 +46,16 @@
     <td></td>
     <td></td>
     <td>28.03.25 (?)</td>
+  </tr>
+
+<tr>
+    <td><b>Gem </b><br>
+    Create a ruby gem capturing the current state of the project that can be tested on the example-application
+    </td>
+    <td>Ilyas, Andri</td>
+    <td>4:00 h</td>
+    <td>In eonum beispielapplikation auf branch gem_test implementiert. Siehe readme für setup</td>
+    <td style="background-color: #b9f2ae; color: black">28.03.25 (?)</td>
   </tr>
 
 <tr>
@@ -248,7 +250,7 @@
     <td>Benjamin</td>
     <td>4,5 h</td>
     <td>Rails muss via WSL installiert werden, hat sehr viel Zeit gebraucht</td>
-    <td>done</td>
+    <td style="background-color: #b9f2ae; color: black">done</td>
   </tr>
 
 <tr><td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
