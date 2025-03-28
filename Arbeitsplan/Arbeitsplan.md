@@ -12,7 +12,24 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
+<tr>
+    <td><b>Auto-Translation for user inputs </b> 
+    Start implementing automated translation of model texts by users    </td>
+    <td>Sirion, ?</td>
+    <td></td>
+    <td></td>
+    <td>03.04.25 (?)</td>
+  </tr>
 
+<tr>
+    <td><b>Gem </b><br>
+    Create a ruby gem capturing the current state of the project that can be tested on the example-application
+    </td>
+    <td>Andri, ?</td>
+    <td></td>
+    <td></td>
+    <td>28.03.25 (?)</td>
+  </tr>
 
 <tr>
     <td><b>Test </b> <br> <i>locale_writer.rb</i><br>
@@ -29,6 +46,7 @@
     -As the default yaml parser in ruby can not read or write comments, it can not be used to create the output locale files.
     The default yaml parser is currently used in fixme_finder.rb to identify yaml keys. <br>
     --> It might be easier to not use the keys at all and identify the values by their line index <br>
+    --> pls comment whether you decided to refactor or not
     </td>
     <td>Ilyas</td>
     <td></td>
@@ -45,17 +63,7 @@
     <td>Sirion</td>
     <td></td>
     <td></td>
-    <td>28.03.25 (?)</td>
-  </tr>
-
-<tr>
-    <td><b>Gem </b><br>
-    Create a ruby gem capturing the current state of the project that can be tested on the example-application
-    </td>
-    <td>Ilyas, Andri</td>
-    <td>4:00 h</td>
-    <td>In eonum beispielapplikation auf branch gem_test implementiert. Siehe readme für setup</td>
-    <td style="background-color: #b9f2ae; color: black">28.03.25 (?)</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
@@ -171,18 +179,25 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
-<td><b>Migrate </b> <br>Clean up the PSE_AI-translation repo <br> Remove old bits of Sirions prototype and store them somewhere else (some of it might get used later on)
+<td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
     </td>
     <td>?</td>
     <td></td>
     <td></td>
-    <td>30.03.25</td>
+    <td>29.03.25</td>
   </tr>
-
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Arnaud</td>
+    <td>3 h</td>
+    <td></td>
+    <td>26.03.25</td>
+  </tr>
+
+<td><b>Setup </b> <br>Beispielapplikation Eonum <br>
+    </td>
+    <td>Benjamin</td>
     <td>3 h</td>
     <td></td>
     <td>26.03.25</td>
@@ -210,7 +225,7 @@
     <td>Ilyas</td>
     <td>1:30 h</td>
     <td></td>
-    <td>Done</td>
+    <td>?</td>
   </tr>
 
   <td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
@@ -218,15 +233,7 @@
     <td>Ilyas</td>
     <td>0:30 h</td>
     <td></td>
-    <td>Done</td>
-  </tr>
-
-<td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
-    </td>
-    <td>Andri</td>
-    <td>0:40 h</td>
-    <td>Created new task to clean up the folder; there is still some prototyping stuff in there</td>
-    <td style="background-color: #b9f2ae; color: black">Done<br>29.03.25</td>
+    <td>?</td>
   </tr>
 
 <td><b>Refactor </b> <br>Arbeitsplan <br>
@@ -244,16 +251,9 @@
     <td>Installation Ruby V3.2.2 fehlgeschlagen <br> stattdessen V3.4.2 installiert</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
-  
-<td><b>Setup </b> <br>Beispielapplikation Eonum <br>
-    </td>
-    <td>Benjamin</td>
-    <td>4,5 h</td>
-    <td>Rails muss via WSL installiert werden, hat sehr viel Zeit gebraucht</td>
-    <td style="background-color: #b9f2ae; color: black">done</td>
-  </tr>
 
-<tr><td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
+<tr>
+    <td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
     </td>
     <td>Sirion</td>
     <td>0:30 h</td>
