@@ -40,6 +40,14 @@
     <td></td>
     <td>28.03.25 (?)</td>
   </tr>
+ <tr>
+    <td><b>Implement </b> <br> <i>language detection, feedback after task finished</i><br>
+    </td>
+    <td>Ilyas</td>
+    <td>2.30 h</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
 
 <tr>
     <td><b>Evaluate / optional Refactor </b> <br> <i>fixme_finder.rb</i> and <i>locale_writer.rb</i><br>
