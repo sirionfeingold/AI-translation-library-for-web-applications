@@ -21,15 +21,6 @@
     <td>03.04.25 (?)</td>
   </tr>
 
-<tr>
-    <td><b>Gem </b><br>
-    Create a ruby gem capturing the current state of the project that can be tested on the example-application
-    </td>
-    <td>Andri, ?</td>
-    <td></td>
-    <td></td>
-    <td>28.03.25 (?)</td>
-  </tr>
 
 <tr>
     <td><b>Test </b> <br> <i>locale_writer.rb</i><br>
@@ -39,14 +30,6 @@
     <td></td>
     <td></td>
     <td>28.03.25 (?)</td>
-  </tr>
- <tr>
-    <td><b>Implement </b> <br> <i>language detection, feedback after task finished</i><br>
-    </td>
-    <td>Ilyas</td>
-    <td>2.30 h</td>
-    <td></td>
-    <td>Done</td>
   </tr>
 
 <tr>
@@ -60,6 +43,26 @@
     <td></td>
     <td></td>
     <td>28.03.25 (?)</td>
+  </tr>
+
+ <tr>
+    <td><b>Implement </b> <br> <i>language detection, feedback after task finished</i><br>
+    </td>
+    <td>Ilyas</td>
+    <td>2.30 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+
+<tr>
+    <td><b>Gem </b><br>
+    Create a ruby gem capturing the current state of the project that can be tested on the example-application
+    </td>
+    <td>Andri, Ilyas</td>
+    <td>4:00 h</td>
+    <td> In eonum beispielapplikation auf branch gem_test implementiert. Siehe readme für setup </td>
+    <td style="background-color: #b9f2ae; color: black"> Done 28.03.25</td>
   </tr>
 
 <tr>
@@ -187,13 +190,7 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
-<td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
-    </td>
-    <td>?</td>
-    <td></td>
-    <td></td>
-    <td>29.03.25</td>
-  </tr>
+
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
@@ -206,9 +203,9 @@
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Benjamin</td>
-    <td>3 h</td>
-    <td></td>
-    <td>26.03.25</td>
+    <td>4:30 h</td>
+    <td>Rails muss via WSL installiert werden, hat sehr viel Zeit gebraucht</td>
+    <td style="background-color: #b9f2ae; color: black">Done 26.03.25</td>
   </tr>
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
@@ -242,6 +239,14 @@
     <td>0:30 h</td>
     <td></td>
     <td>?</td>
+  </tr>
+
+<td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
+    </td>
+    <td>Andri</td>
+    <td></td>
+    <td>Created new task to clean up the folder; there is still some prototyping stuff in there</td>
+    <td style="background-color: #b9f2ae; color: black">Done 29.03.25</td>
   </tr>
 
 <td><b>Refactor </b> <br>Arbeitsplan <br>
