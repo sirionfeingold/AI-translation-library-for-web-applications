@@ -239,7 +239,7 @@
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Benjamin</td>
-    <td>4:30 h</td>
+    <td>4,5 h</td>
     <td>Rails muss via WSL installiert werden, hat sehr viel Zeit gebraucht</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
@@ -380,56 +380,102 @@
 
 </table>
 
----
-Kontakt Eonum
----
+## Kontakt mit Eonum
+<table>
 
-### Termin Planning Game 3 [X]
-### *Bis am 28.03.25*
-* Benjamin [X]
-* *Termin am 03.04.25 um 14h45*
-* *Geschätzter Zeitaufwand: 30 min*
----
+  <tr>
+    <th style="background-color: #b1e0f0; color: black">Task</th>
+    <th style="background-color: #b1e0f0; color: black">Responsible</th>
+    <th style="background-color: #b1e0f0; color: black">Time Spent</th>
+    <th style="background-color: #b1e0f0; color: black">Comment</th>
+    <th style="background-color: #b1e0f0; color: black">State</th>
+  </tr>
 
-### Termin Planning Game 2 [x]
-### *Bis 12.03*
-* Benjamin [x]     
-* *Termin am 13.03.25 um 14h45*
-* *Geschätzter Zeitaufwand: 30 min*
----
+<td><b>Termin </b> <br>Planning Game 4 <br> </td>
+    <td>Benjamin</td>
+    <td>30 min</td>
+    <td></td>
+    <td>Bis am 25.04.25</td>
+  </tr>
 
----
+<td><b>Termin </b> <br>Planning Game 3 <br> </td>
+    <td>Benjamin</td>
+    <td>30 min</td>
+    <td>Termin am 03.04.25 um 14h45</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<td><b>Termin </b> <br>Planning Game 2 <br> </td>
+    <td>Benjamin</td>
+    <td>30 min</td>
+    <td>Termin am 13.03.25 um 14h45</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<td><b>Termin </b> <br>Planning Game 1 <br> </td>
+    <td>Benjamin</td>
+    <td>30 min</td>
+    <td>Termin am 27.02.25 um 14h45</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+</table>
+
 ## Presentations
+<table>
 
-### Requirements [X]
-### *Bis 05.03.25*
-* Arnaud [X]
-* *Geschätzter Zeitaufwand: 6h*
---- 
-### Iteration 1 Analyse Präsentation [X]
-### *Bis 12.03.25*
-* Benjamin [X]
-* *Geschätzter Zeitaufwand: 6h*
---- 
-### Demo 1 [ ]
-### *Bis am 02.04.25*
-* Ilyas [ ]
-* *Geschätzte Zeitaufwand: 12h*
----
-### Technologie und Architektur [ ]
-### *Bis am 30.04.25*
-* Sirion [ ]
-* *Geschätzte Zeitaufwand:*
----
-### Qualitätsicherung, Testing [ ]
-### *Bis am 07.05.25*
-* Arnaud [ ]
-* *Geschätzte Zeitaufwand:*
----
-### Schlussdemo [ ]
-### *Bis am 21.05.25*
-*
-*
-* *Geschätzte Zeitaufwand:*
----
+  <tr>
+    <th style="background-color: #b1e0f0; color: black">Thema</th>
+    <th style="background-color: #b1e0f0; color: black">Responsible</th>
+    <th style="background-color: #b1e0f0; color: black">Time Spent</th>
+    <th style="background-color: #b1e0f0; color: black">Comment</th>
+    <th style="background-color: #b1e0f0; color: black">State</th>
+  </tr>
+
+<td>Schlussdemo</td>
+    <td>Andri</td>
+    <td></td>
+    <td></td>
+    <td>Bis am 21.05.25</td></td>  
+<tr>
+<td>Qualitätsicherung, Testing</td>
+    <td>Arnaud</td>
+    <td></td>
+    <td>Einschätzung:6 h</td>
+    <td>Bis am 07.05.25</td></td>  
+<tr> 
+
+<td>Technologie und Architektur</td>
+    <td>Syrion</td>
+    <td></td>
+    <td></td>
+    <td>Bis am 30.04.25</td></td>  
+</tr>
+  </tr>
+<td>Demo 1 </td>
+    <td>Ilyas</td>
+    <td>12 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<td>Analyse Iteration 1</td>
+    <td>Benjamin</td>
+    <td>6 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<td>Requirements </td>
+    <td>Arnaud</td>
+    <td>6 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+</table>
+
+
+
+
 
