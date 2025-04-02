@@ -169,7 +169,7 @@
     *Auch in Bezug auf Preisgestaltung*
     </td>
     <td>Sirion, Benjamin, Arnaud</td>
-    <td>?</td>
+    <td>Je ca 3 h</td>
     <td></td>
 <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 
@@ -246,6 +246,14 @@
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
+    <td>Andri</td>
+    <td>1:30 h</td>
+    <td>Installation Ruby V3.2.2 fehlgeschlagen <br> stattdessen V3.4.2 installiert</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+<td><b>Setup </b> <br>Beispielapplikation Eonum <br>
+    </td>
     <td>Sirion</td>
     <td>3 h</td>
     <td></td>
@@ -269,14 +277,6 @@
     <td>?</td>
   </tr>
 
-  <td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
-    </td>
-    <td>Ilyas</td>
-    <td>0:30 h</td>
-    <td></td>
-    <td>?</td>
-  </tr>
-
 <td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
     </td>
     <td>Andri</td>
@@ -287,17 +287,25 @@
 
 <td><b>Refactor </b> <br>Arbeitsplan <br>
     </td>
+    <td>Benjamin</td>
+    <td> 45 min</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+<td><b>Refactor </b> <br>Arbeitsplan <br>
+    </td>
     <td>Andri</td>
     <td>1:00 h</td>
     <td>Couldn't get Colors to work on GitHub</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
-<td><b>Setup </b> <br>Beispielapplikation Eonum <br>
+<td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
     </td>
-    <td>Andri</td>
-    <td>1:30 h</td>
-    <td>Installation Ruby V3.2.2 fehlgeschlagen <br> stattdessen V3.4.2 installiert</td>
+    <td>Ilyas</td>
+    <td>0:30 h</td>
+    <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
