@@ -195,9 +195,9 @@
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Arnaud</td>
-    <td>3 h</td>
-    <td></td>
-    <td>26.03.25</td>
+    <td>7,5 h</td>
+    <td>Sehr viel Probleme mit Windows/WSL rails installation, Datenbank Störungen</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
@@ -205,7 +205,7 @@
     <td>Benjamin</td>
     <td>4:30 h</td>
     <td>Rails muss via WSL installiert werden, hat sehr viel Zeit gebraucht</td>
-    <td style="background-color: #b9f2ae; color: black">Done 26.03.25</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
@@ -213,7 +213,7 @@
     <td>Sirion</td>
     <td>3 h</td>
     <td></td>
-    <td>26.03.25</td>
+  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
@@ -221,7 +221,7 @@
     <td>Ilyas</td>
     <td>3 h</td>
     <td></td>
-    <td>26.03.25</td>
+   <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Setup </b> <br>Instruktionsvideo Building Systems with the ChatGPT API <br>
@@ -348,9 +348,10 @@
 Kontakt Eonum
 ---
 
-### Termin Planning Game 3 [ ]
+### Termin Planning Game 3 [X]
 ### *Bis am 28.03.25*
-* Benjamin []
+* Benjamin [X]
+* *Termin am 03.04.25 um 14h45*
 * *Geschätzter Zeitaufwand: 30 min*
 ---
 
