@@ -13,9 +13,8 @@
   </tr>
 
 <tr>
-    <td><b>Auto-Translation for user inputs </b> 
-    Start implementing automated translation of model texts by users    </td>
-    <td>Sirion, ?</td>
+    <td><b>Implement </b> <br> Translation button adapts to the website language <br></td>
+    <td>Sirion</td>
     <td></td>
     <td></td>
     <td>03.04.25 (?)</td>
@@ -61,7 +60,7 @@
     <td><b>Implement </b> <br> Translation-Button<br>
     </td>
     <td>Sirion</td>
-    <td>2:00 h</td>
+    <td>3:00 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
@@ -454,7 +453,7 @@
 <tr> 
 
 <td>Technologie und Architektur</td>
-    <td>Syrion</td>
+    <td>Sirion</td>
     <td></td>
     <td></td>
     <td>Bis am 30.04.25</td></td>  
