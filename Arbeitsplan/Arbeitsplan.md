@@ -46,6 +46,36 @@
   </tr>
 
  <tr>
+    <td><b>Merge </b> <br> <i>PSE_AI_translation repo</i><br>
+    Development occurred on several branches that need to be merged.
+    </td>
+    <td>Andri</td>
+    <td>1:30 h</td>
+    <td>Da Teils in verschiedenen Ordnern gearbeitet wurde, existierten diesselben Dokumente auch nach dem Merge
+    noch in verschiedenen Versionen. Diese wurden nun auf dem Main-branch im translation_gem_e Ordner zusammengefasst
+    und bilden den aktuellen Projektstand ab.</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+ <tr>
+    <td><b>Implement </b> <br> Translation-Button<br>
+    </td>
+    <td>Sirion</td>
+    <td>2:00 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+ <tr>
+    <td><b>Implement </b> <br> Translation of active Records Variables<br>
+    </td>
+    <td>Andri</td>
+    <td>3:00 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+ <tr>
     <td><b>Implement </b> <br> <i>language detection, feedback after task finished</i><br>
     </td>
     <td>Ilyas</td>
@@ -53,7 +83,6 @@
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
-
 
 <tr>
     <td><b>Gem </b><br>
@@ -72,7 +101,7 @@
     -Right now, requests take up to 2min to complete. Timeout is set at 5min. Is this a problem that needs to be? (e.g. asynchronous requests that each contain only a part of the translation)
     </td>
     <td>Sirion</td>
-    <td></td>
+    <td>2:30 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
@@ -140,7 +169,7 @@
     *Auch in Bezug auf Preisgestaltung*
     </td>
     <td>Sirion, Benjamin, Arnaud</td>
-    <td>?</td>
+    <td>Je ca 3 h</td>
     <td></td>
 <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 
@@ -157,12 +186,19 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
+ <td><b>Testkonzept V2 </b><br>
+    *Auch in Bezug auf Preisgestaltung*
+    </td>
+    <td>Arnaud, Benjamin</td>
+    <td>2:30 h</td>
+    <td></td>
+<td >02.04.25</td>  </tr> </tr>
 <tr>
     <td><b>Testkonzept V1 </b><br>
     *Auch in Bezug auf Preisgestaltung*
     </td>
-    <td>Alle</td>
-    <td>1:00 h</td>
+    <td>Arnaud</td>
+    <td>2:30 h</td>
     <td></td>
 <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 
@@ -171,8 +207,8 @@
     <td><b>Analyse der ersten Iteration </b><br>
     *Auch in Bezug auf Preisgestaltung*
     </td>
-    <td>Alle</td>
-    <td>1:00 h</td>
+    <td>Benjamin</td>
+    <td>2:30 h</td>
     <td></td>
 <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 
@@ -195,17 +231,25 @@
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Arnaud</td>
-    <td>3 h</td>
-    <td></td>
-    <td>26.03.25</td>
+    <td>7,5 h</td>
+    <td>Sehr viel Probleme mit Windows/WSL rails installation, Datenbank Störungen</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Benjamin</td>
-    <td>4:30 h</td>
+    <td>4,5 h</td>
     <td>Rails muss via WSL installiert werden, hat sehr viel Zeit gebraucht</td>
-    <td style="background-color: #b9f2ae; color: black">Done 26.03.25</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<td><b>Setup </b> <br>Beispielapplikation Eonum <br>
+    </td>
+    <td>Andri</td>
+    <td>1:30 h</td>
+    <td>Installation Ruby V3.2.2 fehlgeschlagen <br> stattdessen V3.4.2 installiert</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
@@ -213,7 +257,7 @@
     <td>Sirion</td>
     <td>3 h</td>
     <td></td>
-    <td>26.03.25</td>
+  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
@@ -221,7 +265,7 @@
     <td>Ilyas</td>
     <td>3 h</td>
     <td></td>
-    <td>26.03.25</td>
+   <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Setup </b> <br>Instruktionsvideo Building Systems with the ChatGPT API <br>
@@ -229,14 +273,6 @@
     </td>
     <td>Ilyas</td>
     <td>1:30 h</td>
-    <td></td>
-    <td>?</td>
-  </tr>
-
-  <td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
-    </td>
-    <td>Ilyas</td>
-    <td>0:30 h</td>
     <td></td>
     <td>?</td>
   </tr>
@@ -251,17 +287,25 @@
 
 <td><b>Refactor </b> <br>Arbeitsplan <br>
     </td>
+    <td>Benjamin</td>
+    <td> 45 min</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+<td><b>Refactor </b> <br>Arbeitsplan <br>
+    </td>
     <td>Andri</td>
     <td>1:00 h</td>
     <td>Couldn't get Colors to work on GitHub</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
-<td><b>Setup </b> <br>Beispielapplikation Eonum <br>
+<td><b>Setup </b> <br>IDE Einrichten (RubyMine / VSCode)
     </td>
-    <td>Andri</td>
-    <td>1:30 h</td>
-    <td>Installation Ruby V3.2.2 fehlgeschlagen <br> stattdessen V3.4.2 installiert</td>
+    <td>Ilyas</td>
+    <td>0:30 h</td>
+    <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
@@ -344,57 +388,102 @@
 
 </table>
 
----
-Kontakt Eonum
----
+## Kontakt mit Eonum
+<table>
 
-### Termin Planning Game 3 [ ]
-### *Bis am 28.03.25*
-* Benjamin []
-* *Geschätzter Zeitaufwand: 30 min*
----
+  <tr>
+    <th style="background-color: #b1e0f0; color: black">Task</th>
+    <th style="background-color: #b1e0f0; color: black">Responsible</th>
+    <th style="background-color: #b1e0f0; color: black">Time Spent</th>
+    <th style="background-color: #b1e0f0; color: black">Comment</th>
+    <th style="background-color: #b1e0f0; color: black">State</th>
+  </tr>
 
-### Termin Planning Game 2 [x]
-### *Bis 12.03*
-* Benjamin [x]     
-* *Termin am 13.03.25 um 14h45*
-* *Geschätzter Zeitaufwand: 30 min*
----
+<td><b>Termin </b> <br>Planning Game 4 <br> </td>
+    <td>Benjamin</td>
+    <td>30 min</td>
+    <td></td>
+    <td>Bis am 25.04.25</td>
+  </tr>
 
----
-Presentations
----
-### Iteration 1 Analyse Präsentation [X]
-### *Bis 12.03.25*
-* Benjamin [X]
-* *Geschätzter Zeitaufwand: 6h*
---- 
-### Demo 1 [ ]
-### *Bis am 02.04.25*
-* Andri [ ]
-* Ilyas [ ]
-* *Geschätzte Zeitaufwand: 12h*
----
-### Testkonzept V2 [ ]
-### *Bis am 02.04.25*
-* Arnaud [ ]
-* Benjamin [ ]
-* *Zeitaufwand: 1h30*
----
-### Technologie und Architektur [ ]
-### *Bis am 30.04.25*
-* Sirion [ ]
-* *Geschätzte Zeitaufwand:*
----
-### Qualitätsicherung, Testing [ ]
-### *Bis am 07.05.25*
-* Arnaud [ ]
-* *Geschätzte Zeitaufwand:*
----
-### Schlussdemo [ ]
-### *Bis am 21.05.25*
-*
-*
-* *Geschätzte Zeitaufwand:*
----
+<td><b>Termin </b> <br>Planning Game 3 <br> </td>
+    <td>Benjamin</td>
+    <td>30 min</td>
+    <td>Termin am 03.04.25 um 14h45</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<td><b>Termin </b> <br>Planning Game 2 <br> </td>
+    <td>Benjamin</td>
+    <td>30 min</td>
+    <td>Termin am 13.03.25 um 14h45</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<td><b>Termin </b> <br>Planning Game 1 <br> </td>
+    <td>Benjamin</td>
+    <td>30 min</td>
+    <td>Termin am 27.02.25 um 14h45</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+</table>
+
+## Presentations
+<table>
+
+  <tr>
+    <th style="background-color: #b1e0f0; color: black">Thema</th>
+    <th style="background-color: #b1e0f0; color: black">Responsible</th>
+    <th style="background-color: #b1e0f0; color: black">Time Spent</th>
+    <th style="background-color: #b1e0f0; color: black">Comment</th>
+    <th style="background-color: #b1e0f0; color: black">State</th>
+  </tr>
+
+<td>Schlussdemo</td>
+    <td>Andri</td>
+    <td></td>
+    <td></td>
+    <td>Bis am 21.05.25</td></td>  
+<tr>
+<td>Qualitätsicherung, Testing</td>
+    <td>Arnaud</td>
+    <td></td>
+    <td>Einschätzung:6 h</td>
+    <td>Bis am 07.05.25</td></td>  
+<tr> 
+
+<td>Technologie und Architektur</td>
+    <td>Syrion</td>
+    <td></td>
+    <td></td>
+    <td>Bis am 30.04.25</td></td>  
+</tr>
+  </tr>
+<td>Demo 1 </td>
+    <td>Ilyas</td>
+    <td>12 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<td>Analyse Iteration 1</td>
+    <td>Benjamin</td>
+    <td>6 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<td>Requirements </td>
+    <td>Arnaud</td>
+    <td>6 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+</table>
+
+
+
+
 
