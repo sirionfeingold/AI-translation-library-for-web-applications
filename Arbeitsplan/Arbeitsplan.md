@@ -190,8 +190,8 @@
     <td><b>Testkonzept V1 </b><br>
     *Auch in Bezug auf Preisgestaltung*
     </td>
-    <td>Alle</td>
-    <td>1:00 h</td>
+    <td>Arnaud</td>
+    <td>2:30 h</td>
     <td></td>
 <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 
@@ -200,10 +200,18 @@
     <td><b>Analyse der ersten Iteration </b><br>
     *Auch in Bezug auf Preisgestaltung*
     </td>
-    <td>Alle</td>
-    <td>1:00 h</td>
+    <td>Benjamin</td>
+    <td>2:30 h</td>
     <td></td>
 <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+
+ <td><b>Testkonzept V2 </b><br>
+    *Auch in Bezug auf Preisgestaltung*
+    </td>
+    <td>Arnaud, Benjamin</td>
+    <td>2:30 h</td>
+    <td></td>
+<td >02.04.25</td>  </tr> </tr>
 
 </table>
 
@@ -392,8 +400,13 @@ Kontakt Eonum
 ---
 
 ---
-Presentations
----
+## Presentations
+
+### Requirements [X]
+### *Bis 05.03.25*
+* Arnaud [X]
+* *Geschätzter Zeitaufwand: 6h*
+--- 
 ### Iteration 1 Analyse Präsentation [X]
 ### *Bis 12.03.25*
 * Benjamin [X]
@@ -401,15 +414,8 @@ Presentations
 --- 
 ### Demo 1 [ ]
 ### *Bis am 02.04.25*
-* Andri [ ]
 * Ilyas [ ]
 * *Geschätzte Zeitaufwand: 12h*
----
-### Testkonzept V2 [ ]
-### *Bis am 02.04.25*
-* Arnaud [ ]
-* Benjamin [ ]
-* *Zeitaufwand: 1h30*
 ---
 ### Technologie und Architektur [ ]
 ### *Bis am 30.04.25*
