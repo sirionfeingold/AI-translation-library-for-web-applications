@@ -186,6 +186,13 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
+ <td><b>Testkonzept V2 </b><br>
+    *Auch in Bezug auf Preisgestaltung*
+    </td>
+    <td>Arnaud, Benjamin</td>
+    <td>2:30 h</td>
+    <td></td>
+<td >02.04.25</td>  </tr> </tr>
 <tr>
     <td><b>Testkonzept V1 </b><br>
     *Auch in Bezug auf Preisgestaltung*
@@ -204,14 +211,6 @@
     <td>2:30 h</td>
     <td></td>
 <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
-
- <td><b>Testkonzept V2 </b><br>
-    *Auch in Bezug auf Preisgestaltung*
-    </td>
-    <td>Arnaud, Benjamin</td>
-    <td>2:30 h</td>
-    <td></td>
-<td >02.04.25</td>  </tr> </tr>
 
 </table>
 
