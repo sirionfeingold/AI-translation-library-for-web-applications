@@ -13,13 +13,12 @@
   </tr>
 
 <tr>
-    <td><b>Implement </b> <br> Translation button adapts to the website language <br></td>
+    <td><b>Refactor </b> <br>The translation button translates from all three required languages. <br></td>
     <td>Sirion</td>
     <td></td>
     <td></td>
-    <td>03.04.25 (?)</td>
+    <td>06.04.25 </td>
   </tr>
-
 
 <tr>
     <td><b>Test </b> <br> <i>locale_writer.rb</i><br>
@@ -44,6 +43,14 @@
     <td>28.03.25 (?)</td>
   </tr>
 
+<tr>
+    <td><b>Implement </b> <br> Translation button adapts to the website language <br></td>
+    <td>Sirion</td>
+    <td>0:45 h </td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
  <tr>
     <td><b>Merge </b> <br> <i>PSE_AI_translation repo</i><br>
     Development occurred on several branches that need to be merged.
@@ -61,7 +68,7 @@
     </td>
     <td>Sirion</td>
     <td>3:00 h</td>
-    <td></td>
+    <td>Übersetzung funktioniert momentan nur von Deutsch</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
