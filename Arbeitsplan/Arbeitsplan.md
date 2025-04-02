@@ -46,6 +46,36 @@
   </tr>
 
  <tr>
+    <td><b>Merge </b> <br> <i>PSE_AI_translation repo</i><br>
+    Development occurred on several branches that need to be merged.
+    </td>
+    <td>Andri</td>
+    <td>1:30 h</td>
+    <td>Da Teils in verschiedenen Ordnern gearbeitet wurde, existierten diesselben Dokumente auch nach dem Merge
+    noch in verschiedenen Versionen. Diese wurden nun auf dem Main-branch im translation_gem_e Ordner zusammengefasst
+    und bilden den aktuellen Projektstand ab.</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+ <tr>
+    <td><b>Implement </b> <br> Translation-Button<br>
+    </td>
+    <td>Sirion</td>
+    <td></td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+ <tr>
+    <td><b>Implement </b> <br> Translation of active Records Variables<br>
+    </td>
+    <td>Andri</td>
+    <td>3:00 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+ <tr>
     <td><b>Implement </b> <br> <i>language detection, feedback after task finished</i><br>
     </td>
     <td>Ilyas</td>
@@ -53,7 +83,6 @@
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
-
 
 <tr>
     <td><b>Gem </b><br>
