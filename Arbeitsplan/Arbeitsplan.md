@@ -61,7 +61,7 @@
     <td><b>Implement </b> <br> Translation-Button<br>
     </td>
     <td>Sirion</td>
-    <td></td>
+    <td>2:00 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
@@ -101,7 +101,7 @@
     -Right now, requests take up to 2min to complete. Timeout is set at 5min. Is this a problem that needs to be? (e.g. asynchronous requests that each contain only a part of the translation)
     </td>
     <td>Sirion</td>
-    <td></td>
+    <td>2:30 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
