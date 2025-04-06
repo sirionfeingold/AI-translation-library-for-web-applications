@@ -13,12 +13,13 @@
   </tr>
 
 <tr>
-    <td><b>Refactor </b> <br>The translation button translates from all three required languages. <br></td>
-    <td>Sirion</td>
+    <td><b>Implement </b> <br>Context for rake tasks <br></td>
+    <td>Sirion, ?</td>
     <td></td>
     <td></td>
     <td>06.04.25 </td>
   </tr>
+
 
 <tr>
     <td><b>Test </b> <br> <i>locale_writer.rb</i><br>
@@ -41,6 +42,14 @@
     <td></td>
     <td></td>
     <td>28.03.25 (?)</td>
+  </tr>
+
+<tr>
+    <td><b>Refactor </b> <br>The translation button translates from all three required languages. <br></td>
+    <td>Sirion</td>
+    <td>2:00 h </td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
