@@ -23,12 +23,12 @@
 
 <tr>
     <td><b>Test </b> <br> <i>locale_writer.rb</i><br>
-    Implement a few tests that our future tests can be based on
+    Check of the Quality of the translation german to french
     </td>
     <td>Arnaud, Benjamin</td>
+    <td>3h</td>
     <td></td>
-    <td></td>
-    <td>28.03.25 (?)</td>
+    <td>12.04.25</td>
   </tr>
 
 <tr>
