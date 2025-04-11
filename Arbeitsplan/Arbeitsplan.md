@@ -13,11 +13,21 @@
   </tr>
 
 <tr>
+    <td><b>Implement </b> <br>Use the Sy18nc gem to synchronise the locales before 
+     the translation<br></td>
+    <td>Benjamin</td>
+    <td></td>
+    <td></td>
+    <td>until 16.04.25 </td>
+  </tr>
+
+
+<tr>
     <td><b>Implement </b> <br>Context for rake tasks <br></td>
-    <td>Sirion, ?</td>
+    <td>Sirion</td>
     <td></td>
     <td></td>
-    <td>06.04.25 </td>
+    <td>until 16.04.25 </td>
   </tr>
 
 
@@ -26,9 +36,9 @@
     Check of the Quality of the translation german to french
     </td>
     <td>Arnaud, Benjamin</td>
-    <td>3h</td>
     <td></td>
-    <td>12.04.25</td>
+    <td></td>
+    <td>until 16.04.25</td>
   </tr>
 
 <tr>
@@ -41,7 +51,7 @@
     <td>Ilyas</td>
     <td></td>
     <td></td>
-    <td>28.03.25 (?)</td>
+    <td>until 16.04.25</td>
   </tr>
 
 <tr>
@@ -106,7 +116,7 @@
     <td>Andri, Ilyas</td>
     <td>4:00 h</td>
     <td> In eonum beispielapplikation auf branch gem_test implementiert. Siehe readme für setup </td>
-    <td style="background-color: #b9f2ae; color: black"> Done 28.03.25</td>
+    <td style="background-color: #b9f2ae; color: black"> Done</td>
   </tr>
 
 <tr>
