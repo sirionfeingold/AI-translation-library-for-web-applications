@@ -13,18 +13,17 @@
   </tr>
 
 <tr>
-    <td><b>Implement </b> <br>Use the Sy18nc gem to synchronise the locales before 
-     the translation<br></td>
-    <td>Benjamin</td>
+    <td><b>Implement </b> <br>Text file output of ActiveRecords in the console with ID of variables <br> <br></td>
+    <td>Sirion</td>
     <td></td>
     <td></td>
     <td>until 16.04.25 </td>
   </tr>
 
-
 <tr>
-    <td><b>Implement </b> <br>Context for rake tasks <br></td>
-    <td>Sirion</td>
+    <td><b>Implement </b> <br>Use the Sy18nc gem to synchronise the locales before 
+     the translation<br></td>
+    <td>Benjamin</td>
     <td></td>
     <td></td>
     <td>until 16.04.25 </td>
@@ -52,6 +51,14 @@
     <td></td>
     <td></td>
     <td>until 16.04.25</td>
+  </tr>
+
+<tr>
+    <td><b>Implement </b> <br>Context for rake tasks <br></td>
+    <td>Sirion</td>
+    <td>2:00 h </td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
