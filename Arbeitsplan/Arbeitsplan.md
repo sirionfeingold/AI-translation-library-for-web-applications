@@ -12,12 +12,45 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
+
 <tr>
-    <td><b>Implement </b> <br>Text file output of ActiveRecords in the console with ID of variables <br> <br></td>
-    <td>Sirion</td>
+    <td><b>Refactor </b> <br>Add a Gemfile with all dependencies instead of documenting them in the README <br> <br></td>
+    <td>? </td>
     <td></td>
     <td></td>
-    <td>until 16.04.25 </td>
+    <td>until 23.04.25 </td>
+  </tr>
+
+<tr>
+    <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
+    <td>? </td>
+    <td></td>
+    <td></td>
+    <td>until 23.04.25 </td>
+  </tr>
+
+<tr>
+    <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
+    <td>? </td>
+    <td></td>
+    <td></td>
+    <td>until 23.04.25 </td>
+  </tr>
+
+<tr>
+    <td><b>Implement </b> <br> Automated Test <br> <br></td>
+    <td>? </td>
+    <td></td>
+    <td></td>
+    <td>until 23.04.25 </td>
+  </tr>
+
+<tr>
+    <td><b>Refactor </b> <br>Generic AI model <br> <br></td>
+    <td>Sirion, ? </td>
+    <td></td>
+    <td></td>
+    <td>until 23.04.25 </td>
   </tr>
 
 <tr>
@@ -51,6 +84,14 @@
     <td></td>
     <td></td>
     <td>until 16.04.25</td>
+  </tr>
+
+<tr>
+    <td><b>Implement </b> <br>Text file output of ActiveRecords in the console with ID of variables <br> <br></td>
+    <td>Sirion</td>
+    <td>2:30 h </td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
