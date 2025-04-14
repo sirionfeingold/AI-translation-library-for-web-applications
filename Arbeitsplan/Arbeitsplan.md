@@ -15,7 +15,7 @@
 
 <tr>
     <td><b>Refactor </b> <br>Add a Gemfile with all dependencies instead of documenting them in the README <br> <br></td>
-    <td>? </td>
+    <td>Benjamin</td>
     <td></td>
     <td></td>
     <td>until 23.04.25 </td>
