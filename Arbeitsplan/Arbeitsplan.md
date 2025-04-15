@@ -39,7 +39,7 @@
 
 <tr>
     <td><b>Implement </b> <br> Automated Test <br> <br></td>
-    <td>? </td>
+    <td>Arnaud </td>
     <td></td>
     <td></td>
     <td>until 23.04.25 </td>
@@ -350,7 +350,7 @@
     <td>Ilyas</td>
     <td>1:30 h</td>
     <td></td>
-    <td>?</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
@@ -358,7 +358,7 @@
     <td>Andri</td>
     <td></td>
     <td>Created new task to clean up the folder; there is still some prototyping stuff in there</td>
-    <td style="background-color: #b9f2ae; color: black">Done 29.03.25</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <td><b>Refactor </b> <br>Arbeitsplan <br>
