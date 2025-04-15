@@ -30,9 +30,9 @@
 
 <tr>
     <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
-    <td>? </td>
+    <td>Andri</td>
     <td></td>
-    <td></td>
+    <td>see GitHub issue for detail</td>
     <td>until 23.04.25 </td>
   </tr>
 
