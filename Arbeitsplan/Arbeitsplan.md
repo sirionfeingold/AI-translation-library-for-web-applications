@@ -12,6 +12,13 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
+<tr>
+    <td><b>Refactor </b> <br>Use a YAML parser to read and write yml-files<br>  <br></td>
+    <td>Andri</td>
+    <td></td>
+    <td>manual parsing as implemented atm is buggy</td>
+    <td>until 23.04.25 </td>
+  </tr>
 
 <tr>
     <td><b>Refactor </b> <br>Add a Gemfile with all dependencies instead of documenting them in the README <br> <br></td>
