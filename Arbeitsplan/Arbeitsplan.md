@@ -87,9 +87,9 @@
     --> It might be easier to not use the keys at all and identify the values by their line index <br>
     </td>
     <td>Ilyas</td>
-    <td>Done</td>
+    <td>4h</td>
     <td></td>
-    <td>until 16.04.25</td>
+    <td>Done</td>
   </tr>
 
 <tr>
