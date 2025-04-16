@@ -13,6 +13,13 @@
   </tr>
 
 <tr>
+    <td><b>Implement </b> <br>Ruby Progressbar <br>  <br></td>
+    <td>Sirion </td>
+    <td></td>
+    <td></td>
+    <td>until 23.04.25 </td>
+  </tr>
+<tr>
     <td><b>Refactor </b> <br>Use a YAML parser to read and write yml-files<br>  <br></td>
     <td>Andri</td>
     <td></td>
@@ -54,7 +61,7 @@
 
 <tr>
     <td><b>Refactor </b> <br>Generic AI model <br> <br></td>
-    <td>Sirion, ? </td>
+    <td>Sirion </td>
     <td></td>
     <td></td>
     <td>until 23.04.25 </td>
