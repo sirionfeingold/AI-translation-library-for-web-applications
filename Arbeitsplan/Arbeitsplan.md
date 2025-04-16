@@ -96,7 +96,7 @@
     <td>Ilyas</td>
     <td>4h</td>
     <td></td>
-    <td>Done</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
