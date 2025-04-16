@@ -13,6 +13,13 @@
   </tr>
 
 <tr>
+    <td><b>Implement </b> <br>Ruby Progressbar <br>  <br></td>
+    <td>Sirion </td>
+    <td></td>
+    <td></td>
+    <td>until 23.04.25 </td>
+  </tr>
+<tr>
     <td><b>Refactor </b> <br>Use a YAML parser to read and write yml-files<br>  <br></td>
     <td>Andri</td>
     <td></td>
@@ -38,7 +45,7 @@
 
 <tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
-    <td>? </td>
+    <td>ilyas</td>
     <td></td>
     <td></td>
     <td>until 23.04.25 </td>
@@ -54,7 +61,7 @@
 
 <tr>
     <td><b>Refactor </b> <br>Generic AI model <br> <br></td>
-    <td>Sirion, ? </td>
+    <td>Sirion </td>
     <td></td>
     <td></td>
     <td>until 23.04.25 </td>
@@ -85,12 +92,11 @@
     -As the default yaml parser in ruby can not read or write comments, it can not be used to create the output locale files.
     The default yaml parser is currently used in fixme_finder.rb to identify yaml keys. <br>
     --> It might be easier to not use the keys at all and identify the values by their line index <br>
-    --> pls comment whether you decided to refactor or not
     </td>
     <td>Ilyas</td>
+    <td>4h</td>
     <td></td>
-    <td></td>
-    <td>until 16.04.25</td>
+    <td>Done</td>
   </tr>
 
 <tr>
