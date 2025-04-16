@@ -38,7 +38,7 @@
 
 <tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
-    <td>? </td>
+    <td>ilyas</td>
     <td></td>
     <td></td>
     <td>until 23.04.25 </td>
@@ -85,7 +85,6 @@
     -As the default yaml parser in ruby can not read or write comments, it can not be used to create the output locale files.
     The default yaml parser is currently used in fixme_finder.rb to identify yaml keys. <br>
     --> It might be easier to not use the keys at all and identify the values by their line index <br>
-    --> pls comment whether you decided to refactor or not
     </td>
     <td>Ilyas</td>
     <td></td>
