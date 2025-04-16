@@ -52,14 +52,6 @@
   </tr>
 
 <tr>
-    <td><b>Refactor </b> <br>Generic AI model <br> <br></td>
-    <td>Sirion </td>
-    <td></td>
-    <td></td>
-    <td>until 23.04.25 </td>
-  </tr>
-
-<tr>
     <td><b>Implement </b> <br>Use the Sy18nc gem to synchronise the locales before 
      the translation<br></td>
     <td>Benjamin</td>
@@ -77,6 +69,14 @@
     <td></td>
     <td></td>
     <td>until 17.04.25</td>
+  </tr>
+
+<tr>
+    <td><b>Refactor </b> <br>Generic AI model and clean up repository <br> <br></td>
+    <td>Sirion </td>
+    <td>3:00 h </td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
