@@ -28,14 +28,6 @@
   </tr>
 
 <tr>
-    <td><b>Refactor </b> <br>Add a Gemfile with all dependencies instead of documenting them in the README <br> <br></td>
-    <td>Benjamin</td>
-    <td></td>
-    <td></td>
-    <td>until 23.04.25 </td>
-  </tr>
-
-<tr>
     <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
     <td>Andri</td>
     <td></td>
@@ -85,6 +77,15 @@
     <td></td>
     <td></td>
     <td>until 17.04.25</td>
+  </tr>
+
+<tr>
+    <td><b>Refactor </b> <br>Add a Gemfile with all dependencies instead of documenting them in the README <br> <br></td>
+    <td>Benjamin</td>
+    <td>1h30</td>
+    <td>The gemspec file has been changed to install the dependencies (gems) 
+    automatically with the installation of translation_gem_e</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
@@ -357,15 +358,6 @@
    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
-<td><b>Setup </b> <br>Instruktionsvideo Building Systems with the ChatGPT API <br>
-*https://learn.deeplearning.ai/courses/chatgpt-building-system*
-    </td>
-    <td>Ilyas</td>
-    <td>1:30 h</td>
-    <td></td>
-    <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
-
 <td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
     </td>
     <td>Andri</td>
@@ -470,6 +462,15 @@
 *https://learn.deeplearning.ai/courses/chatgpt-building-system*
     </td>
     <td>Sirion</td>
+    <td>1:30 h</td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+<td><b>Setup </b> <br>Instruktionsvideo Building Systems with the ChatGPT API <br>
+*https://learn.deeplearning.ai/courses/chatgpt-building-system*
+    </td>
+    <td>Ilyas</td>
     <td>1:30 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
