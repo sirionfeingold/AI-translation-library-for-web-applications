@@ -72,7 +72,7 @@
   </tr>
 
 <tr>
-    <td><b>Refactor </b> <br>Generic AI model and clean up repository <br> <br></td>
+    <td><b>Refactor </b> <br>Add generic AI model support and clean up the structure <br> <br></td>
     <td>Sirion </td>
     <td>3:00 h </td>
     <td></td>
