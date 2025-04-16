@@ -66,7 +66,7 @@
     <td>Benjamin</td>
     <td></td>
     <td></td>
-    <td>until 16.04.25 </td>
+    <td>until 23.04.25 </td>
   </tr>
 
 
@@ -77,7 +77,7 @@
     <td>Arnaud, Benjamin</td>
     <td></td>
     <td></td>
-    <td>until 16.04.25</td>
+    <td>until 17.04.25</td>
   </tr>
 
 <tr>
@@ -487,6 +487,14 @@
     <td>30 min</td>
     <td></td>
     <td>Bis am 25.04.25</td>
+  </tr>
+
+
+<td><b>Information </b> <br>Code Review<br> </td>
+    <td>Benjamin</td>
+    <td>20 min</td>
+    <td>Eonum hat bereits einen Code-Review übermittelt</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Termin </b> <br>Planning Game 3 <br> </td>
