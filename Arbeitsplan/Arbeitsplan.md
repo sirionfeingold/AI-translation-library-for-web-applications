@@ -13,13 +13,6 @@
   </tr>
 
 <tr>
-    <td><b>Implement </b> <br>Ruby Progressbar <br>  <br></td>
-    <td>Sirion </td>
-    <td></td>
-    <td></td>
-    <td>until 23.04.25 </td>
-  </tr>
-<tr>
     <td><b>Refactor </b> <br>Use a YAML parser to read and write yml-files<br>  <br></td>
     <td>Andri</td>
     <td></td>
@@ -69,6 +62,14 @@
     <td></td>
     <td></td>
     <td>until 17.04.25</td>
+  </tr>
+
+<tr>
+    <td><b>Implement </b> <br>Add progress bar for ActiveRecord and locale translation using ruby-progressbar <br>  <br></td>
+    <td>Sirion </td>
+    <td>2:00 h </td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
