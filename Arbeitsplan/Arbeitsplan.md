@@ -55,13 +55,13 @@
 
 
 <tr>
-    <td><b>Test </b> <br> <i>locale_writer.rb</i><br>
+    <td><b>Test </b><br>
     Check of the Quality of the translation german to french
     </td>
     <td>Arnaud, Benjamin</td>
-    <td></td>
-    <td></td>
-    <td>until 17.04.25</td>
+    <td>1:00 h</td>
+    <td>Quality of the translation is very good</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
