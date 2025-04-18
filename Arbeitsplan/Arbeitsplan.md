@@ -37,7 +37,7 @@
   </tr>
 
 <tr>
-    <td><b>Implement </b> <br> Automated Test <br> <br></td>
+    <td><b>Implement </b> <br> Tests <br> <br></td>
     <td>Arnaud </td>
     <td>6:00h</td>
     <td>Unit tests written for fixme finder, locale_prompt_builder and locale writer</td>
