@@ -49,7 +49,8 @@
      the translation<br></td>
     <td>Benjamin</td>
     <td></td>
-    <td></td>
+    <td>Problem rn with the sy18nc gem which is 
+    old, initializer doesn't work for the moment.</td>
     <td>until 23.04.25 </td>
   </tr>
 
