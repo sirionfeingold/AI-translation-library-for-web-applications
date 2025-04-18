@@ -48,9 +48,13 @@
     <td><b>Implement </b> <br>Use the Sy18nc gem to synchronise the locales before 
      the translation<br></td>
     <td>Benjamin</td>
-    <td></td>
-    <td>Problem rn with the sy18nc gem which is 
-    old, initializer doesn't work for the moment.</td>
+    <td>already 6:00 h</td>
+    <td>1) Problem right now with the sy18nc gem which is 
+    old, initializer doesn't work for the moment.
+    2) The gem is too old, i am not able to run the rake sync for the 
+    moment.
+    3) seems like the gem isn't completed, a class is missing
+</td>
     <td>until 23.04.25 </td>
   </tr>
 
@@ -61,7 +65,7 @@
     </td>
     <td>Arnaud, Benjamin</td>
     <td>1:00 h</td>
-    <td>Quality of the translation is very good</td>
+    <td>the quality of the translations is very high</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
