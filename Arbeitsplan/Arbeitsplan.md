@@ -15,17 +15,17 @@
 <tr>
     <td><b>Refactor </b> <br>Use a YAML parser to read and write yml-files<br>  <br></td>
     <td>Andri</td>
-    <td></td>
-    <td>manual parsing as implemented atm is buggy</td>
+    <td>4:00 h+</td>
+    <td>Esch überraschend müesam gsii. YAML is not really made to work with comments. Implementation is now based on workarounds inspired by sy18nc gem.</td>
     <td>until 23.04.25 </td>
   </tr>
 
 <tr>
     <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
     <td>Andri</td>
-    <td></td>
-    <td>see GitHub issue for detail</td>
-    <td>until 23.04.25 </td>
+    <td>4:00h</td>
+    <td>Most of the time was spent reworking parts of the api call.</td></td>
+    <td style="background-color: #b9f2ae; color: black">Done<br>until 23.04.25 </td>
   </tr>
 
 <tr>
