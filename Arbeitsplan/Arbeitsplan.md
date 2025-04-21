@@ -35,6 +35,14 @@
     <td></td>
     <td>until 23.04.25 </td>
   </tr>
+ <tr>
+    <td><b>Refactor </b> <br>Fix the issues raised by eonum in the active records<br> <br></td>
+    <td>ilyas</td>
+    <td></td>
+    <td></td>
+    <td>until 27.04.25 </td>
+  </tr>
+
 
 <tr>
     <td><b>Implement </b> <br> Tests <br> <br></td>
