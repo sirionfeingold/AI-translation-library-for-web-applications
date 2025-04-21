@@ -246,6 +246,47 @@
 </table>
 
 
+## Meetings
+<table>
+  <tr>
+    <th style="background-color: #b1e0f0; color: black">Datum</th>
+    <th style="background-color: #b1e0f0; color: black">Presence</th>
+    <th style="background-color: #b1e0f0; color: black">Duration</th>
+    <th style="background-color: #b1e0f0; color: black">Topic</th>
+    <th style="background-color: #b1e0f0; color: black">State</th>
+  </tr>
+<tr>
+    <td>27.02.25 </td>
+    <td>PSE-Team, Florin, Tim</td>
+    <td>1:30 h</td>
+    <td>Planning Game 1</td>
+  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+</tr>
+<tr>
+    <td>05.03.25 </td>
+    <td>PSE-Team, Florin</td>
+    <td>30 min</td>
+    <td>Tasks aufteilung, Feedbacks</td>
+  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
 ## Research-Tasks
 <table>
 
@@ -265,6 +306,7 @@
     <td>je ca. 3:00 h</td>
     <td>Sirion: RubyOnRails mit Button/User Interface<br>Andri: kein RubyOnRails, Nur CLI --> RakeTask</td>
   <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+</tr>
 
 <tr>
     <td><b>LLM </b><br>
@@ -334,6 +376,13 @@
 
 
 
+<td><b>Refactoring </b> <br>Arbeitsplan <br>
+    </td>
+    <td>Benjamin</td>
+    <td> 35 min</td>
+    <td>Added the meeting table</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Arnaud</td>
