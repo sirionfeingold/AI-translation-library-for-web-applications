@@ -60,6 +60,14 @@
   </tr>
 
 <tr>
+    <td><b>Implement </b> <br>Progressbar for translation button (Ruby on Rails sample application) <br>  <br></td>
+    <td>Sirion </td>
+    <td>0:30 h </td>
+    <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+
+<tr>
     <td><b>Refactor </b> <br>Improve Progressbar for Active Records <br>  <br></td>
     <td>Sirion </td>
     <td>2:00 h </td>
