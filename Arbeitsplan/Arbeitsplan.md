@@ -39,8 +39,8 @@
 <tr>
     <td><b>Implement </b> <br> Tests <br> <br></td>
     <td>Arnaud </td>
-    <td>6:00h</td>
-    <td>Unit tests written for fixme finder, locale_prompt_builder and locale writer</td>
+    <td>10:00h</td>
+    <td>All Unit Tests are written, passed and some methods were adjusted. </td>
     <td>until 23.04.25 </td>
   </tr>
 
