@@ -31,7 +31,7 @@
 <tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
     <td>ilyas</td>
-    <td></td>
+    <td>2:00h (bis jetzt)</td>
     <td></td>
     <td>until 27.04.25 </td>
   </tr>
