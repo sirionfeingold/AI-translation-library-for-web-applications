@@ -15,26 +15,27 @@
 <tr>
     <td><b>Refactor </b> <br>Use a YAML parser to read and write yml-files<br>  <br></td>
     <td>Andri</td>
-    <td></td>
-    <td>manual parsing as implemented atm is buggy</td>
+    <td>4:00 h+</td>
+    <td>Esch überraschend müesam gsii. YAML is not really made to work with comments. Implementation is now based on workarounds inspired by sy18nc gem.</td>
     <td>until 23.04.25 </td>
   </tr>
 
 <tr>
     <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
     <td>Andri</td>
-    <td></td>
-    <td>see GitHub issue for detail</td>
-    <td>until 23.04.25 </td>
+    <td>4:00h</td>
+    <td>Most of the time was spent reworking parts of the api call.</td></td>
+    <td style="background-color: #b9f2ae; color: black">Done<br>until 23.04.25 </td>
   </tr>
 
 <tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
     <td>ilyas</td>
+    <td>2:00h (bis jetzt)</td>
     <td></td>
-    <td></td>
-    <td>until 23.04.25 </td>
+    <td>until 27.04.25 </td>
   </tr>
+
 
 <tr>
     <td><b>Implement </b> <br> Tests <br> <br></td>
@@ -48,12 +49,24 @@
     <td><b>Implement </b> <br>Use the Sy18nc gem to synchronise the locales before 
      the translation<br></td>
     <td>Benjamin</td>
-    <td></td>
-    <td>Problem rn with the sy18nc gem which is 
-    old, initializer doesn't work for the moment.</td>
+    <td>already 6:00 h</td>
+    <td>1) Problem right now with the sy18nc gem which is 
+    old, initializer doesn't work for the moment.
+    2) The gem is too old, i am not able to run the rake sync for the 
+    moment.
+    3) seems like the gem isn't completed, a class is missing
+</td>
     <td>until 23.04.25 </td>
   </tr>
 
+<tr>
+    <td><b>Refactor </b> <br>Improve Progressbar for Active Records <br>  <br></td>
+    <td>Sirion </td>
+    <td>2:00 h </td>
+    <td>The progress bar now works better for AR translations and is more stable if the translation is too long. 
+        Also merged generic_ar_translation with main branch </td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
 
 <tr>
     <td><b>Test </b><br>
@@ -61,7 +74,7 @@
     </td>
     <td>Arnaud, Benjamin</td>
     <td>1:00 h</td>
-    <td>Quality of the translation is very good</td>
+    <td>the quality of the translations is very high</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
