@@ -269,6 +269,43 @@
     <td>Tasks aufteilung, Feedbacks</td>
   <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
+<tr>
+    <td>12.03.25 </td>
+    <td>PSE-Team, Florin</td>
+    <td>45 min</td>
+    <td>Feedbacks</td>
+  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+</tr>
+<tr>
+    <td>13.03.25 </td>
+    <td>PSE-Team, Florin, Joel</td>
+    <td>1:00 h</td>
+    <td>Planning Game 2</td>
+  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+</tr>
+<tr>
+    <td>20.03.25 </td>
+    <td>PSE-Team</td>
+    <td>1:30 h</td>
+    <td>Tasks aufteilung, Feedbacks, Pair-Programming</td>
+  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+</tr>
+<tr>
+    <td>24.03.25 </td>
+    <td>Arnaud, Ilyas, Benjamin</td>
+    <td>1:00 h</td>
+    <td>Pair-Programming</td>
+  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+</tr>
+<tr>
+    <td>26.03.25 </td>
+    <td>PSE-Team</td>
+    <td>1:30</td>
+    <td>Tasks aufteilung, Feedbacks, Entwicklung, Installation</td>
+  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+</tr>
+
+
 
 
 
