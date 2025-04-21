@@ -59,6 +59,14 @@
     <td>until 23.04.25 </td>
   </tr>
 
+<tr>
+    <td><b>Refactor </b> <br>Improve Progressbar for Active Records <br>  <br></td>
+    <td>Sirion </td>
+    <td>2:00 h </td>
+    <td>The progress bar now works better for AR translations and is more stable if the translation is too long. 
+        Also merged generic_ar_translation with main branch </td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
 
 <tr>
     <td><b>Test </b><br>
