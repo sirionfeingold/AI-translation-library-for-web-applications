@@ -21,6 +21,14 @@
   </tr>
 
 <tr>
+    <td><b>Refactor</b> <br>Change the translate rake using the sy18nc gem<br></td>
+    <td>Benjamin</td>
+    <td></td>
+    <td></td>
+    <td>until 24.04.25 </td>
+  </tr>
+
+<tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
     <td>ilyas</td>
     <td>2:00h (bis jetzt)</td>
@@ -28,37 +36,36 @@
     <td>until 27.04.25 </td>
   </tr>
 
-
 <tr>
     <td><b>Implement </b> <br> Tests <br> <br></td>
     <td>Arnaud </td>
     <td>10:00h</td>
     <td>All Unit Tests are written, passed and some methods were adjusted. </td>
-    <td>until 23.04.25 </td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
-    <td><b>Implement </b> <br>Use the Sy18nc gem to synchronise the locales before 
-     the translation<br></td>
+    <td><b>Implement</b> <br>Testing the sy18nc gem<br></td>
     <td>Benjamin</td>
-    <td>already 7:00 h</td>
+    <td>7:00 h</td>
     <td>1) Problem right now with the sy18nc gem which is 
     old, initializer doesn't work for the moment.
     2) The gem is too old, i am not able to run the rake sync for the 
     moment.
     3) seems like the gem isn't completed, a class is missing (file.rb)
     4) Joel (Eonum) posted a newer version of the gem: https://github.com/jbessi/sy18nc
-</td>
-    <td>until 23.04.25 </td>
-  </tr>
+    5) The gem is working now. I have to think how to implement the sy18nc gem in the translate rake task
+    </td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>
 
 <tr>
     <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
     <td>Andri</td>
     <td>4:00h</td>
     <td>Most of the time was spent reworking parts of the api call.</td></td>
-    <td style="background-color: #b9f2ae; color: black">Done<br>until 23.04.25 </td>
-  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>
 
 <tr>
     <td><b>Implement </b> <br>Progressbar for translation button (Ruby on Rails sample application) <br>  <br></td>
@@ -66,7 +73,7 @@
     <td>0:30 h </td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Refactor </b> <br>Improve Progressbar for Active Records <br>  <br></td>
@@ -75,7 +82,7 @@
     <td>The progress bar now works better for AR translations and is more stable if the translation is too long. 
         Also merged generic_ar_translation with main branch </td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Test </b><br>
@@ -85,7 +92,7 @@
     <td>1:00 h</td>
     <td>the quality of the translations is very high</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Implement </b> <br>Add progress bar for ActiveRecord and locale translation using ruby-progressbar <br>  <br></td>
@@ -93,7 +100,7 @@
     <td>2:00 h </td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Refactor </b> <br>Add generic AI model support and clean up the structure <br> <br></td>
@@ -101,7 +108,7 @@
     <td>3:00 h </td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Refactor </b> <br>Add a Gemfile with all dependencies instead of documenting them in the README <br> <br></td>
@@ -111,7 +118,7 @@
     automatically with the installation of translation_gem_e.
     Added a gemfile with a reference to the gemspec</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Evaluate / optional Refactor </b> <br> <i>fixme_finder.rb</i> and <i>locale_writer.rb</i><br>
@@ -123,7 +130,7 @@
     <td>4h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Implement </b> <br>Text file output of ActiveRecords in the console with ID of variables <br> <br></td>
@@ -131,7 +138,7 @@
     <td>2:30 h </td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Implement </b> <br>Context for rake tasks <br></td>
@@ -139,7 +146,7 @@
     <td>2:00 h </td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Refactor </b> <br>The translation button translates from all three required languages. <br></td>
@@ -147,7 +154,7 @@
     <td>2:00 h </td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Implement </b> <br> Translation button adapts to the website language <br></td>
@@ -155,7 +162,7 @@
     <td>0:45 h </td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
  <tr>
     <td><b>Merge </b> <br> <i>PSE_AI_translation repo</i><br>
@@ -167,7 +174,7 @@
     noch in verschiedenen Versionen. Diese wurden nun auf dem Main-branch im translation_gem_e Ordner zusammengefasst
     und bilden den aktuellen Projektstand ab.</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
  <tr>
     <td><b>Implement </b> <br> Translation-Button<br>
