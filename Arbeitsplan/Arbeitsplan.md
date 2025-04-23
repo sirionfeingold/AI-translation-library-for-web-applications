@@ -21,14 +21,6 @@
   </tr>
 
 <tr>
-    <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
-    <td>Andri</td>
-    <td>4:00h</td>
-    <td>Most of the time was spent reworking parts of the api call.</td></td>
-    <td style="background-color: #b9f2ae; color: black">Done<br>until 23.04.25 </td>
-  </tr>
-
-<tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
     <td>ilyas</td>
     <td>2:00h (bis jetzt)</td>
@@ -49,14 +41,23 @@
     <td><b>Implement </b> <br>Use the Sy18nc gem to synchronise the locales before 
      the translation<br></td>
     <td>Benjamin</td>
-    <td>already 6:00 h</td>
+    <td>already 7:00 h</td>
     <td>1) Problem right now with the sy18nc gem which is 
     old, initializer doesn't work for the moment.
     2) The gem is too old, i am not able to run the rake sync for the 
     moment.
-    3) seems like the gem isn't completed, a class is missing
+    3) seems like the gem isn't completed, a class is missing (file.rb)
+    4) Joel (Eonum) posted a newer version of the gem: https://github.com/jbessi/sy18nc
 </td>
     <td>until 23.04.25 </td>
+  </tr>
+
+<tr>
+    <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
+    <td>Andri</td>
+    <td>4:00h</td>
+    <td>Most of the time was spent reworking parts of the api call.</td></td>
+    <td style="background-color: #b9f2ae; color: black">Done<br>until 23.04.25 </td>
   </tr>
 
 <tr>
