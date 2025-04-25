@@ -21,19 +21,20 @@
   </tr>
 
 <tr>
-    <td><b>Refactor</b> <br>Change the translate rake using the sy18nc gem<br></td>
-    <td>Benjamin</td>
-    <td></td>
-    <td></td>
-    <td>until 24.04.25 </td>
-  </tr>
-
-<tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
     <td>ilyas</td>
     <td>2:00h (bis jetzt)</td>
     <td></td>
     <td>until 27.04.25 </td>
+  </tr>
+
+<tr>
+    <td><b>Refactor</b> <br>Change the translate rake using the sy18nc gem<br></td>
+    <td>Benjamin</td>
+    <td>2:45h</td>
+    <td>Implementation in the rake task "translate" was not that hard, had to find a way, so that all the people using 
+    the gem install the sy18nc version which is on the github of Joel. It has to be in the Gemfile of the rails project</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
