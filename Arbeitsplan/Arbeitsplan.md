@@ -349,6 +349,20 @@
     <td>Entwicklung, Feedbacks</td>
   <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
+<tr>
+    <td>30.04.25 </td>
+    <td>PSE-Team, Florin</td>
+    <td></td>
+    <td></td>
+  <td></td>
+</tr>
+<tr>
+    <td>01.05.25 </td>
+    <td>PSE-Team, Florin, Joel, Tim</td>
+    <td></td>
+    <td>Rückblick Iteration 3, Planning Game 4</td>
+  <td></td>
+</tr>
 
 </table>
 
@@ -398,7 +412,7 @@
     <th style="background-color: #b1e0f0; color: black">Comment</th>
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
-<td><b>Analyse der zweite Iteration </b><br>
+<td><b>Analyse der zweiten Iteration </b><br>
     </td>
     <td>Benjamin</td>
     <td>2:00 h</td>
@@ -624,9 +638,9 @@
 
 <td><b>Termin </b> <br>Planning Game 4 <br> </td>
     <td>Benjamin</td>
-    <td>30 min</td>
-    <td></td>
-    <td>Bis am 25.04.25</td>
+    <td>20 min</td>
+    <td>Termin am 01.05.25 um 14h45</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 
