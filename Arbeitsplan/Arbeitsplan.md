@@ -17,7 +17,7 @@
     <td>Andri</td>
     <td>4:00 h+</td>
     <td>Esch überraschend müesam gsii. YAML is not really made to work with comments. Implementation is now based on workarounds inspired by sy18nc gem.</td>
-    <td>until 30.04.25 </td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
@@ -25,7 +25,7 @@
     <td>ilyas</td>
     <td>4.00h</td>
     <td>Habe angefangen. nach einiger zeit gemerkt, dass auf einem anderen branch es bereits implementiert wurde. </td>
-    <td>Done </td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 
 <tr>
