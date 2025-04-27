@@ -23,9 +23,9 @@
 <tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
     <td>ilyas</td>
-    <td>2:00h (bis jetzt)</td>
-    <td></td>
-    <td>until 30.04.25 </td>
+    <td>4.00h</td>
+    <td>Habe angefangen. nach einiger zeit gemerkt, dass auf einem anderen branch es bereits implementiert wurde. </td>
+    <td>Done </td>
   </tr>
 
 <tr>
