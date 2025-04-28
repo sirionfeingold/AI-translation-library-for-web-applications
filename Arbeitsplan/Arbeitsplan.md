@@ -365,7 +365,7 @@
 </tr>
 <tr>
     <td>01.05.25 </td>
-    <td>PSE-Team, Florin, Joel, Tim</td>
+    <td>PSE-Team, Florin, Tim</td>
     <td></td>
     <td>Rückblick Iteration 3, Planning Game 4</td>
   <td></td>
