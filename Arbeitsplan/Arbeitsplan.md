@@ -63,8 +63,8 @@
 <tr>
     <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
     <td>Andri</td>
-    <td>4:00h</td>
-    <td>Most of the time was spent reworking parts of the api call.</td></td>
+    <td>7:00h</td>
+    <td>Most of the time was spent reworking parts of the api call. (Also implemented "Generic translation instead of german to X" for Active Records due to not reading the issue precisely.)</td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 
