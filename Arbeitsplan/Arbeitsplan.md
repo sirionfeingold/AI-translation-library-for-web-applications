@@ -69,7 +69,7 @@
 </tr>
 
 <tr>
-    <td><b>Implement </b> <br>Progressbar for translation button (Ruby on Rails sample application) <br>  <br></td>
+    <td><b>Implement / Refactor </b> <br>Progressbar for translation button (Ruby on Rails sample application) <br>  <br></td>
     <td>Sirion </td>
     <td>1:45 h </td>
     <td>Ruby on Rails Application also works now with new Gem version (0.0.9) </td>
@@ -717,7 +717,7 @@
 
 <td>Technologie und Architektur</td>
     <td>Sirion</td>
-    <td></td>
+    <td>12 h</td>
     <td></td>
     <td>Bis am 30.04.25</td></td>  
 </tr>
