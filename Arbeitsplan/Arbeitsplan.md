@@ -11,15 +11,6 @@
     <th style="background-color: #b1e0f0; color: black">Comment</th>
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
-<tr>
-    <td><b>Refactor </b> <br>Translation button works now with new Gem Version (0.0.9) <br>  <br></td>
-    <td>Sirion </td>
-    <td>1:00 h </td>
-    <td>Defined "translation_gem_e_context" to provide medical domain context for AI-based translation. Added "translation_gem_e_config" to map language-specific fields.
-        Ensured compatibility with TranslationGemE for multilingual text handling.
-</td>
-    <td style="background-color: #b9f2ae; color: black">Done</td>
-</tr>
 
 <tr>
     <td><b>Refactor </b> <br>Use a YAML parser to read and write yml-files<br>  <br></td>
@@ -80,8 +71,8 @@
 <tr>
     <td><b>Implement </b> <br>Progressbar for translation button (Ruby on Rails sample application) <br>  <br></td>
     <td>Sirion </td>
-    <td>0:30 h </td>
-    <td></td>
+    <td>1:45 h </td>
+    <td>Ruby on Rails Application also works now with new Gem version (0.0.9) </td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 
