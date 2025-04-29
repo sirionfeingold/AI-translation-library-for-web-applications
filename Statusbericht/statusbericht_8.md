@@ -5,7 +5,7 @@ Wir nähern uns dem Ende der dritten Iteration und konnten alles umsetzen, was E
 Wir konnten die Funktion zur Synchronisation von Locales mithilfe des Gems 'sy18nc' hinzufügen. 
 Es wurden Tests für das Übersetzungs-Gem durchgeführt und Features wie die Progressbar und die Möglichkeit, der Anfrage an Chatgpt einen Kontext zu geben, wurden entwickelt.
 
-Fonktionen zur Datenbankgeneralisierung und zur Generalisierung von künstlicher Intelligenz wurden ebenfalls implementiert
+Fonktionen zur Datenbankgeneralisierung und zur Generalisierung vom KI-Modell wurden ebenfalls implementiert
 
 Die Issues, die uns von eonum übermittelt wurden, konnten ebenfalls korrigiert werden.
 
