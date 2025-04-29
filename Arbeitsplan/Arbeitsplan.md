@@ -352,9 +352,9 @@
 <tr>
     <td>29.04.25 </td>
     <td>PSE-Team</td>
-    <td></td>
-    <td></td>
-  <td></td>
+    <td>1:45 h</td>
+    <td>Feedbacks, Merging the different feature branches</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>30.04.25 </td>
@@ -419,6 +419,16 @@
     <th style="background-color: #b1e0f0; color: black">Comment</th>
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
+
+  <td>
+    <b>Analyse der dritten Iteration </b><br>
+    </td>
+    <td>Benjamin</td>
+    <td></td>
+    <td></td>
+    <td>until the 30.04.25 </td>  
+</tr>
+
 <td><b>Analyse der zweiten Iteration </b><br>
     </td>
     <td>Benjamin</td>
@@ -515,7 +525,7 @@
 <td><b>Migrate </b> <br>Migrate Playground-Code to PSE_AI-Translation Rep <br>
     </td>
     <td>Andri</td>
-    <td></td>
+    <td>1:00 h</td>
     <td>Created new task to clean up the folder; there is still some prototyping stuff in there</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
