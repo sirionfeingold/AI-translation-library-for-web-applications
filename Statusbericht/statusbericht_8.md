@@ -7,7 +7,7 @@ Es wurden Tests für das Übersetzungs-Gem durchgeführt und Features wie die Pr
 
 Fonktionen zur Datenbankgeneralisierung und zur Generalisierung vom KI-Modell wurden ebenfalls implementiert
 
-Die Issues, die uns von eonum übermittelt wurden, konnten ebenfalls korrigiert werden.
+Die Issues, die uns von Eonum übermittelt wurden, konnten ebenfalls korrigiert werden.
 
 Wir müssen noch einen Punkt mit Eonum bezüglich der Übersetzung von Lokalen klären, genauer gesagt bezüglich der Generalität der Übersetzung, soll es auch möglich sein,z. B. in der französischen Datei einen Key mit einem Text hinzuzufügen und diesen mit der deutschen Datei synchronisieren zu können.
 
