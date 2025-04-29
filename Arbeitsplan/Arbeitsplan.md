@@ -32,7 +32,7 @@
     <td><b>Refactor</b> <br>Change the translate rake using the sy18nc gem<br></td>
     <td>Benjamin</td>
     <td>2:45h</td>
-    <td>Implementation in the rake task "translate" was not that hard, had to find a way, so that all the people using 
+    <td>Implementation in the rake task "translate" was not that hard. But I had to find a way, so that all the people using 
     the gem install the sy18nc version which is on the github of Joel. It has to be in the Gemfile of the rails project</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
@@ -424,9 +424,9 @@
     <b>Analyse der dritten Iteration </b><br>
     </td>
     <td>Benjamin</td>
+    <td>1h45</td>
     <td></td>
-    <td></td>
-    <td>until the 30.04.25 </td>  
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>>  
 </tr>
 
 <td><b>Analyse der zweiten Iteration </b><br>
