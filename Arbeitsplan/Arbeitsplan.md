@@ -13,6 +13,14 @@
   </tr>
 
 <tr>
+    <td><b>Github </b> <br>Merging the different feature branches into main<br>
+    </td>
+    <td>Benjamin</td>
+    <td>2:00 h</td>
+    <td>Ein paar branches hatten Konflikten zwischen einander, alles ist jetzt auf main. Ordung im Repository gemacht.  </td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+  </tr>
+<tr>
     <td><b>Refactor </b> <br>Use a YAML parser to read and write yml-files<br>  <br></td>
     <td>Andri</td>
     <td>4:00 h+</td>
@@ -331,7 +339,7 @@
 <tr>
     <td>03.04.25 </td>
     <td>PSE-Team, Florin, Joel, Tim</td>
-    <td>1:30</td>
+    <td>1:30 h</td>
     <td>Rückblick Iteration 2, Planning Game 3</td>
   <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
@@ -359,9 +367,9 @@
 <tr>
     <td>30.04.25 </td>
     <td>PSE-Team, Florin</td>
-    <td></td>
-    <td></td>
-  <td></td>
+    <td>35 min</td>
+    <td>Feedbacks</td>
+<td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
     <td>01.05.25 </td>
@@ -424,9 +432,9 @@
     <b>Analyse der dritten Iteration </b><br>
     </td>
     <td>Benjamin</td>
-    <td>1h45</td>
+    <td>1:45 h</td>
     <td></td>
-    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>>  
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 
 <td><b>Analyse der zweiten Iteration </b><br>
@@ -653,6 +661,15 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
+<tr>
+<td><b>Information </b> <br>Traktandenliste ubermitteln<br> </td>
+    <td>Benjamin</td>
+    <td>20 min</td>
+    <td>Wurde am 30.04.25 geschickt</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+  </tr>
+
+<tr>
 <td><b>Termin </b> <br>Planning Game 4 <br> </td>
     <td>Benjamin</td>
     <td>20 min</td>
@@ -719,7 +736,7 @@
     <td>Sirion</td>
     <td>12 h</td>
     <td></td>
-    <td>Bis am 30.04.25</td></td>  
+    <td style="background-color: #b9f2ae; color: black">Done</td>  
 </tr>
   </tr>
 <td>Demo 1 </td>
@@ -731,14 +748,14 @@
 
 <td>Analyse Iteration 1</td>
     <td>Benjamin</td>
-    <td>6 h</td>
+    <td>8 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td>Requirements </td>
     <td>Arnaud</td>
-    <td>6 h</td>
+    <td>8 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
