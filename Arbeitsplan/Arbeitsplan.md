@@ -12,6 +12,15 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
+
+<tr>
+    <td><b>Refactor </b> <br>Move translation logic from Rails controller into reusable Gem method <br>  <br></td>
+    <td>Sirion </td>
+    <td>3:00 h </td>
+    <td>Implemented new <code>translate_fields</code> method for use in Rails. Also updated the ruby on rails sample application, so that it works with new Gem method. </td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>
+
 <tr>
     <td><b>Github </b> <br>Merging the different feature branches into main<br>
     </td>
