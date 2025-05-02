@@ -68,7 +68,7 @@
     <td>10:00h</td>
     <td>All Unit Tests are written, passed and some methods were adjusted. </td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
-  </tr>
+</tr>
 
 <tr>
     <td><b>Implement</b> <br>Testing the sy18nc gem<br></td>
@@ -89,7 +89,8 @@
     <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
     <td>Andri</td>
     <td>7:00h</td>
-    <td>Most of the time was spent reworking parts of the api call. (Also implemented "Generic translation instead of german to X" for Active Records due to not reading the issue precisely.)</td></td>
+    <td>Most of the time was spent reworking parts of the api call. (Also implemented "Generic translation instead of 
+    german to X" for Active Records due to not reading the issue precisely.)</td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 
@@ -106,7 +107,7 @@
     <td>Sirion </td>
     <td>2:00 h </td>
     <td>The progress bar now works better for AR translations and is more stable if the translation is too long. 
-        Also merged generic_ar_translation with main branch </td>
+    Also merged generic_ar_translation with main branch </td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 
@@ -394,6 +395,13 @@
     <td>1:15 h</td>
     <td>Rückblick Iteration 3, Planning Game 4</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>
+<tr>
+    <td>07.05.25 </td>
+    <td>PSE-Team, Florin</td>
+    <td></td>
+    <td>Feedbacks</td>
+    <td></td>
 </tr>
 
 </table>
