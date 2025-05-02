@@ -302,77 +302,77 @@
     <td>PSE-Team, Florin, Tim</td>
     <td>1:30 h</td>
     <td>Planning Game 1</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>05.03.25 </td>
     <td>PSE-Team, Florin</td>
     <td>30 min</td>
     <td>Tasks aufteilung, Feedbacks</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>12.03.25 </td>
     <td>PSE-Team, Florin</td>
     <td>45 min</td>
     <td>Feedbacks</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>13.03.25 </td>
     <td>PSE-Team, Florin, Joel</td>
     <td>1:00 h</td>
     <td>Rückblick Iteration 1, Planning Game 2</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>20.03.25 </td>
     <td>PSE-Team</td>
     <td>1:30 h</td>
     <td>Tasks aufteilung, Feedbacks, Pair-Programming</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>24.03.25 </td>
     <td>PSE-Team</td>
     <td>1:00 h</td>
     <td>Pair-Programming</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>26.03.25 </td>
     <td>PSE-Team</td>
     <td>1:30 h</td>
     <td>Tasks aufteilung, Feedbacks, Entwicklung, Installation</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>02.04.25 </td>
     <td>PSE-Team, Florin</td>
     <td>40 min</td>
     <td>Feedbacks</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>03.04.25 </td>
     <td>PSE-Team, Florin, Joel, Tim</td>
     <td>1:30 h</td>
     <td>Rückblick Iteration 2, Planning Game 3</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>09.04.25 </td>
     <td>PSE-Team</td>
     <td>2:00 h</td>
     <td>Entwicklung, Tasks Aufteilung</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>16.04.25 </td>
     <td>PSE-Team</td>
     <td>1:45 h</td>
     <td>Entwicklung, Feedbacks</td>
-  <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>29.04.25 </td>
@@ -386,14 +386,14 @@
     <td>PSE-Team, Florin</td>
     <td>35 min</td>
     <td>Feedbacks</td>
-<td style="background-color: #b9f2ae; color: black">Done</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
     <td>01.05.25 </td>
     <td>PSE-Team, Florin, Tim</td>
-    <td></td>
+    <td>1:15 h</td>
     <td>Rückblick Iteration 3, Planning Game 4</td>
-  <td></td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 
 </table>
