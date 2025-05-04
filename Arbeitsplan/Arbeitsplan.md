@@ -140,7 +140,7 @@
 <tr>
     <td><b>Refactor </b> <br>Add a Gemfile with all dependencies instead of documenting them in the README <br> <br></td>
     <td>Benjamin</td>
-    <td>2h</td>
+    <td>2:00h</td>
     <td>The gemspec file has been changed to install the dependencies (gems) 
     automatically with the installation of translation_gem_e.
     Added a gemfile with a reference to the gemspec</td>
