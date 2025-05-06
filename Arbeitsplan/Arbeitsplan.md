@@ -15,10 +15,9 @@
 <tr>
     <td><b>Refactor </b> <br>Progressbar for CLI and Ruby on Rails<br>  <br></td>
     <td>Sirion </td>
-    <td> bis jetzt 2:00 h </td>
-    <td>Implemented a custom version of the progress bar. It’s working decently for now, but still needs improvement.  
-        Currently, it only supports <code>translate_locales</code>. Its currently on branch new_progressbar</td>
-    <td></td>
+    <td>2:45 h </td>
+    <td>Changed progressbar to loading Icon. Its currently on branch "new_progressbar"</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 
 <tr>
