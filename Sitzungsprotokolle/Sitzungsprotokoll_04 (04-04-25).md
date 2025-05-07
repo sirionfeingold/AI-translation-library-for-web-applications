@@ -1,4 +1,4 @@
-# Sitzungsprotokoll – 13.03.2025
+# Sitzungsprotokoll – 04.04.2025
 
 Ort: Eonum  
 Zeit: 14:45  
