@@ -39,7 +39,7 @@
 <tr>
     <td><b>Refactor </b> <br>Use a YAML parser to read and write yml-files<br>  <br></td>
     <td>Andri</td>
-    <td>4:00 h+</td>
+    <td>4:30 h</td>
     <td>Esch überraschend müesam gsii. YAML is not really made to work with comments. Implementation is now based on workarounds inspired by sy18nc gem.</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
@@ -47,7 +47,7 @@
 <tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
     <td>ilyas</td>
-    <td>4.00h</td>
+    <td>4.00 h</td>
     <td>Habe angefangen. nach einiger zeit gemerkt, dass auf einem anderen branch es bereits implementiert wurde. </td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
@@ -55,7 +55,7 @@
 <tr>
     <td><b>Refactor</b> <br>Change the translate rake using the sy18nc gem<br></td>
     <td>Benjamin</td>
-    <td>2:45h</td>
+    <td>2:45 h</td>
     <td>Implementation in the rake task "translate" was not that hard. But I had to find a way, so that all the people using 
     the gem install the sy18nc version which is on the github of Joel. It has to be in the Gemfile of the rails project</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
@@ -64,7 +64,7 @@
 <tr>
     <td><b>Implement </b> <br> Tests <br> <br></td>
     <td>Arnaud </td>
-    <td>10:00h</td>
+    <td>10:00 h</td>
     <td>All Unit Tests are written, passed and some methods were adjusted. </td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
@@ -87,7 +87,7 @@
 <tr>
     <td><b>Refactor </b> <br>Generic model translation instead of "Variable" <br> <br></td>
     <td>Andri</td>
-    <td>7:00h</td>
+    <td>7:00 h</td>
     <td>Most of the time was spent reworking parts of the api call. (Also implemented "Generic translation instead of 
     german to X" for Active Records due to not reading the issue precisely.)</td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
@@ -139,7 +139,7 @@
 <tr>
     <td><b>Refactor </b> <br>Add a Gemfile with all dependencies instead of documenting them in the README <br> <br></td>
     <td>Benjamin</td>
-    <td>2:00h</td>
+    <td>2:00 h</td>
     <td>The gemspec file has been changed to install the dependencies (gems) 
     automatically with the installation of translation_gem_e.
     Added a gemfile with a reference to the gemspec</td>
@@ -153,7 +153,7 @@
     --> It might be easier to not use the keys at all and identify the values by their line index <br>
     </td>
     <td>Ilyas</td>
-    <td>4h</td>
+    <td>4:00 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
@@ -224,7 +224,7 @@
     <td><b>Implement </b> <br> <i>language detection, feedback after task finished</i><br>
     </td>
     <td>Ilyas</td>
-    <td>2.30 h</td>
+    <td>2:30 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
@@ -307,14 +307,14 @@
 <tr>
     <td>05.03.25 </td>
     <td>PSE-Team, Florin</td>
-    <td>30 min</td>
+    <td>0:30 h</td>
     <td>Tasks aufteilung, Feedbacks</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
 <tr>
     <td>12.03.25 </td>
     <td>PSE-Team, Florin</td>
-    <td>45 min</td>
+    <td>0:45 h</td>
     <td>Feedbacks</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
@@ -349,7 +349,7 @@
 <tr>
     <td>02.04.25 </td>
     <td>PSE-Team, Florin</td>
-    <td>40 min</td>
+    <td>0:40 h</td>
     <td>Feedbacks</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
@@ -384,7 +384,7 @@
 <tr>
     <td>30.04.25 </td>
     <td>PSE-Team, Florin</td>
-    <td>35 min</td>
+    <td>0:35 h</td>
     <td>Feedbacks</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
@@ -397,10 +397,10 @@
 </tr>
 <tr>
     <td>07.05.25 </td>
-    <td>PSE-Team, Florin</td>
-    <td></td>
-    <td>Feedbacks</td>
-    <td></td>
+    <td>PSE-Team</td>
+    <td>0:45 h</td>
+    <td>Feedbacks, Verteilung der Issues</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 
 </table>
@@ -435,7 +435,7 @@
     *Auch in Bezug auf Preisgestaltung*
     </td>
     <td>Sirion, Benjamin, Arnaud</td>
-    <td>Je ca 3 h</td>
+    <td>Je ca 3:00 h</td>
     <td></td>
 <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 
@@ -510,14 +510,14 @@
 <td><b>Refactoring </b> <br>Arbeitsplan <br>
     </td>
     <td>Benjamin</td>
-    <td> 35 min</td>
+    <td>0:35 h</td>
     <td>Added the meeting table</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Arnaud</td>
-    <td>7,5 h</td>
+    <td>7:30 h</td>
     <td>Sehr viel Probleme mit Windows/WSL rails installation, Datenbank Störungen</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
@@ -525,7 +525,7 @@
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Benjamin</td>
-    <td>4,5 h</td>
+    <td>4:45 h</td>
     <td>Rails muss via WSL installiert werden, hat sehr viel Zeit gebraucht</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
@@ -541,7 +541,7 @@
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Sirion</td>
-    <td>3 h</td>
+    <td>3:00 h</td>
     <td></td>
   <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
@@ -549,7 +549,7 @@
 <td><b>Setup </b> <br>Beispielapplikation Eonum <br>
     </td>
     <td>Ilyas</td>
-    <td>3 h</td>
+    <td>3:00 h</td>
     <td></td>
    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
@@ -565,7 +565,7 @@
 <td><b>Refactor </b> <br>Arbeitsplan <br>
     </td>
     <td>Benjamin</td>
-    <td> 45 min</td>
+    <td>0:45 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
@@ -688,7 +688,7 @@
 <tr>
 <td><b>Information </b> <br>Traktandenliste ubermitteln<br> </td>
     <td>Benjamin</td>
-    <td>20 min</td>
+    <td>0:20 h</td>
     <td>Wurde am 30.04.25 geschickt</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
@@ -696,7 +696,7 @@
 <tr>
 <td><b>Termin </b> <br>Planning Game 4 <br> </td>
     <td>Benjamin</td>
-    <td>20 min</td>
+    <td>0:20 h</td>
     <td>Termin am 01.05.25 um 14h45</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
@@ -704,28 +704,28 @@
 
 <td><b>Information </b> <br>Code Review<br> </td>
     <td>Benjamin</td>
-    <td>20 min</td>
+    <td>0:20 h</td>
     <td>Eonum hat bereits einen Code-Review übermittelt</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Termin </b> <br>Planning Game 3 <br> </td>
     <td>Benjamin</td>
-    <td>30 min</td>
+    <td>0:30 h</td>
     <td>Termin am 03.04.25 um 14h45</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Termin </b> <br>Planning Game 2 <br> </td>
     <td>Benjamin</td>
-    <td>30 min</td>
+    <td>0:30 h</td>
     <td>Termin am 13.03.25 um 14h45</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td><b>Termin </b> <br>Planning Game 1 <br> </td>
     <td>Benjamin</td>
-    <td>30 min</td>
+    <td>0:30 h</td>
     <td>Termin am 27.02.25 um 14h45</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
@@ -751,35 +751,35 @@
 <tr>
 <td>Qualitätsicherung, Testing</td>
     <td>Arnaud</td>
+    <td>9:00 h</td>
     <td></td>
-    <td>Einschätzung:6 h</td>
-    <td>Bis am 07.05.25</td></td>  
+      <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 <tr> 
 
 <td>Technologie und Architektur</td>
     <td>Sirion</td>
-    <td>12 h</td>
+    <td>12:00 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  
 </tr>
   </tr>
 <td>Demo 1 </td>
     <td>Ilyas</td>
-    <td>12 h</td>
+    <td>12:00 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td>Analyse Iteration 1</td>
     <td>Benjamin</td>
-    <td>8 h</td>
+    <td>8:00 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <td>Requirements </td>
     <td>Arnaud</td>
-    <td>8 h</td>
+    <td>8:00 h</td>
     <td></td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
