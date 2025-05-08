@@ -13,6 +13,14 @@
   </tr>
 
 <tr>
+    <td><b>Refactor </b> <br>Readme from translation Gem<br>  <br></td>
+    <td>Benjamin</td>
+    <td></td>
+    <td></td>
+    <td>until the 12.05.25 </td>
+</tr>
+
+<tr>
     <td><b>Refactor </b> <br>Progressbar for CLI and Ruby on Rails<br>  <br></td>
     <td>Sirion </td>
     <td>2:45 h </td>
