@@ -13,7 +13,7 @@
   </tr>
 
 <tr>
-    <td><b>Refactor </b> <br>Readme from translation Gem<br>  <br></td>
+    <td><b>Refactor </b> <br>README for the translation Gem<br>  <br></td>
     <td>Benjamin</td>
     <td></td>
     <td></td>
@@ -409,6 +409,14 @@
     <td>0:45 h</td>
     <td>Feedbacks, Verteilung der Issues</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>
+
+<tr>
+    <td>21.05.25 </td>
+    <td>PSE-Team</td>
+    <td></td>
+    <td></td>
+    <td></td>
 </tr>
 
 </table>
