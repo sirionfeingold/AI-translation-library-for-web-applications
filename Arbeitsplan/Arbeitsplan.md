@@ -21,6 +21,14 @@
 </tr>
 
 <tr>
+    <td><b>Refactor </b> <br>Solved some issues acording to Eonum's code review<br>  <br></td>
+    <td>Benjamin</td>
+    <td>1:30 h</td>
+    <td>The issues are commented on the pull request of the Github repository</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>
+
+<tr>
     <td><b>Refactor </b> <br>Progressbar for CLI and Ruby on Rails<br>  <br></td>
     <td>Sirion </td>
     <td>2:45 h </td>
