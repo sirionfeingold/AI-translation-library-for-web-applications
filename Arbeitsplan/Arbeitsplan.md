@@ -87,7 +87,7 @@
 <tr>
     <td><b>Refactor </b> <br>Generic translation instead of "German to X" <br> <br></td>
     <td>ilyas</td>
-    <td>4.00 h</td>
+    <td>4:00 h</td>
     <td>Habe angefangen. nach einiger zeit gemerkt, dass auf einem anderen branch es bereits implementiert wurde. </td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
   </tr>
@@ -447,7 +447,7 @@
     <td>14.05.25 </td>
     <td>PSE-Team</td>
     <td>2:00 h</td>
-    <td>Feedbacks, Abklären, was noch zu tun ist, Dokumentation</td>
+    <td>Feedbacks, Abklären was noch zu tun ist, Dokumentation</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 
