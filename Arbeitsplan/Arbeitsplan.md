@@ -1,5 +1,15 @@
 # Arbeitsplan
 
+## Einleitung  
+Dieses Dokument enthält eine strukturierte Übersicht über sämtliche Aufgaben, die im Rahmen des studentischen Projekts mit der Firma Eonum durchgeführt wurden. Es umfasst sämtliche Tätigkeiten in den Bereichen Softwareentwicklung, Recherche, Kommunikation mit dem Unternehmen sowie die Erarbeitung und Abgabe von Deliverables.
+
+Die Aufgaben sind thematisch in Kategorien gegliedert und beinhalten jeweils Angaben zur verantwortlichen Person, zur geschätzten bzw. aufgewendeten Arbeitszeit, zum Bearbeitungsstand sowie zu Kommentaren oder Hinweisen. Zusätzlich wurden jeder Aufgabe eindeutige IDs zugewiesen, um die Nachvollziehbarkeit und Referenzierbarkeit im Team zu erleichtern.
+
+Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvollziehbar darzustellen.
+
+
+## Inhaltsverzeichnis
+
 - [Coding-Tasks](#coding-tasks)
 - [Setup-Tasks](#setup-tasks)
 - [Research-Tasks](#research-tasks)
