@@ -1,5 +1,13 @@
 # Arbeitsplan
-*Erledigte Aufgaben können mit Done und `style="background-color: #b9f2ae; color: black"` markiert werden.*
+
+- [Coding-Tasks](#coding-tasks)
+- [Meetings](#meetings)
+- [Research-Tasks](#research-tasks)
+- [Deliverables](#deliverables)
+- [Setup-Tasks](#setup-tasks)
+- [Kontakt mit Eonum](#kontakt-mit-eonum)
+- [Presentations](#presentations)
+
 
 ## Coding-Tasks
 <table>
@@ -21,6 +29,14 @@
 </tr>
 
 <tr>
+    <td><b>Refactor </b> <br>Refactoring all the tests according to the modifications in the code</br></td>
+    <td>Arnaud</td>
+    <td>8:30 h</td>
+    <td>I had to add some tests for new classes and refacored every tests so that they work</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>
+
+<tr>
     <td><b>Refactor </b> <br>Rename prompt building modules<br>  <br></td>
     <td>Andri</td>
     <td>1:00 h</td>
@@ -31,7 +47,7 @@
 <tr>
     <td><b>Refactor </b> <br>Solved some issues acording to Eonum's code review<br>  <br></td>
     <td>Benjamin</td>
-    <td>1:30 h</td>
+    <td>1:45 h</td>
     <td>The issues are commented on the pull request of the Github repository</td>
     <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
@@ -428,8 +444,16 @@
 </tr>
 
 <tr>
-    <td>21.05.25 </td>
+    <td>14.05.25 </td>
     <td>PSE-Team</td>
+    <td>2:00 h</td>
+    <td>Feedbacks, Abklären, was noch zu tun ist, Dokumentation</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>
+
+<tr>
+    <td>21.05.25 </td>
+    <td>PSE-Team, Florin</td>
     <td></td>
     <td></td>
     <td></td>
@@ -484,36 +508,47 @@
     <th style="background-color: #b1e0f0; color: black">State</th>
   </tr>
 
-  <td>
-    <b>Analyse der dritten Iteration </b><br>
-    </td>
+<tr>
+    <td><b>Testresultate</b><br></td>
+    <td>Arnaud</td>
+    <td></td>
+    <td></td>
+    <td>until the 15.05.25</td> 
+</tr>
+
+<tr>
+    <td><b>Analyse der dritten Iteration </b><br></td>
     <td>Benjamin</td>
     <td>1:45 h</td>
     <td></td>
-    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  
 </tr>
 
-<td><b>Analyse der zweiten Iteration </b><br>
-    </td>
+<tr>
+    <td><b>Analyse der zweiten Iteration </b><br></td>
     <td>Benjamin</td>
     <td>2:00 h</td>
     <td></td>
-<td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+<td style="background-color: #b9f2ae; color: black">Done</td> 
 </tr>
+
+<tr>
  <td><b>Testkonzept V2 </b><br>
     </td>
     <td>Arnaud</td>
     <td>2:30 h</td>
     <td></td>
-<td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+<td style="background-color: #b9f2ae; color: black">Done</td> 
+</tr>
+
 <tr>
     <td><b>Testkonzept V1 </b><br>
     </td>
     <td>Arnaud</td>
     <td>2:30 h</td>
     <td></td>
-<td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
-
+<td style="background-color: #b9f2ae; color: black">Done</td>  
+</tr>
 
 <tr>
     <td><b>Analyse der ersten Iteration </b><br>
@@ -521,7 +556,8 @@
     <td>Benjamin</td>
     <td>2:30 h</td>
     <td></td>
-<td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  
+</tr>
 
 </table>
 
@@ -715,6 +751,14 @@
     <th style="background-color: #b1e0f0; color: black">Time Spent</th>
     <th style="background-color: #b1e0f0; color: black">Comment</th>
     <th style="background-color: #b1e0f0; color: black">State</th>
+  </tr>
+
+<tr>
+<td><b>Information </b> <br>Abklären, ob ein weiteres Meeting nötig ist<br> </td>
+    <td>Benjamin</td>
+    <td>0:20 h</td>
+    <td>Eonum braucht kein weiters Meeting</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
   </tr>
 
 <tr>
