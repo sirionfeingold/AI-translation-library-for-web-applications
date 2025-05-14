@@ -21,6 +21,14 @@
 </tr>
 
 <tr>
+    <td><b>Refactor </b> <br>Rename prompt building modules<br>  <br></td>
+    <td>Andri</td>
+    <td>1:00 h</td>
+    <td>Renaming done quick; spent some time testing and fixing other things</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>
+
+<tr>
     <td><b>Refactor </b> <br>Solved some issues acording to Eonum's code review<br>  <br></td>
     <td>Benjamin</td>
     <td>1:30 h</td>
