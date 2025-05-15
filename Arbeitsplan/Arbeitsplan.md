@@ -31,7 +31,7 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 </tr>
 
 <tr>
-<td>COD036</td>
+<td>COD037</td>
 <td><b>Refactor </b> <br/>README for the translation Gem<br/> <br/></td>
 <td>Benjamin</td>
 <td></td>
@@ -39,12 +39,20 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td>until the 15.05.25 </td>
 </tr>
 <tr>
-<td>COD035</td>
+<td>COD036</td>
 <td><b>Refactor </b> <br>Add instructions to README for adding a new AI model<br>  <br></td>
 <td>Sirion </td>
 <td></td>
 <td></td>
 <td>until the 15.05.25 </td>
+</tr>
+<tr>
+<td>COD035</td>
+<td><b>Refactor </b> <br/>Restructured the translation gem according to ruby standards<br/> <br/></td>
+<td>Benjamin</td>
+<td>2:00 h</td>
+<td>Some of the standards weren't respected. I had to change some path in the files, because I updated the structure of the gem</td>
+<td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
 <td>COD034</td>
