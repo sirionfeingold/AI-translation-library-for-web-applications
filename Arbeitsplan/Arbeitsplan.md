@@ -43,7 +43,7 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td><b>Refactor </b> <br/>Refactoring all the tests according to the modifications in the code</td>
 <td>Arnaud</td>
 <td>8:30 h</td>
-<td>I had to add some tests for new classes and refacored every tests so that they work</td>
+<td>I had to add some tests for new classes and refactored every tests so that they work</td>
 <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
@@ -92,7 +92,7 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td><b>Refactor </b> <br/>Use a YAML parser to read and write yml-files<br/> <br/></td>
 <td>Andri</td>
 <td>4:30 h</td>
-<td>Esch überraschend müesam gsii. YAML is not really made to work with comments. Implementation is now based on workarounds inspired by sy18nc gem.</td>
+<td>War überraschend mühsam. YAML is not really made to work with comments. Implementation is now based on workarounds inspired by sy18nc gem.</td>
 <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
@@ -108,8 +108,8 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td><b>Refactor</b> <br/>Change the translate rake using the sy18nc gem<br/></td>
 <td>Benjamin</td>
 <td>2:45 h</td>
-<td>Implementation in the rake task "translate" was not that hard. But I had to find a way, so that all the people using 
-    the gem install the sy18nc version which is on the github of Joel. It has to be in the Gemfile of the rails project</td>
+<td>Implementation in the rake task "translate" was not that hard. But I had to find a way, .so that all users install 
+the sy18nc version hosted on Joel's GitHub. It has to be in the Gemfile of the rails project</td>
 <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
@@ -125,9 +125,8 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td><b>Implement</b> <br/>Testing the sy18nc gem<br/></td>
 <td>Benjamin</td>
 <td>7:00 h</td>
-<td>1) Problem right now with the sy18nc gem which is 
-    old, initializer doesn't work for the moment.
-    2) The gem is too old, i am not able to run the rake sync for the 
+<td>1) the current version of the sy18nc gem is outdated, initializer doesn't work for the moment.
+    2) The gem is too old, I am not able to run the rake sync for the 
     moment.
     3) seems like the gem isn't completed, a class is missing (file.rb)
     4) Joel (Eonum) posted a newer version of the gem: https://github.com/jbessi/sy18nc
