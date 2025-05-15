@@ -31,12 +31,28 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 </tr>
 
 <tr>
-<td>COD034</td>
+<td>COD036</td>
 <td><b>Refactor </b> <br/>README for the translation Gem<br/> <br/></td>
 <td>Benjamin</td>
 <td></td>
 <td></td>
 <td>until the 15.05.25 </td>
+</tr>
+<tr>
+<td>COD035</td>
+<td><b>Refactor </b> <br>Add instructions to README for adding a new AI model<br>  <br></td>
+<td>Sirion </td>
+<td></td>
+<td></td>
+<td>until the 15.05.25 </td>
+</tr>
+<tr>
+<td>COD034</td>
+<td><b>Refactor / Merge </b> <br>Progressbar for Ruby on Rails application<br>  <br></td>
+<td>Sirion </td>
+<td>1:00 h </td>
+<td>Changed progressbar to loading Icon. Also merged the code to the main branch</td>
+<td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
 <td>COD033</td>
@@ -75,7 +91,7 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td><b>Refactor </b> <br/>Move translation logic from Rails controller into reusable Gem method <br/> <br/></td>
 <td>Sirion </td>
 <td>3:00 h </td>
-<td>Implemented new <code>translate_fields</code> method for use in Rails. Also updated the ruby on rails sample application, so that it works with new Gem method. </td>
+<td>Implemented new <code>translate_fields</code> function for use in Rails. Also updated the ruby on rails sample application, so that it works with new Gem method. </td>
 <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
@@ -182,8 +198,8 @@ the sy18nc version hosted on Joel's GitHub. It has to be in the Gemfile of the r
 <td>COD017</td>
 <td><b>Refactor </b> <br/>Add generic AI model support and clean up the structure <br/> <br/></td>
 <td>Sirion </td>
-<td>3:00 h </td>
-<td></td>
+<td>3:20 h </td>
+<td>Add function for building the system prompt in the generic class ai_model</td>
 <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
