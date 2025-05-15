@@ -600,7 +600,7 @@ the sy18nc version hosted on Joel's GitHub. It has to be in the Gemfile of the r
 <td>DEL007</td>
 <td><b>Benutzerhandbuch</b><br/></td>
 <td>Benjamin</td>
-<td>1:45 h</td>
+<td></td>
 <td></td>
 <td>until the 20.05.25</td>
 </tr>
