@@ -36,7 +36,7 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td>Benjamin</td>
 <td></td>
 <td></td>
-<td>until the 15.05.25 </td>
+<td>until the 18.05.25 </td>
 </tr>
 <tr>
 <td>COD036</td>
@@ -44,7 +44,7 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td>Sirion </td>
 <td></td>
 <td></td>
-<td>until the 15.05.25 </td>
+<td>until the 18.05.25 </td>
 </tr>
 <tr>
 <td>COD035</td>
