@@ -222,4 +222,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ---
 
-You're now ready to use **TranslationGemE** in your Ruby and Rails projects 🚀
+You're now ready to use **TranslationGemE** in your Ruby and Rails projects 
