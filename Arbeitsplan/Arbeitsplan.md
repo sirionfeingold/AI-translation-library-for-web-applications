@@ -5,6 +5,9 @@ Dieses Dokument enthält eine strukturierte Übersicht über sämtliche Aufgaben
 
 Die Aufgaben sind thematisch in Kategorien gegliedert und beinhalten jeweils Angaben zur verantwortlichen Person, zur geschätzten bzw. aufgewendeten Arbeitszeit, zum Bearbeitungsstand sowie zu Kommentaren oder Hinweisen. Zusätzlich wurden jeder Aufgabe eindeutige IDs zugewiesen, um die Nachvollziehbarkeit und Referenzierbarkeit im Team zu erleichtern.
 
+Hinweis:
+Die meisten Tasks sind unabhängig und können parallel umgesetzt werden. Wo nötig, wurden Abhängigkeiten im Team identifiziert und berücksichtigt.
+
 Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvollziehbar darzustellen.
 
 
