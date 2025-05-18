@@ -25,7 +25,7 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
 
 3. Add your API key to the `.env` file:
    ```ini
-   GITHUB_TOKEN='YOUR_API_KEY'`
+   GITHUB_TOKEN='YOUR_API_KEY'
    ```
 
 4. Ensure `.env` is listed in your `.gitignore` to avoid committing sensitive information.
@@ -52,8 +52,7 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
    ```bash
    bundle install
    ```
-10. Our gem uses the sy18nc gem directly. The sy18nc gem lets you sync locales from a basic yaml file, adapting the config below to suit your needs. 
-For more information, go to: https://github.com/jbessi/sy18nc
+10. This gem relies on the `sy18nc` gem to manage and synchronize YAML locale files. Make sure to install and configure `sy18nc` properly, as it is required for locale translation features to work correctly.
    
     Generate sy18nc configuration:
     ```bash
@@ -63,6 +62,7 @@ For more information, go to: https://github.com/jbessi/sy18nc
 
 11. Configure sy18nc:
     Edit `config/initializers/sy18nc.rb` as follows:
+    
     ```ruby
     if Rails.env.development?
       Sy18nc.configure do |c|
@@ -72,6 +72,7 @@ For more information, go to: https://github.com/jbessi/sy18nc
       end
     end
     ```
+    For more information and customization options, visit: ``https://github.com/jbessi/sy18nc`
 
 12. In your project’s `Rakefile`, add:
     ```ruby
