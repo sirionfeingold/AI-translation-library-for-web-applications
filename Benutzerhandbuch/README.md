@@ -2,6 +2,26 @@
 
 A modular and extensible **Ruby** gem designed to **translate locale YAML files** and **ActiveRecord attributes** using **AI models** like OpenAI’s GPT. It supports other providers (e.g., LLaMA, DeepSeek) through a pluggable architecture.
 
+## Table of Contents
+
+1. [Features](#features)  
+2. [Setup](#setup)  
+   2.1. [Create API Key](#setup)  
+   2.2. [Configure `.env` File](#setup)  
+   2.3. [Build and Install the Gem](#setup)  
+   2.4. [Update Gemfile](#setup)  
+   2.5. [Install Dependencies](#setup)  
+   2.6. [Configure `sy18nc`](#setup)  
+   2.7. [Add Rakefile Requirements](#setup)  
+   2.8. [Run Available Rake Tasks](#setup)  
+3. [Optional: Configuring Translatable Models](#optional-configuring-translatable-models)  
+4. [Using a Custom AI Model](#using-a-custom-ai-model)  
+   4.1. [Create Your Model](#1-create-your-model)  
+   4.2. [Register the Model](#2-register-the-model)  
+   4.3. [Update `.env` If Needed](#3-update-env-if-needed)  
+5. [Notes on Security](#notes-on-security)  
+6. [License](#license)  
+
 ---
 
 ## Features
