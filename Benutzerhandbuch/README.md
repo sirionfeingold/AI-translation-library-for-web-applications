@@ -25,7 +25,7 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
 
 3. Add your API key to the `.env` file:
    ```ini
-   GITHUB_TOKEN='YOUR_API_KEY'
+   AI_API_KEY='YOUR_API_KEY'
    ```
 
 4. Ensure `.env` is listed in your `.gitignore` to avoid committing sensitive information.
@@ -83,6 +83,13 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
     - `translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
     - `translation_gem_e:translate_locales[path,is_test,context]`
 
+    For example, run: `translation_gem_e:translate_locales[config/locales/fr.yml,true,Use medical language]`
+    
+    This will translate all elements in `fr.yml` that were pre-filled with German text (using sy18nc based on the de.yml) into French, based on the target language inferred from the filename (fr.yml).
+    Because the second parameter is `true`, the gem will generate a test file containing all the translated content at the root of your project, and the original `fr.yml` file will remain unchanged.
+
+
+14. You're now ready to use **TranslationGemE** in your Ruby and Rails projects
 ---
 
 ## Optional: Configuring Translatable Models
@@ -159,4 +166,9 @@ Adjust API credentials or endpoints as required for your model.
 
 ---
 
-You're now ready to use **TranslationGemE** in your Ruby and Rails projects 
+## License
+This project is licensed under the MIT License.
+
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+
+
