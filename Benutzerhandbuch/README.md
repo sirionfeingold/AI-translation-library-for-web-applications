@@ -4,12 +4,13 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
 
 ## Table of Contents
 
-1. [Features](#features)  
-2. [Setup](#setup)    
-3. [Optional: Configuring Translatable Models](#optional-configuring-translatable-models)  
-4. [Using a Custom AI Model](#using-a-custom-ai-model)  
-5. [Notes on Security](#notes-on-security)  
-6. [License](#license)  
+[Features](#features)  
+[Setup](#setup)    
+[Optional: Configuring Translatable Models](#optional-configuring-translatable-models)  
+[Using a Custom AI Model](#using-a-custom-ai-model)
+[Troubleshooting](troubleshooting)
+[Notes on Security](#notes-on-security)  
+[License](#license)  
 
 ---
 
@@ -166,6 +167,75 @@ Adjust API credentials or endpoints as required for your model.
 
 ---
 
+## Troubleshooting
+
+### Common Issues
+
+#### API Integration
+
+**Issue**: Authentication errors with API calls.
+```
+OpenAI::AuthenticationError: Incorrect API key provided
+```
+
+**Solution**: 
+- Verify your API key in the `.env` file
+- Ensure environment variables are loaded properly
+
+---
+
+#### Gem Dependencies
+
+**Issue**: Dependency conflicts during installation.
+
+**Solution**:
+- Use the specified sy18nc version from GitHub
+- Run `bundle update` to resolve conflicts
+
+---
+
+#### Translation Problems
+
+**Issue**: Missing translations in YAML files.
+
+**Solution**:
+- Verify base locale file contains all required keys
+- Check that sy18nc has synchronized keys correctly
+
+---
+
+#### AI Model Errors
+
+**Issue**: Rate limit or timeout errors.
+
+**Solution**:
+- Break large translation jobs into smaller batches
+- Implement retry logic for API calls
+
+---
+
+#### ActiveRecord Issues
+
+**Issue**: Model translations not working.
+
+**Solution**:
+- Confirm model includes `TranslationGemETranslatableModel`
+- Verify column mappings in `translation_gem_e_config`
+
+---
+
+#### Large Documents
+
+**Issue**: Context length exceeded errors.
+```
+OpenAI::ContextLengthExceededError: This model's maximum context length...
+```
+
+**Solution**:
+- Translate files in smaller chunks
+- Use models with larger context windows if available
+
+For other issues, please open a ticket on our GitHub repository with detailed reproduction steps.
 
 
 ## Notes on Security
