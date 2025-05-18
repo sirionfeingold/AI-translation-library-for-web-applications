@@ -72,7 +72,7 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
       end
     end
     ```
-    For more information and customization options, visit: ``https://github.com/jbessi/sy18nc`
+    For more information and customization options, visit: [https://github.com/jbessi/sy18nc]
 
 12. In your project’s `Rakefile`, add:
     ```ruby
