@@ -98,7 +98,7 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
     Because the second parameter is `true`, the gem will generate a test file containing all the translated content at the root of your project, and the original `fr.yml` file will remain unchanged.
 
 
-14. You're now ready to use **TranslationGemE** in your Ruby and Rails projects
+14. You're now ready to use **TranslationGemE** in your Ruby and Rails projects.
 ---
 
 ## Optional: Configuring Translatable Models
