@@ -6,8 +6,8 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
 
 ## Features
 
-- Translate YAML locale files (e.g., `de.yml → it.yml`)
-- Translate ActiveRecord attributes (e.g., `name_de → name_it`)
+- Translate YAML locale files (e.g. `de.yml → it.yml`)
+- Translate ActiveRecord attributes (e.g. `name_de → name_it`)
 - Modular AI model interface – plug in OpenAI, LLaMA, etc.
 - Rake tasks for automated CLI-based usage
 - Rails-ready controller function for frontend translations
@@ -18,13 +18,14 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
 
 ## Setup
 
-1. Create an API key (e.g., for OpenAI GPT-4o) from your provider's platform.
+1. Create an API key from your provider's platform. We used the model "OpenAI GPT-4o" on GitHub marketplace
+   - https://github.com/marketplace/models/
 
-2. Create a `.env` file in your project’s root directory.
+2. Create a `.env` file in your Rails project’s root directory.
 
 3. Add your API key to the `.env` file:
    ```ini
-   API_KEY='your_actual_api_key_here'
+   GITHUB_TOKEN='YOUR_API_KEY'`
    ```
 
 4. Ensure `.env` is listed in your `.gitignore` to avoid committing sensitive information.
@@ -51,8 +52,10 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
    ```bash
    bundle install
    ```
-
-10. Generate sy18nc configuration:
+10. Our gem uses the sy18nc gem directly. The sy18nc gem lets you sync locales from a basic yaml file, adapting the config below to suit your needs. 
+For more information, go to: https://github.com/jbessi/sy18nc
+   
+    Generate sy18nc configuration:
     ```bash
     rails generate sy18nc:install
     ```
@@ -146,74 +149,7 @@ Adjust API credentials or endpoints as required for your model.
 
 ---
 
-## Integration with Ruby on Rails Frontend
 
-You can integrate TranslationGemE in your Rails app's UI.
-
-### 1. Add a Controller Action
-
-In `variables_controller.rb`:
-
-```ruby
-def translate
-  fields    = params[:fields] || {}
-  from_lang = params[:from] || 'de'
-  to_langs  = %w[de fr it en] - [from_lang]
-
-  result = TranslationGemE.translate_fields(
-    fields: fields,
-    from: from_lang,
-    to: to_langs,
-    context: "Medical form field labels"
-  )
-
-  render json: result
-end
-```
-
-### 2. Add Frontend JavaScript
-
-```js
-document.addEventListener('DOMContentLoaded', () => {
-  const translateButton = document.getElementById('translate-button');
-  const spinner = document.getElementById('translation-spinner');
-  if (!translateButton) return;
-
-  translateButton.addEventListener('click', () => {
-    const currentLocale = document.documentElement.lang || 'de';
-    const nameValue = document.getElementById(`variable_name_${currentLocale}`)?.value || '';
-    const descriptionValue = document.getElementById(`variable_description_${currentLocale}`)?.value || '';
-
-    spinner.classList.remove('d-none');
-
-    fetch('/variables/translate', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-CSRF-Token': document.querySelector('meta[name="csrf-token"]').content
-      },
-      body: JSON.stringify({
-        fields: { name: nameValue, description: descriptionValue },
-        from: currentLocale
-      })
-    })
-      .then(res => res.json())
-      .then(data => {
-        ['de', 'fr', 'it', 'en'].forEach(lang => {
-          if (lang === currentLocale) return;
-          const nameTarget = document.getElementById(`variable_name_${lang}`);
-          const descriptionTarget = document.getElementById(`variable_description_${lang}`);
-          if (nameTarget && data[lang]?.name) nameTarget.value = data[lang].name;
-          if (descriptionTarget && data[lang]?.description) descriptionTarget.value = data[lang].description;
-        });
-      })
-      .catch(err => console.error('Translation failed:', err))
-      .finally(() => spinner.classList.add('d-none'));
-  });
-});
-```
-
----
 
 ## Notes on Security
 
