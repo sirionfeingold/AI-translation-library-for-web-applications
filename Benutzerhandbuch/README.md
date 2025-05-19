@@ -68,7 +68,7 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
     ```bash
     rails generate sy18nc:install
     ```
-    This command creates a configuration file in `config/initializers`.
+    This command creates a configuration file `sy18nc.rb`in `config/initializers`.
 
 11. Configure sy18nc:
     Edit `config/initializers/sy18nc.rb` as follows:
