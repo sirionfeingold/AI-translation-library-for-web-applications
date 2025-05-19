@@ -37,8 +37,9 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td>COD037</td>
 <td><b>Refactor </b> <br/>README for the translation Gem<br/> <br/></td>
 <td>Benjamin</td>
-<td>1:30 h</td>
-<td>Added a licence part, updated the .env file and the code of open_ai.rb to match the README</td>
+<td>2:30 h</td>
+<td>Added a licence part, updated the .env file and the code of open_ai.rb to match the README, reformulated a lot  
+of explanations and added a table of contents</td>
 <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
