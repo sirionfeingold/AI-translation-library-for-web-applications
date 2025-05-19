@@ -15,7 +15,7 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 7. [Running Tests](#running-tests)
 8. [Troubleshooting](#troubleshooting)
 9. [Notes on Security](#notes-on-security)  
-10. [License](#license)  
+10.[License](#license)  
 
 ---
 
