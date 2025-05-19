@@ -10,12 +10,12 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 2. [Setup](#setup)    
 3. [Translation of Locale Files](#translation-of-locale-files)
 4. [Translation of active records columns](#translation-of-active-records-columns)
-3. [Optional: Configuring Translatable Models](#optional-configuring-translatable-models)  
-4. [Using a Custom AI Model](#using-a-custom-ai-model)
-5. [Running Tests](#running-tests)
-6. [Troubleshooting](#troubleshooting)
-7. [Notes on Security](#notes-on-security)  
-8. [License](#license)  
+5. [Optional: Configuring Translatable Models](#optional-configuring-translatable-models)  
+6. [Using a Custom AI Model](#using-a-custom-ai-model)
+7. [Running Tests](#running-tests)
+8. [Troubleshooting](#troubleshooting)
+9. [Notes on Security](#notes-on-security)  
+10. [License](#license)  
 
 ---
 
