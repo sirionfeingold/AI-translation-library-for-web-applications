@@ -848,6 +848,15 @@ the sy18nc version hosted on Joel's GitHub. It has to be in the Gemfile of the r
     <th style="background-color: #b1e0f0; color: black">State</th>
 </tr>
 <tr>
+    <td>KON008</td>
+    <td><b>Information </b> <br>Repository Uebergabe, Usability-test<br> </td>
+    <td>Benjamin</td>
+    <td>0:20 h</td>
+    <td>Wir werden das Repository des Gems an Eonum weiterleiten. Eonum hält es nicht für notwendig, einen Usability-Test für ein Gem durchzuführen. 
+    Wir erwarten eine Rückmeldung darüber, ob das gem einfach zu installieren ist.</td>
+    <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
+</tr>
+<tr>
     <td>KON007</td>
     <td><b>Information </b> <br>Abklären, ob ein weiteres Meeting nötig ist<br> </td>
     <td>Benjamin</td>
