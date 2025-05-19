@@ -15,7 +15,7 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 7. [Running Tests](#running-tests)
 8. [Troubleshooting](#troubleshooting)
 9. [Notes on Security](#notes-on-security)  
-10.[License](#license)  
+10. [License](#license)  
 
 ---
 
@@ -75,8 +75,7 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
     ```
     This command creates a configuration file `sy18nc.rb`in `config/initializers`.
 
-11. Configure sy18nc.rb:
-    Edit `config/initializers/sy18nc.rb` as follows:
+11. Edit `config/initializers/sy18nc.rb` as follows:
     
     ```ruby
     if Rails.env.development?
