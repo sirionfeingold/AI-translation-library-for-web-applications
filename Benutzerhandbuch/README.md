@@ -199,6 +199,28 @@ TranslationGemE.ai_model = Models::CustomModel.new
 Adjust API credentials or endpoints as required for your model.
 
 ---
+## Optional: Translation Controller for Rails
+
+This gem includes a function (`translate_fields()`) for Rails frontend translation.
+
+### Implement 'translate()' function in 'controllers/variables_controller'
+```ruby
+def translate
+    fields    = params[:fields] || {}
+    from_lang = params[:from] || 'de'
+    to_lang  = %w[de fr it en] - [from_lang]
+
+    result = TranslationGemE.translate_fields(
+      fields: fields,
+      from: from_lang,
+      to: to_lang,
+      context: "Medical form field labels"
+    )
+
+    render json: result
+  end
+```
+---
 
 ## Running Tests
 
