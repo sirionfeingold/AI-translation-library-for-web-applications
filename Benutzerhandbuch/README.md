@@ -8,6 +8,8 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 
 1. [Features](#features)  
 2. [Setup](#setup)    
+3. [Translation of Locale Files](#translation-of-locale-files)
+4. [Translation of active records columns](#translation-of-active-records-columns)
 3. [Optional: Configuring Translatable Models](#optional-configuring-translatable-models)  
 4. [Using a Custom AI Model](#using-a-custom-ai-model)
 5. [Running Tests](#running-tests)
@@ -93,16 +95,45 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
     ```
 
 13. Run `rake -T` to confirm the tasks:
-    - `translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
-    - `translation_gem_e:translate_locales[path,is_test,context]`
 
-    For example, run: `translation_gem_e:translate_locales[config/locales/fr.yml,true,Use medical language]`
-    
-    This will translate all elements in `fr.yml` that were pre-filled with German text (using sy18nc based on the de.yml) into French, based on the target language inferred from the filename (fr.yml).
-    Because the second parameter is `true`, the gem will generate a test file containing all the translated content at the root of your project, and the original `fr.yml` file will remain unchanged.
+- `translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
+- `translation_gem_e:translate_locales[path,is_test,context]`
 
+You're now ready to use **TranslationGemE** in your Ruby and Rails projects.
 
-14. You're now ready to use **TranslationGemE** in your Ruby and Rails projects.
+---
+### Translation of Locale Files
+
+#### Rake task
+`translation_gem_e:translate_locales[path,is_test,context]`
+
+- `path`: path to the YAML file to translate 
+- `is_test`: if `true`, output is saved in a preview test file
+- `context`: optional translation context 
+
+#### Example
+```bash
+translation_gem_e:translate_locales[config/locales/fr.yml,true,Use medical language]
+```
+---
+### Translation of Active Records Columns
+
+#### Rake task
+
+`translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
+
+- `model`: name of the ActiveRecord model 
+- `base_column`: column that contains the original text 
+- `target_column`: column where the translated text will be written 
+- `target_language`: language identifier for the target. `fr`, `en`, `it` and `de` are supported
+
+The parameter `target_language`  is optional if your model includes the `TranslationGemETranslatableModel` module and defines the `translation_gem_e_config` method.
+
+#### Example
+
+```bash
+translation_gem_e:translate_active_records[Variable,name_de,name_fr,fr]
+```
 ---
 
 ## Optional: Configuring Translatable Models
