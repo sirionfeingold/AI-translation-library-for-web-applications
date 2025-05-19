@@ -47,8 +47,8 @@ of explanations and added a table of contents</td>
 <td><b>Refactor </b> <br>Add instructions to README for adding a new AI model<br>  <br></td>
 <td>Sirion </td>
 <td>1:45 h</td>
-<td>Added also an optional instruction of how to use the 'translate_fields()` function for Rails applications
-and changed the name of the repository to `translation_gem_e`</td>
+<td>Added also an optional instruction for using the translate_fields() function for Rails applications
+and changed the repository name to translation_gem_e</td>
 <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
