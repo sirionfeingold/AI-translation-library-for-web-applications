@@ -1,5 +1,7 @@
 # TranslationGemE — AI-Powered Translation for YAML & ActiveRecord
 
+
+TranslationGemE was developed as part of a university project in collaboration with Eonum. It aims to automate multilingual support for medical applications.
 A modular and extensible **Ruby** gem designed to **translate locale YAML files** and **ActiveRecord attributes** using **AI models** like OpenAI’s GPT. It supports other providers (e.g., LLaMA, DeepSeek) through a pluggable architecture.
 
 ## Table of Contents
@@ -65,7 +67,7 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
    ```
 10. This gem relies on the `sy18nc` gem to manage and synchronize YAML locale files. Make sure to install and configure `sy18nc` properly, as it is required for locale translation features to work correctly.
    
-    Generate sy18nc configuration:
+    Run: 
     ```bash
     rails generate sy18nc:install
     ```
