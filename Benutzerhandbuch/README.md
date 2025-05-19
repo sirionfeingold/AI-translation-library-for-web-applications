@@ -8,9 +8,10 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
 2. [Setup](#setup)    
 3. [Optional: Configuring Translatable Models](#optional-configuring-translatable-models)  
 4. [Using a Custom AI Model](#using-a-custom-ai-model)
-5. [Troubleshooting](#troubleshooting)
-6. [Notes on Security](#notes-on-security)  
-7. [License](#license)  
+5. [Running Tests](#running-tests)
+6. [Troubleshooting](#troubleshooting)
+7. [Notes on Security](#notes-on-security)  
+8. [License](#license)  
 
 ---
 
@@ -166,6 +167,52 @@ TranslationGemE.ai_model = Models::CustomModel.new
 Adjust API credentials or endpoints as required for your model.
 
 ---
+
+## Running Tests
+
+This gem includes a suite of automated **RSpec tests** to ensure the functionality of its components.
+
+### Prerequisites
+
+Make sure RSpec is installed. If it's not yet added to your project, run:
+
+```bash
+bundle add rspec
+```
+
+### Initializing RSpec
+
+You only need to initialize RSpec once:
+
+```bash
+bundle exec rspec --init
+```
+
+### Running All Tests
+
+To run all test files in the project:
+
+```bash
+bundle exec rspec
+```
+
+Running a Specific Test File
+
+For example, to run the tests for the ActiveRecord exporter:
+
+```bash
+bundle exec rspec spec/ar_translation_exporter_spec
+```
+
+To run a specific test example:
+
+```bash
+bundle exec rspec spec/locale_prompt_builder_spec.rb --example 'translate_locales'
+```
+
+All test files are located in the /spec directory of the gem.
+
+--- 
 
 ## Troubleshooting
 
