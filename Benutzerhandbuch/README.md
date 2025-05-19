@@ -71,7 +71,7 @@ A modular and extensible **Ruby** gem designed to **translate locale YAML files*
     ```
     This command creates a configuration file `sy18nc.rb`in `config/initializers`.
 
-11. Configure sy18nc:
+11. Configure sy18nc.rb:
     Edit `config/initializers/sy18nc.rb` as follows:
     
     ```ruby
