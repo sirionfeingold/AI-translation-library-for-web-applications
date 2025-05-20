@@ -46,11 +46,9 @@ of explanations and added a table of contents</td>
 <td>COD036</td>
 <td><b>Refactor </b> <br>Add instructions to README for adding a new AI model<br>  <br></td>
 <td>Sirion </td>
-<td></td>
-<td>Added also an optional instruction for using the translate_fields() function for Rails applications
-and changed the repository name to translation_gem_e. May need to write the setup instruction for 
-Rails sample-application in terms of javascript, routes.rb and html.haml</td>
-<td>until 20.05.25 </td>
+<td>1:45 h</td>
+<td>Added an instruction for integration in Ruby On Rails web-application and changed the repository name to translation_gem_e</td>
+<td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
 <td>COD035</td>
