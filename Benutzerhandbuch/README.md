@@ -35,7 +35,8 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 ## Setup
 
 1. Create an API key from your provider's platform. We used the model "OpenAI GPT-4o" on GitHub marketplace
-   - https://github.com/marketplace/models/
+   https://github.com/marketplace/models/ 
+   Select the Github token and generate a token `For general use`.
 
 2. Create a `.env` file in your Rails project’s root directory.
 
@@ -235,7 +236,7 @@ resources :variables do
   end
 ```
 
-### 3. Add JavaScript file 'translate.js'
+### 3. Add new JavaScript file 'assets/javascript/translate.js'
 
 ```js
 // Automatically translates the "Name" and "Description" form fields
@@ -302,14 +303,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 ```
 
-### 4. Add Translation-Button in '_form.html.haml'
+### 4. Add Translation-Button in 'views/variables/_form.html.haml'
 
 ```haml
 -# The following button triggers the JavaScript translation logic.
 -# Make sure to include input fields with the following ID pattern:
 -#   - 'variable_name_de', 'variable_name_fr', 'variable_name_it', 'variable_name_en'
 -#   - 'variable_description_de', etc.
--# These IDs are required by the JS logic in 'translation.js'.
+-# These IDs are required by the JS logic in 'translate.js'.
 
 .col-lg-10.text-end
 = button_tag t('translate'), type: 'button', class: 'btn btn-outline-success', id: 'translate-button'
