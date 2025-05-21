@@ -36,7 +36,7 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 
 1. Create an API key from your provider's platform. We used the model "OpenAI GPT-4o" on GitHub marketplace
    https://github.com/marketplace/models/ 
-   Select the Github token and generate a token `For general use`.
+   Select the model (e.g., "OpenAI GPT-4o").Select **`Use this model`**. Choose the **`GitHub Free`** plan, then select the **`For general use`** option when generating the API token.
 
 2. Create a `.env` file in your Rails project’s root directory.
 
