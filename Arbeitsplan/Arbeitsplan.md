@@ -701,9 +701,9 @@ the sy18nc version hosted on Joel's GitHub. It has to be in the Gemfile of the r
 <td>MEE017</td>
 <td>21.05.25 </td>
 <td>PSE-Team, Florin</td>
-<td></td>
-<td></td>
-<td></td>
+<td>0:30 h</td>
+<td>Feedbacks</td>
+<td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
 <tr>
 <td>MEE016</td>
@@ -938,10 +938,10 @@ the sy18nc version hosted on Joel's GitHub. It has to be in the Gemfile of the r
     <td>PRE006</td>
     <td>Schlussdemo</td>
     <td>Andri</td>
+    <td>8:00 h</td>
     <td></td>
-    <td></td>
-    <td>Bis am 21.05.25</td>
-</td>  
+    <td style="background-color: #b9f2ae; color: black">Done</td>
+</tr>  
 <tr>
     <td>PRE005</td>
     <td>Qualitätsicherung, Testing</td>
