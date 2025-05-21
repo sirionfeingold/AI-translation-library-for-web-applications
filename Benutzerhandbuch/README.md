@@ -35,41 +35,42 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 ## Setup
 
 1. Create an API key from your provider's platform. We used the model "OpenAI GPT-4o" on GitHub marketplace
-   https://github.com/marketplace/models/ 
-   Select the model (e.g., "OpenAI GPT-4o").Select **`Use this model`**. Choose the **`GitHub Free`** plan, then select the **`For general use`** option when generating the API token.
+   https://github.com/marketplace/models/
+   
+   Select the model (e.g. "OpenAI GPT-4o"). Select **`Use this model`**, choose the **`GitHub Free`** plan, then select the **`For general use`** option when generating the API token.
 
-2. Create a `.env` file in your Rails project’s root directory.
+3. Create a `.env` file in your Rails project’s root directory.
 
-3. Add your API key to the `.env` file:
+4. Add your API key to the `.env` file:
    ```ini
    AI_API_KEY='YOUR_API_KEY'
    ```
 
-4. Ensure `.env` is listed in your `.gitignore` to avoid committing sensitive information.
+5. Ensure `.env` is listed in your `.gitignore` to avoid committing sensitive information.
 
-5. Open a terminal in the root of the gem project.
+6. Open a terminal in the root of the gem project.
 
-6. Build the gem:
+7. Build the gem:
    ```bash
    gem build translation_gem_e.gemspec
    ```
 
-7. Install the gem:
+8. Install the gem:
    ```bash
    gem install translation_gem_e-0.0.11.gem
    ```
 
-8. In your Rails project’s `Gemfile`, add:
+9. In your Rails project’s `Gemfile`, add:
    ```ruby
    gem 'sy18nc', github: 'jbessi/sy18nc', branch: 'master'
    gem 'translation_gem_e', '~> 0.0.11', path: 'path/to/the/gem/root'
    ```
 
-9. Run:
+10. Run:
    ```bash
    bundle install
    ```
-10. This gem relies on the `sy18nc` gem to manage and synchronize YAML locale files. Make sure to install and configure `sy18nc` properly, as it is required for locale translation features to work correctly.
+11. This gem relies on the `sy18nc` gem to manage and synchronize YAML locale files. Make sure to install and configure `sy18nc` properly, as it is required for locale translation features to work correctly.
    
     Run: 
     ```bash
@@ -77,7 +78,7 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
     ```
     This command creates a configuration file `sy18nc.rb` in `config/initializers`.
 
-11. Edit `config/initializers/sy18nc.rb` as follows:
+12. Edit `config/initializers/sy18nc.rb` as follows:
     
     ```ruby
     if Rails.env.development?
@@ -90,12 +91,12 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
     ```
     For more information and customization options, visit: https://github.com/jbessi/sy18nc
 
-12. In your project’s `Rakefile`, add:
+13. In your project’s `Rakefile`, add:
     ```ruby
     require 'translation_gem_e'
     ```
 
-13. Run `rake -T` to confirm the tasks:
+14. Run `rake -T` to confirm the tasks:
 
 - `rake translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
 - `rake translation_gem_e:translate_locales[path,is_test,context]`
