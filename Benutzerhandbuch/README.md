@@ -1,7 +1,7 @@
 # TranslationGemE — AI-Powered Translation for YAML & ActiveRecord
 
 
-TranslationGemE was developed as part of a university project in collaboration with Eonum. It aims to automate multilingual support for medical applications.  
+TranslationGemE was developed as part of a university project in collaboration with Eonum. It aims to automate multilingual translation for medical applications.  
 This modular and extensible **Ruby** gem is designed to **translate locale YAML files** and **ActiveRecord attributes** using **AI models** like OpenAI’s GPT. It supports other providers (e.g., LLaMA, DeepSeek) through a pluggable architecture.
 
 ## Table of Contents
@@ -9,13 +9,14 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 1. [Features](#features)  
 2. [Setup](#setup)    
 3. [Translation of Locale Files](#translation-of-locale-files)
-4. [Translation of active records columns](#translation-of-active-records-columns)
+4. [Translation of Active Records Columns](#translation-of-active-records-columns)
 5. [Optional: Configuring Translatable Models](#optional-configuring-translatable-models)  
 6. [Using a Custom AI Model](#using-a-custom-ai-model)
-7. [Running Tests](#running-tests)
-8. [Troubleshooting](#troubleshooting)
-9. [Notes on Security](#notes-on-security)  
-10. [License](#license)  
+7. [Integration in Ruby On Rails web-application](#integration-in-ruby-on-rails-web-application)
+8. [Running Tests](#running-tests)
+9. [Troubleshooting](#troubleshooting)
+10. [Notes on Security](#notes-on-security)  
+11. [License](#license)  
 
 ---
 
@@ -73,7 +74,7 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
     ```bash
     rails generate sy18nc:install
     ```
-    This command creates a configuration file `sy18nc.rb`in `config/initializers`.
+    This command creates a configuration file `sy18nc.rb` in `config/initializers`.
 
 11. Edit `config/initializers/sy18nc.rb` as follows:
     
@@ -95,8 +96,8 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 
 13. Run `rake -T` to confirm the tasks:
 
-- `translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
-- `translation_gem_e:translate_locales[path,is_test,context]`
+- `rake translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
+- `rake translation_gem_e:translate_locales[path,is_test,context]`
 
 You're now ready to use **TranslationGemE** in your Ruby and Rails projects.
 
@@ -104,7 +105,7 @@ You're now ready to use **TranslationGemE** in your Ruby and Rails projects.
 ### Translation of Locale Files
 
 #### Rake task
-`translation_gem_e:translate_locales[path,is_test,context]`
+`rake translation_gem_e:translate_locales[path,is_test,context]`
 
 - `path`: path to the YAML file to translate 
 - `is_test`: if `true`, output is saved in a preview test file
@@ -112,26 +113,26 @@ You're now ready to use **TranslationGemE** in your Ruby and Rails projects.
 
 #### Example
 ```bash
-translation_gem_e:translate_locales[config/locales/fr.yml,true,Use medical language]
+rake translation_gem_e:translate_locales['config/locales/fr.yml','true','Use medical language']
 ```
 ---
 ### Translation of Active Records Columns
 
 #### Rake task
 
-`translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
+`rake translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
 
 - `model`: name of the ActiveRecord model 
 - `base_column`: column that contains the original text 
 - `target_column`: column where the translated text will be written 
 - `target_language`: language identifier for the target. `fr`, `en`, `it` and `de` are supported
 
-The parameter `target_language`  is optional if your model includes the `TranslationGemETranslatableModel` module and defines the `translation_gem_e_config` method.
+The parameter `target_language` is optional if your model includes the `TranslationGemETranslatableModel` module and defines the `translation_gem_e_config` method.
 
 #### Example
 
 ```bash
-translation_gem_e:translate_active_records[Variable,name_de,name_fr,fr]
+rake translation_gem_e:translate_active_records['Variable','name_de','name_fr','fr']
 ```
 ---
 
@@ -199,11 +200,13 @@ TranslationGemE.ai_model = Models::CustomModel.new
 Adjust API credentials or endpoints as required for your model.
 
 ---
-## Optional: Translation Controller for Rails
 
-This gem includes a function (`translate_fields()`) for Rails frontend translation.
+## Integration in Ruby On Rails web-application
+You can use `TranslationGemE` for a Ruby on Rails web-application, to handle interface frontend translations.
 
-### Implement 'translate()' function in 'controllers/variables_controller'
+### 1. Add translate function in controller
+Implement a new function called `translate()` in `controllers/variables_controller.rb`
+
 ```ruby
 def translate
     fields    = params[:fields] || {}
@@ -216,9 +219,105 @@ def translate
       to: to_lang,
       context: "Medical form field labels"
     )
-
     render json: result
   end
+```
+Here you can use the `translate_fields()` function,
+which translates a given hash of fields from one language into multiple target languages.
+
+### 2. Update `config/routes.rb`
+Add the following code:
+```ruby
+resources :variables do
+    # adds a custom POST route: /variables/translate
+    # this calls the 'translate' action on the controller and it applies to the collection (not a specific variable)
+    post :translate, on: :collection
+  end
+```
+
+### 3. Add JavaScript file 'translate.js'
+
+```js
+// Automatically translates the "Name" and "Description" form fields
+// from the current language (German, French, or Italian)
+// into the other two supported languages when the "Translate" button is clicked.
+// The translated values are inserted directly into the corresponding input fields.
+
+// wait for the DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', () => {
+    const translateButton = document.getElementById('translate-button');
+    const spinner = document.getElementById('translation-spinner');
+    if (!translateButton) return; // Exit if translation button is not found
+
+    // add click event listener to the translate button
+    translateButton.addEventListener('click', () => {
+        // get current locale from <html lang="...">
+        const currentLocale = document.documentElement.lang || 'de';
+
+        // get the values from the corresponding input fields
+        const nameValue = document.getElementById(`variable_name_${currentLocale}`)?.value || '';
+        const descriptionValue = document.getElementById(`variable_description_${currentLocale}`)?.value || '';
+
+        // Show spinner
+        spinner.classList.remove('d-none');
+
+        // send post request to the translate endpoint
+        fetch('/variables/translate', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-Token': document.querySelector('meta[name="csrf-token"]').content // rails CSRF protection
+            },
+            body: JSON.stringify({
+                fields: {
+                    name: nameValue,
+                    description: descriptionValue
+                },
+                from: currentLocale
+            })
+        })
+            .then(res => res.json()) // Parse JSON response
+            .then(data => {
+
+                // loop through all expected language and update field if present
+                ['de', 'fr', 'it', 'en'].forEach(lang => {
+                    if (lang === currentLocale) return; // skip source language
+
+                    if (data[lang]){
+                        const nameTarget = document.getElementById(`variable_name_${lang}`);
+                        const descriptionTarget = document.getElementById(`variable_description_${lang}`);
+                        if (nameTarget && data[lang]['name']) nameTarget.value = data[lang]['name'];
+                        if (descriptionTarget && data[lang]['description']) descriptionTarget.value = data[lang]['description'];
+                    }
+                });
+            })
+            .catch(err => {
+                // handle errors
+                console.error('Translation failed:', err);
+            })
+            .finally(() => {
+                spinner.classList.add('d-none');
+            });
+    });
+});
+```
+
+### 4. Add Translation-Button in '_form.html.haml'
+
+```haml
+-# The following button triggers the JavaScript translation logic.
+-# Make sure to include input fields with the following ID pattern:
+-#   - 'variable_name_de', 'variable_name_fr', 'variable_name_it', 'variable_name_en'
+-#   - 'variable_description_de', etc.
+-# These IDs are required by the JS logic in 'translation.js'.
+
+.col-lg-10.text-end
+= button_tag t('translate'), type: 'button', class: 'btn btn-outline-success', id: 'translate-button'
+.row.mt-3
+.col-lg-12
+  #translation-spinner.d-none.text-primary.text-center
+    %div.spinner-border{ role: "status" }
+      %span.sr-only= t('loading')
 ```
 ---
 
@@ -250,7 +349,7 @@ To run all test files in the project:
 bundle exec rspec
 ```
 
-Running a Specific Test File
+### Running a Specific Test File
 
 For example, to run the tests for the ActiveRecord exporter:
 
@@ -280,8 +379,8 @@ OpenAI::AuthenticationError: Incorrect API key provided
 ```
 
 **Solution**: 
-- Verify your API key in the `.env` file
-- Ensure environment variables are loaded properly
+- Verify your API key in the `.env` file.
+- Ensure environment variables are loaded properly.
 
 ---
 
@@ -290,8 +389,8 @@ OpenAI::AuthenticationError: Incorrect API key provided
 **Issue**: Dependency conflicts during installation.
 
 **Solution**:
-- Use the specified sy18nc version from GitHub
-- Run `bundle update` to resolve conflicts
+- Use the specified sy18nc version from GitHub.
+- Run `bundle update` to resolve conflicts.
 
 ---
 
@@ -300,8 +399,8 @@ OpenAI::AuthenticationError: Incorrect API key provided
 **Issue**: Missing translations in YAML files.
 
 **Solution**:
-- Verify base locale file contains all required keys
-- Check that sy18nc has synchronized keys correctly
+- Verify base locale file contains all required keys.
+- Check that sy18nc has synchronized keys correctly.
 
 ---
 
@@ -310,8 +409,8 @@ OpenAI::AuthenticationError: Incorrect API key provided
 **Issue**: Rate limit or timeout errors.
 
 **Solution**:
-- Break large translation jobs into smaller batches
-- Implement retry logic for API calls
+- Break large translation jobs into smaller batches.
+- Implement retry logic for API calls.
 
 ---
 
@@ -320,21 +419,21 @@ OpenAI::AuthenticationError: Incorrect API key provided
 **Issue**: Model translations not working.
 
 **Solution**:
-- Confirm model includes `TranslationGemETranslatableModel`
-- Verify column mappings in `translation_gem_e_config`
+- Confirm model includes `TranslationGemETranslatableModel`.
+- Verify column mappings in `translation_gem_e_config`.
 
 ---
-
+ 
 #### Large Documents
 
 **Issue**: Context length exceeded errors.
 ```
-OpenAI::ContextLengthExceededError: This model's maximum context length...
+OpenAI::ContextLengthExceededError: This model's maximum context length was exceeded
 ```
 
 **Solution**:
-- Translate files in smaller chunks
-- Use models with larger context windows if available
+- Translate files in smaller chunks.
+- Use models with larger context windows if available.
 
 For other issues, please open a ticket on our GitHub repository with detailed reproduction steps.
 
