@@ -22,8 +22,8 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 
 ## Features
 
-- Translate YAML locale files (e.g. `de.yml → it.yml`)
-- Translate ActiveRecord attributes (e.g. `name_de → name_it`)
+- Translate YAML locale files (e.g., `de.yml → it.yml`)
+- Translate ActiveRecord attributes (e.g., `name_de → name_it`)
 - Modular AI model interface – plug in OpenAI, LLaMA, etc.
 - Rake tasks for automated CLI-based usage
 - Rails-ready controller function for frontend translations
@@ -111,11 +111,11 @@ You're now ready to use **TranslationGemE** in your Ruby and Rails projects.
 
 - `path`: Path to the YAML file to be translated. Required.
 
-- `target_language`: Target language code (for exemple fr, en). *Optional*, defaults to `de`.
+- `target_language`: Target language code (e.g., fr, en). *Optional*, defaults to `de`.
 
-- `is_test`: If `true`, saves the result as a new test file (e.g. `fr_test_1234.yml`) in `translation_gem_e_output/`. Defaults to `false`.
+- `is_test`: If `true`, saves the result as a new test file (e.g., `fr_test_1234.yml`) in `translation_gem_e_output/`. Defaults to `false`.
 
-- `context`: Optional translation context (for exemple domain-specific like medical). *Optional*, defaults to `nil`.
+- `context`: Optional translation context (e.g., domain-specific like medical). *Optional*, defaults to `nil`.
 
 #### Example
 ```bash
