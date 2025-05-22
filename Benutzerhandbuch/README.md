@@ -99,7 +99,7 @@ This modular and extensible **Ruby** gem is designed to **translate locale YAML 
 14. Run `rake -T` to confirm the tasks:
 
 - `rake translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
-- `rake translation_gem_e:translate_locales[path,is_test,context]`
+- `rake translation_gem_e:translate_locales[path,target_language,is_test,context]`
 
 You're now ready to use **TranslationGemE** in your Ruby and Rails projects.
 
@@ -107,15 +107,19 @@ You're now ready to use **TranslationGemE** in your Ruby and Rails projects.
 ### Translation of Locale Files
 
 #### Rake task
-`rake translation_gem_e:translate_locales[path,is_test,context]`
+`rake translation_gem_e:translate_locales[path,target_language,is_test,context]`
 
-- `path`: path to the YAML file to translate 
-- `is_test`: if `true`, output is saved in a preview test file
-- `context`: optional translation context 
+- `path`: Path to the YAML file to be translated. Required.
+
+- `target_language`: Target language code (for exemple fr, en). *Optional*, defaults to `de`.
+
+- `is_test`: If `true`, saves the result as a new test file (e.g. `fr_test_1234.yml`) in `translation_gem_e_output/`. Defaults to `false`.
+
+- `context`: Optional translation context (for exemple domain-specific like medical). *Optional*, defaults to `nil`.
 
 #### Example
 ```bash
-rake translation_gem_e:translate_locales['config/locales/fr.yml','true','Use medical language']
+rake translation_gem_e:translate_locales['config/locales/fr.yml','fr','true','Use medical language']
 ```
 ---
 ### Translation of Active Records Columns
@@ -124,9 +128,12 @@ rake translation_gem_e:translate_locales['config/locales/fr.yml','true','Use med
 
 `rake translation_gem_e:translate_active_records[model,base_column,target_column,target_language]`
 
-- `model`: name of the ActiveRecord model 
-- `base_column`: column that contains the original text 
-- `target_column`: column where the translated text will be written 
+- `model`: name of the ActiveRecord model
+  
+- `base_column`: column that contains the original text
+  
+- `target_column`: column where the translated text will be written
+   
 - `target_language`: language identifier for the target. `fr`, `en`, `it` and `de` are supported
 
 The parameter `target_language` is optional if your model includes the `TranslationGemETranslatableModel` module and defines the `translation_gem_e_config` method.
