@@ -858,13 +858,13 @@ the sy18nc version hosted on Joel's GitHub. It has to be in the Gemfile of the r
     <td>KON008</td>
     <td><b>Information </b> <br>Repository Uebergabe, Usability-test<br> </td>
     <td>Benjamin</td>
-    <td>1:15 h</td>
+    <td>1:40 h</td>
     <td>Wir werden das Repository des Gems an Eonum weiterleiten. Eonum hält es nicht für notwendig, einen Usability-Test 
     für ein Gem durchzuführen. 
     Wir erwarten eine Rückmeldung darüber, ob das gem einfach zu installieren ist.
     Joel antwortete uns und schlug uns eine Menge Änderungen am Benutzerhandbuch vor, um es verständlicher zu machen. Er hat 
     es geschafft, das Gem ohne grosse Probleme zu installieren. 
-    Wir haben die verschiedenen Ratschläge umgesetzt.
+    Wir haben die verschiedenen Ratschläge umgesetzt. Joel wollte, dass wir noch den Rake Task ändern. Es wurde umgesetzt.
     </td>
     <td style="background-color: #b9f2ae; color: black">Done</td>  </tr>
 </tr>
