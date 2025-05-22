@@ -36,7 +36,7 @@ Das Ziel dieses Arbeitsplans ist es, den Projektverlauf transparent und nachvoll
 <td>COD038</td>
 <td><b>Refactor </b> <br/>Rake task<br/> <br/></td>
 <td>Benjamin</td>
-<td>1:00 h</td>
+<td>1:30 h</td>
 <td>Had to change the locales rake task. I added one more parameter, <code>target_language</code>, to explicitly specify into which language the YAML file should be translated.</td>
 <td style="background-color: #b9f2ae; color: black">Done</td>
 </tr>
